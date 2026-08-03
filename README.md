@@ -12,8 +12,11 @@ Scores come from a fixed rubric applied to every project's documentation, issue 
 
 - [AI & Agent Tools](#ai-agent-tools) (178)
 - [Local LLM Tools](#local-llm-tools) (30)
-- [Workflow Automation](#workflow-automation) (8)
+- [Dev Tools](#dev-tools) (35)
 - [Self-Hosted Apps](#self-hosted-apps) (34)
+- [Data & Databases](#data-databases) (20)
+- [Web](#web) (18)
+- [Workflow Automation](#workflow-automation) (8)
 - [How scores work](#how-scores-work)
 - [Use the data](#use-the-data)
 
@@ -235,18 +238,45 @@ Scores come from a fixed rubric applied to every project's documentation, issue 
 | **[k-skill](https://github.com/NomaDamas/k-skill)** | ▰▰▰▱▱ 2.8 | Users outside of South Korea. | [read →](https://mrkeyoor.com/repos/k-skill/) |
 | **[reverse-skill](https://github.com/zhaoxuya520/reverse-skill)** | ▰▰▰▱▱ 2.5 | Beginners in cybersecurity. | [read →](https://mrkeyoor.com/repos/reverse-skill/) |
 
-## Workflow Automation
+## Dev Tools
 
 | Project | Score | Skip it if | Review |
 |---|---|---|---|
-| **[n8n](https://github.com/n8n-io/n8n)** | ▰▰▰▰▰ 4.5 | Open-source purists. | [read →](https://mrkeyoor.com/repos/n8n/) |
-| **[temporal](https://github.com/temporalio/temporal)** | ▰▰▰▰▰ 4.5 | Developers building simple, stateless applications like basic CRUD APIs or websites. | [read →](https://mrkeyoor.com/repos/temporal/) |
-| **[kestra](https://github.com/kestra-io/kestra)** | ▰▰▰▰▱ 4.3 | Python purists who want to define their entire data pipeline using the full power and expressiveness of a programming language, including complex… | [read →](https://mrkeyoor.com/repos/kestra/) |
-| **[airflow](https://github.com/apache/airflow)** | ▰▰▰▰▱ 4 | Anyone needing a simple replacement for a few cron jobs. | [read →](https://mrkeyoor.com/repos/airflow/) |
-| **[huginn](https://github.com/huginn/huginn)** | ▰▰▰▱▱ 3.3 | Non-technical users looking for a simple, point-and-click automation solution. | [read →](https://mrkeyoor.com/repos/huginn/) |
-| **[activepieces](https://github.com/activepieces/activepieces)** | ▰▰▰▱▱ 3.3 | Organizations requiring a 100% free and open-source (FOSS) solution without commercial restrictions, as Activepieces operates on an open-core model with enterprise features… | [read →](https://mrkeyoor.com/repos/activepieces/) |
-| **[windmill](https://github.com/windmill-labs/windmill)** | ▰▰▰▱▱ 3.3 | Non-technical teams seeking a pure no-code or drag-and-drop solution. | [read →](https://mrkeyoor.com/repos/windmill/) |
-| **[automatisch](https://github.com/automatisch/automatisch)** | ▰▰▰▱▱ 3 | Users who need the largest possible library of pre-built app integrations; established players like Zapier have a massive head start. | [read →](https://mrkeyoor.com/repos/automatisch/) |
+| **[vscode](https://github.com/microsoft/vscode)** | ▰▰▰▰▰ 5 | Die-hard Vim or Emacs users who prioritize keyboard-centric, terminal-based workflows above all else. | [read →](https://mrkeyoor.com/repos/vscode/) |
+| **[electron](https://github.com/electron/electron)** | ▰▰▰▰▰ 5 | Developers creating performance-critical software like high-end games or professional video editors. | [read →](https://mrkeyoor.com/repos/electron/) |
+| **[fzf](https://github.com/junegunn/fzf)** | ▰▰▰▰▰ 5 | Users who work exclusively in graphical user interfaces and rarely use a terminal. | [read →](https://mrkeyoor.com/repos/fzf/) |
+| **[expo](https://github.com/expo/expo)** | ▰▰▰▰▰ 5 | Developers who require fine-grained control over the native build process and dependencies from the very beginning. | [read →](https://mrkeyoor.com/repos/expo/) |
+| **[flutter](https://github.com/flutter/flutter)** | ▰▰▰▰▰ 4.8 | Teams who require the absolute smallest app size, as Flutter apps include their own rendering engine and runtime. | [read →](https://mrkeyoor.com/repos/flutter/) |
+| **[JavaGuide](https://github.com/Snailclimb/JavaGuide)** | ▰▰▰▰▰ 4.8 | Developers looking for a runnable software project or library; this is purely a documentation and knowledge resource. | [read →](https://mrkeyoor.com/repos/javaguide/) |
+| **[caddy](https://github.com/caddyserver/caddy)** | ▰▰▰▰▰ 4.8 | Large enterprises with decades of investment in complex, highly-tuned Nginx or Apache configurations. | [read →](https://mrkeyoor.com/repos/caddy/) |
+| **[ripgrep](https://github.com/BurntSushi/ripgrep)** | ▰▰▰▰▰ 4.8 | Users who require strict POSIX compliance for scripting; `ripgrep` is not a 100% drop-in replacement for GNU grep in all shell scripts. | [read →](https://mrkeyoor.com/repos/ripgrep/) |
+| **[bat](https://github.com/sharkdp/bat)** | ▰▰▰▰▰ 4.8 | Purists who prefer the simple, unadorned, and POSIX-compliant behavior of the original `cat` command. | [read →](https://mrkeyoor.com/repos/bat/) |
+| **[starship](https://github.com/starship/starship)** | ▰▰▰▰▰ 4.8 | Users who are perfectly happy with their shell's default, minimalist prompt. | [read →](https://mrkeyoor.com/repos/starship/) |
+| **[cli](https://github.com/cli/cli)** | ▰▰▰▰▰ 4.8 | Developers who prefer graphical user interfaces for all Git and GitHub interactions. | [read →](https://mrkeyoor.com/repos/cli/) |
+| **[cli](https://github.com/httpie/cli)** | ▰▰▰▰▰ 4.8 | Users in minimal environments (like lean Docker containers) where installing Python is undesirable. | [read →](https://mrkeyoor.com/repos/httpie-cli/) |
+| **[build-your-own-x](https://github.com/codecrafters-io/build-your-own-x)** | ▰▰▰▰▰ 4.5 | Absolute beginners who are still learning the fundamentals of their first programming language. | [read →](https://mrkeyoor.com/repos/build-your-own-x/) |
+| **[tauri](https://github.com/tauri-apps/tauri)** | ▰▰▰▰▰ 4.5 | Developers who require absolute pixel-perfect rendering consistency across all platforms. | [read →](https://mrkeyoor.com/repos/tauri/) |
+| **[traefik](https://github.com/traefik/traefik)** | ▰▰▰▰▰ 4.5 | Users with a single, monolithic application, where a simpler, manually configured proxy like Nginx or Caddy would be less complex. | [read →](https://mrkeyoor.com/repos/traefik/) |
+| **[lazydocker](https://github.com/jesseduffield/lazydocker)** | ▰▰▰▰▰ 4.5 | Users who strongly prefer mouse-driven graphical interfaces (GUIs); the keyboard-centric nature can be jarring. | [read →](https://mrkeyoor.com/repos/lazydocker/) |
+| **[dbeaver](https://github.com/dbeaver/dbeaver)** | ▰▰▰▰▰ 4.5 | Users who need to manage NoSQL databases like MongoDB, Cassandra, or Redis with the free version; support for these is reserved for… | [read →](https://mrkeyoor.com/repos/dbeaver/) |
+| **[tmux](https://github.com/tmux/tmux)** | ▰▰▰▰▰ 4.5 | Casual terminal users who only ever need a single shell. | [read →](https://mrkeyoor.com/repos/tmux/) |
+| **[opentofu](https://github.com/opentofu/opentofu)** | ▰▰▰▰▰ 4.5 | Teams who rely on exclusive features within HashiCorp's Terraform Cloud or Enterprise offerings. | [read →](https://mrkeyoor.com/repos/opentofu/) |
+| **[system-design-primer](https://github.com/donnemartin/system-design-primer)** | ▰▰▰▰▱ 4.3 | System design experts looking for cutting-edge research or highly specialized techniques; this is a primer, not an advanced academic text. | [read →](https://mrkeyoor.com/repos/system-design-primer/) |
+| **[neovim](https://github.com/neovim/neovim)** | ▰▰▰▰▱ 4.3 | Absolute beginners to programming. | [read →](https://mrkeyoor.com/repos/neovim/) |
+| **[hoppscotch](https://github.com/hoppscotch/hoppscotch)** | ▰▰▰▰▱ 4.3 | Organizations that require enterprise-grade, dedicated support contracts and SLAs, as this is a community-supported project. | [read →](https://mrkeyoor.com/repos/hoppscotch/) |
+| **[Pake](https://github.com/tw93/Pake)** | ▰▰▰▰▱ 4.3 | Developers building complex, feature-rich desktop applications that require deep operating system integration beyond what a simple web wrapper can provide. | [read →](https://mrkeyoor.com/repos/pake/) |
+| **[bruno](https://github.com/usebruno/bruno)** | ▰▰▰▰▱ 4.3 | Teams that depend on real-time, seamless cloud synchronization for collaboration and can't operate on a Git-based workflow. | [read →](https://mrkeyoor.com/repos/bruno/) |
+| **[kratos](https://github.com/go-kratos/kratos)** | ▰▰▰▰▱ 4.3 | Complete beginners to Go or microservices. | [read →](https://mrkeyoor.com/repos/kratos/) |
+| **[ESP32-Bit-Pirate](https://github.com/geo-tp/ESP32-Bit-Pirate)** | ▰▰▰▰▱ 4.3 | Beginners with zero electronics experience; while user-friendly, it assumes some knowledge of protocols like I2C or UART. | [read →](https://mrkeyoor.com/repos/esp32-bit-pirate/) |
+| **[bun](https://github.com/oven-sh/bun)** | ▰▰▰▰▱ 4 | Enterprise projects with strict legal and compliance requirements, as the repository currently lacks a specified open-source license. | [read →](https://mrkeyoor.com/repos/bun/) |
+| **[zed](https://github.com/zed-industries/zed)** | ▰▰▰▰▱ 4 | Users who depend on the vast and mature extension ecosystem of VS Code for their workflow; Zed's extension library is in its… | [read →](https://mrkeyoor.com/repos/zed/) |
+| **[lazygit](https://github.com/jesseduffield/lazygit)** | ▰▰▰▰▱ 4 | Developers who strongly prefer mouse-driven, graphical applications like Sourcetree or GitKraken. | [read →](https://mrkeyoor.com/repos/lazygit/) |
+| **[localstack](https://github.com/localstack/localstack)** | ▰▰▰▰▱ 4 | Users who require a 100% perfect, bug-for-bug replica of AWS, as emulators can have subtle discrepancies with the real services. | [read →](https://mrkeyoor.com/repos/localstack/) |
+| **[gitleaks](https://github.com/gitleaks/gitleaks)** | ▰▰▰▰▱ 4 | Teams looking for a fully-managed, enterprise solution with a graphical user interface, dashboards, and role-based access control. | [read →](https://mrkeyoor.com/repos/gitleaks/) |
+| **[lumen](https://github.com/jnsahaj/lumen)** | ▰▰▰▰▱ 4 | Users who strongly prefer a graphical, mouse-centric interface for all development tasks. | [read →](https://mrkeyoor.com/repos/lumen/) |
+| **[gin-vue-admin](https://github.com/flipped-aurora/gin-vue-admin)** | ▰▰▰▰▱ 3.8 | Projects requiring a permissive open-source license like MIT or Apache 2.0, due to its BSL 1.1 license and mandatory commercial licensing for… | [read →](https://mrkeyoor.com/repos/gin-vue-admin/) |
+| **[gh-stack](https://github.com/github/gh-stack)** | ▰▰▰▰▱ 3.5 | Solo developers or teams that prefer large, single-feature pull requests. | [read →](https://mrkeyoor.com/repos/gh-stack/) |
+| **[Lighthouse](https://github.com/HarbourMasters/Lighthouse)** | ▰▰▰▱▱ 3 | Casual retro gamers who just want to play a variety of N64 games; a general-purpose emulator like Project64 is a much simpler… | [read →](https://mrkeyoor.com/repos/lighthouse/) |
 
 ## Self-Hosted Apps
 
@@ -286,6 +316,67 @@ Scores come from a fixed rubric applied to every project's documentation, issue 
 | **[nacos](https://github.com/alibaba/nacos)** | ▰▰▰▰▱ 3.8 | Developers building simple, monolithic applications where the overhead of a service discovery system is unnecessary. | [read →](https://mrkeyoor.com/repos/nacos/) |
 | **[openstatus](https://github.com/openstatusHQ/openstatus)** | ▰▰▰▰▱ 3.8 | Large enterprises needing guaranteed SLAs and dedicated support contracts, which a community-driven project may not offer. | [read →](https://mrkeyoor.com/repos/openstatus/) |
 | **[cal.diy](https://github.com/calcom/cal.diy)** | ▰▰▰▱▱ 3.3 | Businesses, teams, or organizations. | [read →](https://mrkeyoor.com/repos/cal-diy/) |
+
+## Data & Databases
+
+| Project | Score | Skip it if | Review |
+|---|---|---|---|
+| **[redis](https://github.com/redis/redis)** | ▰▰▰▰▰ 5 | Users looking for a primary, persistent database for their entire application. | [read →](https://mrkeyoor.com/repos/redis/) |
+| **[ClickHouse](https://github.com/ClickHouse/ClickHouse)** | ▰▰▰▰▰ 5 | Users who need a general-purpose transactional (OLTP) database for a web application backend; it's not a replacement for PostgreSQL or MySQL. | [read →](https://mrkeyoor.com/repos/clickhouse/) |
+| **[grafana](https://github.com/grafana/grafana)** | ▰▰▰▰▰ 4.8 | Business users who need a simple drag-and-drop BI tool for static reports; Grafana is geared towards live, time-series data. | [read →](https://mrkeyoor.com/repos/grafana/) |
+| **[prometheus](https://github.com/prometheus/prometheus)** | ▰▰▰▰▰ 4.8 | Teams needing a simple, all-in-one monitoring solution with a polished UI out of the box; Prometheus is a backend that's best paired… | [read →](https://mrkeyoor.com/repos/prometheus/) |
+| **[meilisearch](https://github.com/meilisearch/meilisearch)** | ▰▰▰▰▰ 4.8 | Anyone needing a tool for log aggregation or backend data analysis. | [read →](https://mrkeyoor.com/repos/meilisearch/) |
+| **[duckdb](https://github.com/duckdb/duckdb)** | ▰▰▰▰▰ 4.8 | Users needing a multi-user, transactional database (OLTP) for applications with high write concurrency. | [read →](https://mrkeyoor.com/repos/duckdb/) |
+| **[qdrant](https://github.com/qdrant/qdrant)** | ▰▰▰▰▰ 4.8 | Users looking for a general-purpose, primary database. | [read →](https://mrkeyoor.com/repos/qdrant/) |
+| **[supabase](https://github.com/supabase/supabase)** | ▰▰▰▰▰ 4.5 | Teams committed to a NoSQL or document-based database model, as Supabase is fundamentally built on and for PostgreSQL. | [read →](https://mrkeyoor.com/repos/supabase/) |
+| **[nocodb](https://github.com/nocodb/nocodb)** | ▰▰▰▰▰ 4.5 | Organizations that cannot take on the responsibility of hosting, securing, and maintaining their own software stack. | [read →](https://mrkeyoor.com/repos/nocodb/) |
+| **[metabase](https://github.com/metabase/metabase)** | ▰▰▰▰▰ 4.5 | Organizations with strict policies against AGPL-licensed software who are not prepared to purchase a commercial license. | [read →](https://mrkeyoor.com/repos/metabase/) |
+| **[dbt-core](https://github.com/dbt-labs/dbt-core)** | ▰▰▰▰▰ 4.5 | Teams not using a SQL-based cloud data warehouse; dbt's entire purpose is to orchestrate SQL against a target warehouse. | [read →](https://mrkeyoor.com/repos/dbt-core/) |
+| **[directus](https://github.com/directus/directus)** | ▰▰▰▰▱ 4.3 | Users looking for a simple, all-in-one managed CMS who don't have or want to manage a separate SQL database. | [read →](https://mrkeyoor.com/repos/directus/) |
+| **[typesense](https://github.com/typesense/typesense)** | ▰▰▰▰▱ 4.3 | Companies with a strict policy against GPL-3.0 licensed software due to its copyleft nature. | [read →](https://mrkeyoor.com/repos/typesense/) |
+| **[superset](https://github.com/apache/superset)** | ▰▰▰▰▱ 4 | Teams needing a fully managed, zero-ops SaaS solution with dedicated commercial support out of the box. | [read →](https://mrkeyoor.com/repos/superset/) |
+| **[surrealdb](https://github.com/surrealdb/surrealdb)** | ▰▰▰▰▱ 4 | Large enterprises with strict open-source license policies, as SurrealDB uses the Business Source License (BSL), which isn't a traditional OSI-approved license until… | [read →](https://mrkeyoor.com/repos/surrealdb/) |
+| **[chroma](https://github.com/chroma-core/chroma)** | ▰▰▰▰▱ 4 | Teams needing a battle-tested, mature database for mission-critical, petabyte-scale workloads. | [read →](https://mrkeyoor.com/repos/chroma/) |
+| **[airbyte](https://github.com/airbytehq/airbyte)** | ▰▰▰▰▱ 3.8 | Individuals or teams who only need to sync one or two common data sources; a simpler script or a dedicated integration might… | [read →](https://mrkeyoor.com/repos/airbyte/) |
+| **[XHS-Downloader](https://github.com/JoeanAmier/XHS-Downloader)** | ▰▰▰▰▱ 3.8 | Users who are completely uncomfortable with command-line tools or manually handling browser cookies, as the easiest and most powerful features require this. | [read →](https://mrkeyoor.com/repos/xhs-downloader/) |
+| **[pdf-inspector](https://github.com/firecrawl/pdf-inspector)** | ▰▰▰▱▱ 2.8 | Anyone needing to extract text from scanned documents, photographs, or image-only PDFs. | [read →](https://mrkeyoor.com/repos/pdf-inspector/) |
+| **[minio](https://github.com/minio/minio)** | ▰▰▰▱▱ 2.5 | Anyone looking for an actively maintained open-source project. | [read →](https://mrkeyoor.com/repos/minio/) |
+
+## Web
+
+| Project | Score | Skip it if | Review |
+|---|---|---|---|
+| **[react](https://github.com/react/react)** | ▰▰▰▰▰ 5 | Developers building simple, static websites where a full UI library is overkill. | [read →](https://mrkeyoor.com/repos/react/) |
+| **[next.js](https://github.com/vercel/next.js)** | ▰▰▰▰▰ 5 | Absolute beginners to web development or React, as the framework's abstractions can add a steep learning curve. | [read →](https://mrkeyoor.com/repos/next-js/) |
+| **[fastapi](https://github.com/fastapi/fastapi)** | ▰▰▰▰▰ 5 | Teams maintaining legacy applications on older Python versions (FastAPI requires Python 3.8+). | [read →](https://mrkeyoor.com/repos/fastapi/) |
+| **[laravel](https://github.com/laravel/laravel)** | ▰▰▰▰▰ 5 | Developers who prefer minimalist micro-frameworks and want to avoid the overhead of a full-stack solution. | [read →](https://mrkeyoor.com/repos/laravel/) |
+| **[vite](https://github.com/vitejs/vite)** | ▰▰▰▰▰ 5 | Teams maintaining legacy applications that do not use ES modules and heavily rely on CommonJS patterns, as migration could be difficult. | [read →](https://mrkeyoor.com/repos/vite/) |
+| **[nest](https://github.com/nestjs/nest)** | ▰▰▰▰▰ 5 | Developers building simple microservices, quick prototypes, or small APIs where Nest's structural overhead would be overkill. | [read →](https://mrkeyoor.com/repos/nest/) |
+| **[flask](https://github.com/pallets/flask)** | ▰▰▰▰▰ 5 | Developers who prefer a single, all-inclusive package with a pre-selected database layer (ORM), admin interface, and form handling. | [read →](https://mrkeyoor.com/repos/flask/) |
+| **[nuxt](https://github.com/nuxt/nuxt)** | ▰▰▰▰▰ 5 | Developers who prefer React, Svelte, or any UI library other than Vue.js, as Nuxt is exclusively built for the Vue ecosystem. | [read →](https://mrkeyoor.com/repos/nuxt/) |
+| **[rails](https://github.com/rails/rails)** | ▰▰▰▰▰ 5 | Developers building lightweight microservices or simple APIs where a full-stack framework is overkill. | [read →](https://mrkeyoor.com/repos/rails/) |
+| **[core](https://github.com/vuejs/core)** | ▰▰▰▰▰ 5 | Teams that require the absolute largest ecosystem of third-party libraries and pre-built components, where React still holds an edge. | [read →](https://mrkeyoor.com/repos/vuejs-core/) |
+| **[ui](https://github.com/shadcn-ui/ui)** | ▰▰▰▰▰ 4.8 | Developers who prefer the simplicity of installing a single package and importing components without managing their source code. | [read →](https://mrkeyoor.com/repos/ui/) |
+| **[deno](https://github.com/denoland/deno)** | ▰▰▰▰▰ 4.8 | Teams with large, legacy Node.js codebases, as migration can be a significant undertaking despite compatibility features. | [read →](https://mrkeyoor.com/repos/deno/) |
+| **[tailwindcss](https://github.com/tailwindlabs/tailwindcss)** | ▰▰▰▰▰ 4.8 | Beginners learning CSS for the first time, as it abstracts away the underlying properties and doesn't teach core concepts. | [read →](https://mrkeyoor.com/repos/tailwindcss/) |
+| **[django](https://github.com/django/django)** | ▰▰▰▰▰ 4.8 | Developers building simple microservices or APIs, where Django's all-inclusive nature can feel like overkill and add unnecessary complexity. | [read →](https://mrkeyoor.com/repos/django/) |
+| **[astro](https://github.com/withastro/astro)** | ▰▰▰▰▰ 4.8 | Developers building highly interactive, complex single-page applications (SPAs) like a social media dashboard, an online photo editor, or a project management tool. | [read →](https://mrkeyoor.com/repos/astro/) |
+| **[svelte](https://github.com/sveltejs/svelte)** | ▰▰▰▰▰ 4.5 | Large enterprise teams that require the vast ecosystem and corporate backing of frameworks like React or Angular. | [read →](https://mrkeyoor.com/repos/svelte/) |
+| **[htmx](https://github.com/bigskysoftware/htmx)** | ▰▰▰▰▰ 4.5 | Developers building highly complex, state-intensive single-page applications (SPAs) like Figma, Google Docs, or a real-time trading platform. | [read →](https://mrkeyoor.com/repos/htmx/) |
+| **[payload](https://github.com/payloadcms/payload)** | ▰▰▰▰▰ 4.5 | Non-technical users who want a no-code, fully managed SaaS solution without touching a command line. | [read →](https://mrkeyoor.com/repos/payload/) |
+
+## Workflow Automation
+
+| Project | Score | Skip it if | Review |
+|---|---|---|---|
+| **[n8n](https://github.com/n8n-io/n8n)** | ▰▰▰▰▰ 4.5 | Open-source purists. | [read →](https://mrkeyoor.com/repos/n8n/) |
+| **[temporal](https://github.com/temporalio/temporal)** | ▰▰▰▰▰ 4.5 | Developers building simple, stateless applications like basic CRUD APIs or websites. | [read →](https://mrkeyoor.com/repos/temporal/) |
+| **[kestra](https://github.com/kestra-io/kestra)** | ▰▰▰▰▱ 4.3 | Python purists who want to define their entire data pipeline using the full power and expressiveness of a programming language, including complex… | [read →](https://mrkeyoor.com/repos/kestra/) |
+| **[airflow](https://github.com/apache/airflow)** | ▰▰▰▰▱ 4 | Anyone needing a simple replacement for a few cron jobs. | [read →](https://mrkeyoor.com/repos/airflow/) |
+| **[huginn](https://github.com/huginn/huginn)** | ▰▰▰▱▱ 3.3 | Non-technical users looking for a simple, point-and-click automation solution. | [read →](https://mrkeyoor.com/repos/huginn/) |
+| **[activepieces](https://github.com/activepieces/activepieces)** | ▰▰▰▱▱ 3.3 | Organizations requiring a 100% free and open-source (FOSS) solution without commercial restrictions, as Activepieces operates on an open-core model with enterprise features… | [read →](https://mrkeyoor.com/repos/activepieces/) |
+| **[windmill](https://github.com/windmill-labs/windmill)** | ▰▰▰▱▱ 3.3 | Non-technical teams seeking a pure no-code or drag-and-drop solution. | [read →](https://mrkeyoor.com/repos/windmill/) |
+| **[automatisch](https://github.com/automatisch/automatisch)** | ▰▰▰▱▱ 3 | Users who need the largest possible library of pre-built app integrations; established players like Zapier have a massive head start. | [read →](https://mrkeyoor.com/repos/automatisch/) |
 
 ## How scores work
 
