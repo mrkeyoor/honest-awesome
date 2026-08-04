@@ -2,16 +2,16 @@
 
 > The awesome list that tells you what **NOT** to install.
 
-Every awesome list tells you what exists. None of them tell you what to avoid. This one does: **323 open-source tools**, each scored 1–5 on **setup ease, docs, community, and maturity**, each with an honest **"skip it if"** warning, each linking to a full review with sources.
+Every awesome list tells you what exists. None of them tell you what to avoid. This one does: **327 open-source tools**, each scored 1–5 on **setup ease, docs, community, and maturity**, each with an honest **"skip it if"** warning, each linking to a full review with sources.
 
-Scores come from a fixed rubric applied to every project's documentation, issue tracker, release history, and community activity — the same rubric for a 200-star repo and a 200,000-star one. No project has ever paid to be listed or to change a score. Regenerated daily from the review database at [mrkeyoor.com](https://mrkeyoor.com/repos/). Last update: 2026-08-03.
+Scores come from a fixed rubric applied to every project's documentation, issue tracker, release history, and community activity — the same rubric for a 200-star repo and a 200,000-star one. No project has ever paid to be listed or to change a score. Regenerated daily from the review database at [mrkeyoor.com](https://mrkeyoor.com/repos/). Last update: 2026-08-04.
 
 **Disagree with a score?** [Open an issue](https://github.com/mrkeyoor/honest-awesome/issues) — challenges to scores are how this list gets better.
 
 ## Contents
 
-- [AI & Agent Tools](#ai-agent-tools) (178)
-- [Local LLM Tools](#local-llm-tools) (30)
+- [AI & Agent Tools](#ai-agent-tools) (181)
+- [Local LLM Tools](#local-llm-tools) (31)
 - [Dev Tools](#dev-tools) (35)
 - [Self-Hosted Apps](#self-hosted-apps) (34)
 - [Data & Databases](#data-databases) (20)
@@ -49,6 +49,7 @@ Scores come from a fixed rubric applied to every project's documentation, issue 
 | **[code-review-graph](https://github.com/tirth8205/code-review-graph)** | ▰▰▰▰▰ 4.5 | Programmers working on very small or single-file projects where the entire context can easily be included in a single prompt. | [read →](https://mrkeyoor.com/repos/code-review-graph/) |
 | **[Anthropic-Cybersecurity-Skills](https://github.com/mukul975/Anthropic-Cybersecurity-Skills)** | ▰▰▰▰▰ 4.5 | Cybersecurity beginners looking for a tool to learn with; these are expert-level skills, not tutorials. | [read →](https://mrkeyoor.com/repos/anthropic-cybersecurity-skills/) |
 | **[haystack](https://github.com/deepset-ai/haystack)** | ▰▰▰▰▰ 4.5 | Beginners looking for the simplest, most abstracted way to make their first LLM call; the modularity can be overkill for trivial tasks. | [read →](https://mrkeyoor.com/repos/haystack/) |
+| **[python-sdk](https://github.com/modelcontextprotocol/python-sdk)** | ▰▰▰▰▰ 4.5 | Programmers building simple, one-off scripts where the structure of a formal protocol is overkill. | [read →](https://mrkeyoor.com/repos/python-sdk/) |
 | **[llm](https://github.com/simonw/llm)** | ▰▰▰▰▰ 4.5 | Users who prefer a graphical user interface (GUI) for interacting with LLMs; this is a strictly command-line-first tool. | [read →](https://mrkeyoor.com/repos/llm/) |
 | **[Awesome-MCP-ZH](https://github.com/yzfly/Awesome-MCP-ZH)** | ▰▰▰▰▰ 4.5 | Non-Chinese speakers. | [read →](https://mrkeyoor.com/repos/awesome-mcp-zh/) |
 | **[whichllm](https://github.com/Andyyyy64/whichllm)** | ▰▰▰▰▰ 4.5 | Users who exclusively want a graphical, point-and-click interface for managing and running models. | [read →](https://mrkeyoor.com/repos/whichllm/) |
@@ -107,8 +108,8 @@ Scores come from a fixed rubric applied to every project's documentation, issue 
 | **[nanobot](https://github.com/HKUDS/nanobot)** | ▰▰▰▰▱ 4 | Non-technical users looking for a polished, one-click product equivalent to ChatGPT Plus. | [read →](https://mrkeyoor.com/repos/nanobot/) |
 | **[marketingskills](https://github.com/coreyhaines31/marketingskills)** | ▰▰▰▰▱ 4 | Non-technical marketers who are not comfortable with code editors or command-line interfaces. | [read →](https://mrkeyoor.com/repos/marketingskills/) |
 | **[awesome-cursorrules](https://github.com/PatrickJS/awesome-cursorrules)** | ▰▰▰▰▱ 4 | Developers who do not use the Cursor AI editor, as these rules are proprietary and have no use outside of it. | [read →](https://mrkeyoor.com/repos/awesome-cursorrules/) |
-| **[agents](https://github.com/wshobson/agents)** | ▰▰▰▰▱ 4 | Beginners just starting with their first AI assistant, as the multi-platform architecture and setup process can be overkill. | [read →](https://mrkeyoor.com/repos/agents/) |
 | **[OmniRoute](https://github.com/diegosouzapw/OmniRoute)** | ▰▰▰▰▱ 4 | Large enterprises with strict compliance needs that require audited, single-vendor solutions like Azure AI or Vertex AI. | [read →](https://mrkeyoor.com/repos/omniroute/) |
+| **[agents](https://github.com/wshobson/agents)** | ▰▰▰▰▱ 4 | Beginners just starting with their first AI assistant, as the multi-platform architecture and setup process can be overkill. | [read →](https://mrkeyoor.com/repos/agents/) |
 | **[codebase-memory-mcp](https://github.com/DeusData/codebase-memory-mcp)** | ▰▰▰▰▱ 4 | Developers working on very small projects or single-file scripts where simple file search is perfectly adequate. | [read →](https://mrkeyoor.com/repos/codebase-memory-mcp/) |
 | **[claude-code-router](https://github.com/musistudio/claude-code-router)** | ▰▰▰▰▱ 4 | Casual users who only use one AI model through a single web interface. | [read →](https://mrkeyoor.com/repos/claude-code-router/) |
 | **[PDFMathTranslate](https://github.com/PDFMathTranslate/PDFMathTranslate)** | ▰▰▰▰▱ 4 | Users needing to translate file formats other than PDF. | [read →](https://mrkeyoor.com/repos/pdfmathtranslate/) |
@@ -119,6 +120,7 @@ Scores come from a fixed rubric applied to every project's documentation, issue 
 | **[agentscope](https://github.com/agentscope-ai/agentscope)** | ▰▰▰▰▱ 4 | Beginners looking for the simplest possible way to make a few LLM calls, as the feature set can be overkill. | [read →](https://mrkeyoor.com/repos/agentscope/) |
 | **[FunASR](https://github.com/modelscope/FunASR)** | ▰▰▰▰▱ 4 | Beginners looking for a single, simple model that works for all languages and use cases. | [read →](https://mrkeyoor.com/repos/funasr/) |
 | **[context-mode](https://github.com/mksglu/context-mode)** | ▰▰▰▰▱ 4 | Casual users of web-based chatbots who don't engage in long-running, multi-step coding tasks. | [read →](https://mrkeyoor.com/repos/context-mode/) |
+| **[typescript-sdk](https://github.com/modelcontextprotocol/typescript-sdk)** | ▰▰▰▰▱ 4 | Anyone looking for a simple, all-in-one library to make calls to an LLM API. | [read →](https://mrkeyoor.com/repos/typescript-sdk/) |
 | **[aichat](https://github.com/sigoden/aichat)** | ▰▰▰▰▱ 4 | Users who strongly prefer graphical interfaces (GUIs) over the command line. | [read →](https://mrkeyoor.com/repos/aichat/) |
 | **[code2prompt](https://github.com/mufeedvh/code2prompt)** | ▰▰▰▰▱ 4 | Users needing to analyze massive, multi-gigabyte repositories. | [read →](https://mrkeyoor.com/repos/code2prompt/) |
 | **[firecrawl-mcp-server](https://github.com/firecrawl/firecrawl-mcp-server)** | ▰▰▰▰▱ 4 | Teams needing to perform massive, enterprise-scale web crawling. | [read →](https://mrkeyoor.com/repos/firecrawl-mcp-server/) |
@@ -196,6 +198,7 @@ Scores come from a fixed rubric applied to every project's documentation, issue 
 | **[go-cursor-help](https://github.com/yuaotian/go-cursor-help)** | ▰▰▰▱▱ 2.8 | Anyone in a professional or corporate environment, as using this tool likely violates Cursor's terms of service and company policies. | [read →](https://mrkeyoor.com/repos/go-cursor-help/) |
 | **[GenAI_Agents](https://github.com/NirDiamant/GenAI_Agents)** | ▰▰▰▱▱ 2.8 | Anyone looking for a production-ready library or framework to import into a project. | [read →](https://mrkeyoor.com/repos/genai-agents/) |
 | **[ai-engineering-hub](https://github.com/patchy631/ai-engineering-hub)** | ▰▰▰▱▱ 2.5 | Teams looking for a stable, versioned library or framework to import as a dependency. | [read →](https://mrkeyoor.com/repos/ai-engineering-hub/) |
+| **[OSWorld](https://github.com/xlang-ai/OSWorld)** | ▰▰▰▱▱ 2.5 | Beginners looking for a simple automation tool; this is a complex research framework, not a point-and-click macro recorder. | [read →](https://mrkeyoor.com/repos/osworld/) |
 | **[obsidian-skills](https://github.com/kepano/obsidian-skills)** | ▰▰▱▱▱ 2.3 | Casual Obsidian users looking for a simple, in-app AI writing assistant. | [read →](https://mrkeyoor.com/repos/obsidian-skills/) |
 | **[hexstrike-ai](https://github.com/0x4m4/hexstrike-ai)** | ▰▰▱▱▱ 2.3 | Beginners in cybersecurity or programming. | [read →](https://mrkeyoor.com/repos/hexstrike-ai/) |
 | **[TRELLIS.2](https://github.com/microsoft/TRELLIS.2)** | ▰▰▱▱▱ 2.3 | Beginners or hobbyists with consumer-grade GPUs, as the 24GB VRAM requirement and specific hardware recommendations are strict. | [read →](https://mrkeyoor.com/repos/trellis-2/) |
@@ -219,6 +222,7 @@ Scores come from a fixed rubric applied to every project's documentation, issue 
 | **[dify](https://github.com/langgenius/dify)** | ▰▰▰▰▱ 4 | Developers who require deep, granular control over every component of their AI stack, as Dify's abstractions may feel restrictive. | [read →](https://mrkeyoor.com/repos/dify/) |
 | **[llama.cpp](https://github.com/ggml-org/llama.cpp)** | ▰▰▰▰▱ 4 | Data scientists whose primary focus is model training and fine-tuning in Python; this is an inference engine, not a training library. | [read →](https://mrkeyoor.com/repos/llama-cpp/) |
 | **[lobehub](https://github.com/lobehub/lobehub)** | ▰▰▰▰▱ 4 | Casual users who just need a simple, single-purpose interface for chatting with one model; the complexity here is overkill. | [read →](https://mrkeyoor.com/repos/lobehub/) |
+| **[deer-flow](https://github.com/bytedance/deer-flow)** | ▰▰▰▰▱ 4 | Beginners seeking a simple, no-code AI assistant. | [read →](https://mrkeyoor.com/repos/deer-flow/) |
 | **[crewAI](https://github.com/crewAIInc/crewAI)** | ▰▰▰▰▱ 4 | Beginners to Python or AI who are just looking to make simple API calls to an LLM; the complexity of agents and… | [read →](https://mrkeyoor.com/repos/crewai/) |
 | **[llama_index](https://github.com/run-llama/llama_index)** | ▰▰▰▰▱ 4 | Beginners with no Python or LLM experience. | [read →](https://mrkeyoor.com/repos/llama-index/) |
 | **[LocalAI](https://github.com/mudler/LocalAI)** | ▰▰▰▰▱ 4 | Absolute beginners who just want a simple desktop application to chat with a model; tools like Ollama offer a more streamlined, less… | [read →](https://mrkeyoor.com/repos/localai/) |
