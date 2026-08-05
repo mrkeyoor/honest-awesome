@@ -2,20 +2,20 @@
 
 > The awesome list that tells you what **NOT** to install.
 
-Every awesome list tells you what exists. None of them tell you what to avoid. This one does: **327 open-source tools**, each scored 1–5 on **setup ease, docs, community, and maturity**, each with an honest **"skip it if"** warning, each linking to a full review with sources.
+Every awesome list tells you what exists. None of them tell you what to avoid. This one does: **331 open-source tools**, each scored 1–5 on **setup ease, docs, community, and maturity**, each with an honest **"skip it if"** warning, each linking to a full review with sources.
 
-Scores come from a fixed rubric applied to every project's documentation, issue tracker, release history, and community activity — the same rubric for a 200-star repo and a 200,000-star one. No project has ever paid to be listed or to change a score. Regenerated daily from the review database at [mrkeyoor.com](https://mrkeyoor.com/repos/). Last update: 2026-08-04.
+Scores come from a fixed rubric applied to every project's documentation, issue tracker, release history, and community activity — the same rubric for a 200-star repo and a 200,000-star one. No project has ever paid to be listed or to change a score. Regenerated daily from the review database at [mrkeyoor.com](https://mrkeyoor.com/repos/). Last update: 2026-08-05.
 
 **Disagree with a score?** [Open an issue](https://github.com/mrkeyoor/honest-awesome/issues) — challenges to scores are how this list gets better.
 
 ## Contents
 
-- [AI & Agent Tools](#ai-agent-tools) (181)
+- [AI & Agent Tools](#ai-agent-tools) (182)
 - [Local LLM Tools](#local-llm-tools) (31)
-- [Dev Tools](#dev-tools) (35)
+- [Dev Tools](#dev-tools) (37)
 - [Self-Hosted Apps](#self-hosted-apps) (34)
 - [Data & Databases](#data-databases) (20)
-- [Web](#web) (18)
+- [Web](#web) (19)
 - [Workflow Automation](#workflow-automation) (8)
 - [How scores work](#how-scores-work)
 - [Use the data](#use-the-data)
@@ -167,8 +167,8 @@ Scores come from a fixed rubric applied to every project's documentation, issue 
 | **[OpenHands](https://github.com/OpenHands/OpenHands)** | ▰▰▰▰▱ 3.5 | Beginners looking for a simple, one-click way to try a coding agent; the setup and concepts require some technical familiarity. | [read →](https://mrkeyoor.com/repos/openhands-openhands/) |
 | **[learn-claude-code](https://github.com/shareAI-lab/learn-claude-code)** | ▰▰▰▰▱ 3.5 | Beginners looking for a copy-paste library to build their first 'AI agent.' This repository provides philosophy, not a framework. | [read →](https://mrkeyoor.com/repos/learn-claude-code/) |
 | **[awesome-claude-skills](https://github.com/ComposioHQ/awesome-claude-skills)** | ▰▰▰▰▱ 3.5 | Non-technical users who want a simple, out-of-the-box chatbot experience. | [read →](https://mrkeyoor.com/repos/awesome-claude-skills/) |
-| **[ai-agents-for-beginners](https://github.com/microsoft/ai-agents-for-beginners)** | ▰▰▰▰▱ 3.5 | Experienced AI engineers seeking an advanced, production-grade framework; this is explicitly an introductory course. | [read →](https://mrkeyoor.com/repos/ai-agents-for-beginners/) |
 | **[taste-skill](https://github.com/Leonxlnx/taste-skill)** | ▰▰▰▰▱ 3.5 | Developers who need pixel-perfect, deterministic control over their UI; this is a guide for an LLM, not a traditional component library. | [read →](https://mrkeyoor.com/repos/leonxlnx-taste-skill/) |
+| **[ai-agents-for-beginners](https://github.com/microsoft/ai-agents-for-beginners)** | ▰▰▰▰▱ 3.5 | Experienced AI engineers seeking an advanced, production-grade framework; this is explicitly an introductory course. | [read →](https://mrkeyoor.com/repos/ai-agents-for-beginners/) |
 | **[oh-my-openagent](https://github.com/code-yeongyu/oh-my-openagent)** | ▰▰▰▰▱ 3.5 | Beginners looking for a simple, one-click AI code completion tool. | [read →](https://mrkeyoor.com/repos/oh-my-openagent/) |
 | **[career-ops](https://github.com/santifer/career-ops)** | ▰▰▰▰▱ 3.5 | Non-technical job seekers who aren't comfortable with CLIs and setting up local software. | [read →](https://mrkeyoor.com/repos/career-ops/) |
 | **[awesome-claude-code](https://github.com/hesreallyhim/awesome-claude-code)** | ▰▰▰▰▱ 3.5 | Users looking for an actual software application; this is a list of links, not a runnable program. | [read →](https://mrkeyoor.com/repos/awesome-claude-code/) |
@@ -185,6 +185,7 @@ Scores come from a fixed rubric applied to every project's documentation, issue 
 | **[Kronos](https://github.com/shiyu-coder/Kronos)** | ▰▰▰▱▱ 3.3 | Beginners with no coding or finance background. | [read →](https://mrkeyoor.com/repos/kronos/) |
 | **[PageIndex](https://github.com/VectifyAI/PageIndex)** | ▰▰▰▱▱ 3.3 | Teams working with short, unstructured text snippets where basic semantic similarity is good enough. | [read →](https://mrkeyoor.com/repos/pageindex/) |
 | **[voice-pro](https://github.com/abus-aikorea/voice-pro)** | ▰▰▰▱▱ 3.3 | Mac and Linux users, as the project is explicitly Windows-first and its stability on other platforms is unverified. | [read →](https://mrkeyoor.com/repos/voice-pro/) |
+| **[ADR](https://github.com/uber/ADR)** | ▰▰▰▱▱ 3.3 | Small teams or solo developers who are not managing fleets of AI agents. | [read →](https://mrkeyoor.com/repos/adr/) |
 | **[sub2api](https://github.com/Wei-Shaw/sub2api)** | ▰▰▰▱▱ 3 | Anyone who cannot afford to have their primary OpenAI, Anthropic, or Google AI accounts permanently banned, as the project explicitly warns this… | [read →](https://mrkeyoor.com/repos/sub2api/) |
 | **[claude-task-master](https://github.com/eyaltoledano/claude-task-master)** | ▰▰▰▱▱ 3 | Beginners who are just starting with AI code assistants; the setup and concepts can be overwhelming. | [read →](https://mrkeyoor.com/repos/claude-task-master/) |
 | **[skills](https://github.com/emilkowalski/skills)** | ▰▰▰▱▱ 3 | Developers not using AI or LLM-based agents for coding; the project's value is entirely in guiding these agents. | [read →](https://mrkeyoor.com/repos/skills/) |
@@ -250,6 +251,7 @@ Scores come from a fixed rubric applied to every project's documentation, issue 
 | **[electron](https://github.com/electron/electron)** | ▰▰▰▰▰ 5 | Developers creating performance-critical software like high-end games or professional video editors. | [read →](https://mrkeyoor.com/repos/electron/) |
 | **[fzf](https://github.com/junegunn/fzf)** | ▰▰▰▰▰ 5 | Users who work exclusively in graphical user interfaces and rarely use a terminal. | [read →](https://mrkeyoor.com/repos/fzf/) |
 | **[expo](https://github.com/expo/expo)** | ▰▰▰▰▰ 5 | Developers who require fine-grained control over the native build process and dependencies from the very beginning. | [read →](https://mrkeyoor.com/repos/expo/) |
+| **[cypress](https://github.com/cypress-io/cypress)** | ▰▰▰▰▰ 5 | Teams requiring true cross-browser testing against multiple rendering engines (like WebKit/Safari) in a single run. | [read →](https://mrkeyoor.com/repos/cypress/) |
 | **[flutter](https://github.com/flutter/flutter)** | ▰▰▰▰▰ 4.8 | Teams who require the absolute smallest app size, as Flutter apps include their own rendering engine and runtime. | [read →](https://mrkeyoor.com/repos/flutter/) |
 | **[JavaGuide](https://github.com/Snailclimb/JavaGuide)** | ▰▰▰▰▰ 4.8 | Developers looking for a runnable software project or library; this is purely a documentation and knowledge resource. | [read →](https://mrkeyoor.com/repos/javaguide/) |
 | **[caddy](https://github.com/caddyserver/caddy)** | ▰▰▰▰▰ 4.8 | Large enterprises with decades of investment in complex, highly-tuned Nginx or Apache configurations. | [read →](https://mrkeyoor.com/repos/caddy/) |
@@ -275,6 +277,7 @@ Scores come from a fixed rubric applied to every project's documentation, issue 
 | **[bun](https://github.com/oven-sh/bun)** | ▰▰▰▰▱ 4 | Enterprise projects with strict legal and compliance requirements, as the repository currently lacks a specified open-source license. | [read →](https://mrkeyoor.com/repos/bun/) |
 | **[zed](https://github.com/zed-industries/zed)** | ▰▰▰▰▱ 4 | Users who depend on the vast and mature extension ecosystem of VS Code for their workflow; Zed's extension library is in its… | [read →](https://mrkeyoor.com/repos/zed/) |
 | **[lazygit](https://github.com/jesseduffield/lazygit)** | ▰▰▰▰▱ 4 | Developers who strongly prefer mouse-driven, graphical applications like Sourcetree or GitKraken. | [read →](https://mrkeyoor.com/repos/lazygit/) |
+| **[webpack](https://github.com/webpack/webpack)** | ▰▰▰▰▱ 4 | Beginners learning web development; the configuration is notoriously complex and the learning curve is steep. | [read →](https://mrkeyoor.com/repos/webpack/) |
 | **[localstack](https://github.com/localstack/localstack)** | ▰▰▰▰▱ 4 | Users who require a 100% perfect, bug-for-bug replica of AWS, as emulators can have subtle discrepancies with the real services. | [read →](https://mrkeyoor.com/repos/localstack/) |
 | **[gitleaks](https://github.com/gitleaks/gitleaks)** | ▰▰▰▰▱ 4 | Teams looking for a fully-managed, enterprise solution with a graphical user interface, dashboards, and role-based access control. | [read →](https://mrkeyoor.com/repos/gitleaks/) |
 | **[lumen](https://github.com/jnsahaj/lumen)** | ▰▰▰▰▱ 4 | Users who strongly prefer a graphical, mouse-centric interface for all development tasks. | [read →](https://mrkeyoor.com/repos/lumen/) |
@@ -353,6 +356,7 @@ Scores come from a fixed rubric applied to every project's documentation, issue 
 | **[react](https://github.com/react/react)** | ▰▰▰▰▰ 5 | Developers building simple, static websites where a full UI library is overkill. | [read →](https://mrkeyoor.com/repos/react/) |
 | **[next.js](https://github.com/vercel/next.js)** | ▰▰▰▰▰ 5 | Absolute beginners to web development or React, as the framework's abstractions can add a steep learning curve. | [read →](https://mrkeyoor.com/repos/next-js/) |
 | **[fastapi](https://github.com/fastapi/fastapi)** | ▰▰▰▰▰ 5 | Teams maintaining legacy applications on older Python versions (FastAPI requires Python 3.8+). | [read →](https://mrkeyoor.com/repos/fastapi/) |
+| **[angular](https://github.com/angular/angular)** | ▰▰▰▰▰ 5 | Beginners looking for their first JavaScript framework; the learning curve is notoriously steep. | [read →](https://mrkeyoor.com/repos/angular/) |
 | **[laravel](https://github.com/laravel/laravel)** | ▰▰▰▰▰ 5 | Developers who prefer minimalist micro-frameworks and want to avoid the overhead of a full-stack solution. | [read →](https://mrkeyoor.com/repos/laravel/) |
 | **[vite](https://github.com/vitejs/vite)** | ▰▰▰▰▰ 5 | Teams maintaining legacy applications that do not use ES modules and heavily rely on CommonJS patterns, as migration could be difficult. | [read →](https://mrkeyoor.com/repos/vite/) |
 | **[nest](https://github.com/nestjs/nest)** | ▰▰▰▰▰ 5 | Developers building simple microservices, quick prototypes, or small APIs where Nest's structural overhead would be overkill. | [read →](https://mrkeyoor.com/repos/nest/) |
