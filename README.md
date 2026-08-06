@@ -2,17 +2,17 @@
 
 > The awesome list that tells you what **NOT** to install.
 
-Every awesome list tells you what exists. None of them tell you what to avoid. This one does: **331 open-source tools**, each scored 1–5 on **setup ease, docs, community, and maturity**, each with an honest **"skip it if"** warning, each linking to a full review with sources.
+Every awesome list tells you what exists. None of them tell you what to avoid. This one does: **335 open-source tools**, each scored 1–5 on **setup ease, docs, community, and maturity**, each with an honest **"skip it if"** warning, each linking to a full review with sources.
 
-Scores come from a fixed rubric applied to every project's documentation, issue tracker, release history, and community activity — the same rubric for a 200-star repo and a 200,000-star one. No project has ever paid to be listed or to change a score. Regenerated daily from the review database at [mrkeyoor.com](https://mrkeyoor.com/repos/). Last update: 2026-08-05.
+Scores come from a fixed rubric applied to every project's documentation, issue tracker, release history, and community activity — the same rubric for a 200-star repo and a 200,000-star one. No project has ever paid to be listed or to change a score. Regenerated daily from the review database at [mrkeyoor.com](https://mrkeyoor.com/repos/). Last update: 2026-08-06.
 
 **Disagree with a score?** [Open an issue](https://github.com/mrkeyoor/honest-awesome/issues) — challenges to scores are how this list gets better.
 
 ## Contents
 
-- [AI & Agent Tools](#ai-agent-tools) (182)
-- [Local LLM Tools](#local-llm-tools) (31)
-- [Dev Tools](#dev-tools) (37)
+- [AI & Agent Tools](#ai-agent-tools) (184)
+- [Local LLM Tools](#local-llm-tools) (32)
+- [Dev Tools](#dev-tools) (38)
 - [Self-Hosted Apps](#self-hosted-apps) (34)
 - [Data & Databases](#data-databases) (20)
 - [Web](#web) (19)
@@ -35,9 +35,10 @@ Scores come from a fixed rubric applied to every project's documentation, issue 
 | **[claude-howto](https://github.com/luongnv89/claude-howto)** | ▰▰▰▰▰ 4.8 | Users looking for a graphical user interface or a turnkey application; this is a collection of text-based guides and configuration files. | [read →](https://mrkeyoor.com/repos/claude-howto/) |
 | **[n8n-mcp](https://github.com/czlonkowski/n8n-mcp)** | ▰▰▰▰▰ 4.8 | Absolute beginners to n8n. | [read →](https://mrkeyoor.com/repos/n8n-mcp/) |
 | **[awesome-agentic-ai-zh](https://github.com/WenyuChiou/awesome-agentic-ai-zh)** | ▰▰▰▰▰ 4.8 | Experts looking for a novel agent framework or library; this is a curated educational guide, not a new tool. | [read →](https://mrkeyoor.com/repos/awesome-agentic-ai-zh/) |
-| **[caveman](https://github.com/JuliusBrussee/caveman)** | ▰▰▰▰▰ 4.5 | Beginners who rely on the detailed, explanatory nature of standard AI responses. | [read →](https://mrkeyoor.com/repos/caveman/) |
 | **[ponytail](https://github.com/DietrichGebert/ponytail)** | ▰▰▰▰▰ 4.5 | Developers who don't use one of the supported AI agents. | [read →](https://mrkeyoor.com/repos/ponytail/) |
+| **[caveman](https://github.com/JuliusBrussee/caveman)** | ▰▰▰▰▰ 4.5 | Beginners who rely on the detailed, explanatory nature of standard AI responses. | [read →](https://mrkeyoor.com/repos/caveman/) |
 | **[system_prompts_leaks](https://github.com/asgeirtj/system_prompts_leaks)** | ▰▰▰▰▰ 4.5 | Users looking for a ready-to-run application; this is a data repository full of text files, not executable software. | [read →](https://mrkeyoor.com/repos/system-prompts-leaks/) |
+| **[supervision](https://github.com/roboflow/supervision)** | ▰▰▰▰▰ 4.5 | Absolute beginners seeking a no-code, graphical interface for training and deploying models. | [read →](https://mrkeyoor.com/repos/supervision/) |
 | **[ai-engineering-from-scratch](https://github.com/rohitg00/ai-engineering-from-scratch)** | ▰▰▰▰▰ 4.5 | Anyone looking for a quick tutorial to build a flashy demo. | [read →](https://mrkeyoor.com/repos/ai-engineering-from-scratch/) |
 | **[Fabric](https://github.com/danielmiessler/Fabric)** | ▰▰▰▰▰ 4.5 | Users who strongly prefer graphical user interfaces (GUIs) for interacting with technology. | [read →](https://mrkeyoor.com/repos/fabric/) |
 | **[chatbox](https://github.com/chatboxai/chatbox)** | ▰▰▰▰▰ 4.5 | Casual users who are satisfied with the free web interface of a single service like ChatGPT and don't need advanced features. | [read →](https://mrkeyoor.com/repos/chatbox/) |
@@ -73,8 +74,8 @@ Scores come from a fixed rubric applied to every project's documentation, issue 
 | **[aider](https://github.com/Aider-AI/aider)** | ▰▰▰▰▱ 4.3 | Developers who strongly prefer graphical user interfaces (GUIs) and find terminals intimidating or inefficient. | [read →](https://mrkeyoor.com/repos/aider/) |
 | **[CowAgent](https://github.com/zhayujie/CowAgent)** | ▰▰▰▰▱ 4.3 | Non-technical users seeking a simple, out-of-the-box product like ChatGPT Plus. | [read →](https://mrkeyoor.com/repos/cowagent/) |
 | **[oh-my-claudecode](https://github.com/Yeachan-Heo/oh-my-claudecode)** | ▰▰▰▰▱ 4.3 | Developers on Windows or macOS who need the most advanced, multi-stage workflow features, as these currently require the Linux-specific `flock` utility. | [read →](https://mrkeyoor.com/repos/oh-my-claudecode/) |
-| **[github-mcp-server](https://github.com/github/github-mcp-server)** | ▰▰▰▰▱ 4.3 | Users of self-hosted GitHub Enterprise Server, as the official remote server is not compatible; they are required to deploy and manage a… | [read →](https://mrkeyoor.com/repos/github-mcp-server/) |
 | **[ai-agent-book](https://github.com/bojieli/ai-agent-book)** | ▰▰▰▰▱ 4.3 | Absolute beginners to programming; the 95 hands-on labs require proficiency in Python. | [read →](https://mrkeyoor.com/repos/ai-agent-book/) |
+| **[github-mcp-server](https://github.com/github/github-mcp-server)** | ▰▰▰▰▱ 4.3 | Users of self-hosted GitHub Enterprise Server, as the official remote server is not compatible; they are required to deploy and manage a… | [read →](https://mrkeyoor.com/repos/github-mcp-server/) |
 | **[composio](https://github.com/ComposioHQ/composio)** | ▰▰▰▰▱ 4.3 | Developers who only need to connect to a single, niche API. | [read →](https://mrkeyoor.com/repos/composio/) |
 | **[FastGPT](https://github.com/labring/FastGPT)** | ▰▰▰▰▱ 4.3 | Solo developers or hobbyists who want a simple library, not a full-stack platform with multiple Docker containers. | [read →](https://mrkeyoor.com/repos/fastgpt/) |
 | **[page-agent](https://github.com/alibaba/page-agent)** | ▰▰▰▰▱ 4.3 | Anyone needing a server-side web scraping or data extraction tool. | [read →](https://mrkeyoor.com/repos/page-agent/) |
@@ -159,6 +160,7 @@ Scores come from a fixed rubric applied to every project's documentation, issue 
 | **[Hyper-Extract](https://github.com/yifanfeng97/Hyper-Extract)** | ▰▰▰▰▱ 3.8 | Beginners unfamiliar with the command line or managing API keys for LLM services. | [read →](https://mrkeyoor.com/repos/hyper-extract/) |
 | **[harbor](https://github.com/av/harbor)** | ▰▰▰▰▱ 3.8 | Users who only need to run a single model and don't require extra services; a simpler tool like Ollama is a better… | [read →](https://mrkeyoor.com/repos/harbor/) |
 | **[opensrc](https://github.com/vercel-labs/opensrc)** | ▰▰▰▰▱ 3.8 | Developers who only need to browse code occasionally; using the GitHub or GitLab web interface is simpler for a quick look. | [read →](https://mrkeyoor.com/repos/opensrc/) |
+| **[loopx](https://github.com/huangruiteng/loopx)** | ▰▰▰▰▱ 3.8 | Users looking for a simple, single-shot "ask and get an answer" AI agent. | [read →](https://mrkeyoor.com/repos/loopx/) |
 | **[hermes-agent](https://github.com/NousResearch/hermes-agent)** | ▰▰▰▰▱ 3.5 | Non-technical users looking for a simple, point-and-click web interface like ChatGPT. | [read →](https://mrkeyoor.com/repos/hermes-agent/) |
 | **[skills](https://github.com/anthropics/skills)** | ▰▰▰▰▱ 3.5 | Users of other AI models like OpenAI's GPT series or Google's Gemini, as this is exclusively for the Anthropic Claude ecosystem. | [read →](https://mrkeyoor.com/repos/anthropics-skills/) |
 | **[claude-code](https://github.com/anthropics/claude-code)** | ▰▰▰▰▱ 3.5 | Corporate or enterprise developers, as the 'license unknown' status makes it legally unusable for most companies. | [read →](https://mrkeyoor.com/repos/claude-code/) |
@@ -241,6 +243,7 @@ Scores come from a fixed rubric applied to every project's documentation, issue 
 | **[autogen](https://github.com/microsoft/autogen)** | ▰▰▰▱▱ 2.8 | Anyone starting a new project. | [read →](https://mrkeyoor.com/repos/autogen/) |
 | **[TencentDB-Agent-Memory](https://github.com/TencentCloud/TencentDB-Agent-Memory)** | ▰▰▰▱▱ 2.8 | Beginners looking for a simple, lightweight library to add memory to a single chatbot. | [read →](https://mrkeyoor.com/repos/tencentdb-agent-memory/) |
 | **[k-skill](https://github.com/NomaDamas/k-skill)** | ▰▰▰▱▱ 2.8 | Users outside of South Korea. | [read →](https://mrkeyoor.com/repos/k-skill/) |
+| **[computer](https://github.com/cloudflare/computer)** | ▰▰▰▱▱ 2.8 | Anyone building a production system. | [read →](https://mrkeyoor.com/repos/computer/) |
 | **[reverse-skill](https://github.com/zhaoxuya520/reverse-skill)** | ▰▰▰▱▱ 2.5 | Beginners in cybersecurity. | [read →](https://mrkeyoor.com/repos/reverse-skill/) |
 
 ## Dev Tools
@@ -260,6 +263,7 @@ Scores come from a fixed rubric applied to every project's documentation, issue 
 | **[starship](https://github.com/starship/starship)** | ▰▰▰▰▰ 4.8 | Users who are perfectly happy with their shell's default, minimalist prompt. | [read →](https://mrkeyoor.com/repos/starship/) |
 | **[cli](https://github.com/cli/cli)** | ▰▰▰▰▰ 4.8 | Developers who prefer graphical user interfaces for all Git and GitHub interactions. | [read →](https://mrkeyoor.com/repos/cli/) |
 | **[cli](https://github.com/httpie/cli)** | ▰▰▰▰▰ 4.8 | Users in minimal environments (like lean Docker containers) where installing Python is undesirable. | [read →](https://mrkeyoor.com/repos/httpie-cli/) |
+| **[spdlog](https://github.com/gabime/spdlog)** | ▰▰▰▰▰ 4.8 | Developers working on projects with extremely strict license compliance checks, as the repository metadata lacks a clear, automatically-detectable license assertion. | [read →](https://mrkeyoor.com/repos/spdlog/) |
 | **[build-your-own-x](https://github.com/codecrafters-io/build-your-own-x)** | ▰▰▰▰▰ 4.5 | Absolute beginners who are still learning the fundamentals of their first programming language. | [read →](https://mrkeyoor.com/repos/build-your-own-x/) |
 | **[tauri](https://github.com/tauri-apps/tauri)** | ▰▰▰▰▰ 4.5 | Developers who require absolute pixel-perfect rendering consistency across all platforms. | [read →](https://mrkeyoor.com/repos/tauri/) |
 | **[traefik](https://github.com/traefik/traefik)** | ▰▰▰▰▰ 4.5 | Users with a single, monolithic application, where a simpler, manually configured proxy like Nginx or Caddy would be less complex. | [read →](https://mrkeyoor.com/repos/traefik/) |
