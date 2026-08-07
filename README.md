@@ -2,19 +2,19 @@
 
 > The awesome list that tells you what **NOT** to install.
 
-Every awesome list tells you what exists. None of them tell you what to avoid. This one does: **335 open-source tools**, each scored 1–5 on **setup ease, docs, community, and maturity**, each with an honest **"skip it if"** warning, each linking to a full review with sources.
+Every awesome list tells you what exists. None of them tell you what to avoid. This one does: **339 open-source tools**, each scored 1–5 on **setup ease, docs, community, and maturity**, each with an honest **"skip it if"** warning, each linking to a full review with sources.
 
-Scores come from a fixed rubric applied to every project's documentation, issue tracker, release history, and community activity — the same rubric for a 200-star repo and a 200,000-star one. No project has ever paid to be listed or to change a score. Regenerated daily from the review database at [mrkeyoor.com](https://mrkeyoor.com/repos/). Last update: 2026-08-06.
+Scores come from a fixed rubric applied to every project's documentation, issue tracker, release history, and community activity — the same rubric for a 200-star repo and a 200,000-star one. No project has ever paid to be listed or to change a score. Regenerated daily from the review database at [mrkeyoor.com](https://mrkeyoor.com/repos/). Last update: 2026-08-07.
 
 **Disagree with a score?** [Open an issue](https://github.com/mrkeyoor/honest-awesome/issues) — challenges to scores are how this list gets better.
 
 ## Contents
 
 - [AI & Agent Tools](#ai-agent-tools) (184)
-- [Local LLM Tools](#local-llm-tools) (32)
-- [Dev Tools](#dev-tools) (38)
-- [Self-Hosted Apps](#self-hosted-apps) (34)
-- [Data & Databases](#data-databases) (20)
+- [Local LLM Tools](#local-llm-tools) (33)
+- [Dev Tools](#dev-tools) (39)
+- [Self-Hosted Apps](#self-hosted-apps) (35)
+- [Data & Databases](#data-databases) (21)
 - [Web](#web) (19)
 - [Workflow Automation](#workflow-automation) (8)
 - [How scores work](#how-scores-work)
@@ -141,8 +141,8 @@ Scores come from a fixed rubric applied to every project's documentation, issue 
 | **[faceswap](https://github.com/deepfakes/faceswap)** | ▰▰▰▰▱ 3.8 | Anyone looking for a one-click, instant result. | [read →](https://mrkeyoor.com/repos/faceswap/) |
 | **[agentic-awesome-skills](https://github.com/sickn33/agentic-awesome-skills)** | ▰▰▰▰▱ 3.8 | Beginners looking for a simple AI chat interface to ask coding questions. | [read →](https://mrkeyoor.com/repos/agentic-awesome-skills/) |
 | **[agno](https://github.com/agno-agi/agno)** | ▰▰▰▰▱ 3.8 | Beginners or hobbyists who just want to run a single, simple agent. | [read →](https://mrkeyoor.com/repos/agno/) |
-| **[AstrBot](https://github.com/AstrBotDevs/AstrBot)** | ▰▰▰▰▱ 3.8 | Commercial ventures who are uncomfortable with the AGPL-3.0 license, which requires sharing modifications if the software is offered as a service. | [read →](https://mrkeyoor.com/repos/astrbot/) |
 | **[orca](https://github.com/stablyai/orca)** | ▰▰▰▰▱ 3.8 | Casual users of AI who only need a simple chat interface for asking questions. | [read →](https://mrkeyoor.com/repos/orca/) |
+| **[AstrBot](https://github.com/AstrBotDevs/AstrBot)** | ▰▰▰▰▱ 3.8 | Commercial ventures who are uncomfortable with the AGPL-3.0 license, which requires sharing modifications if the software is offered as a service. | [read →](https://mrkeyoor.com/repos/astrbot/) |
 | **[Vane](https://github.com/ItzCrazyKns/Vane)** | ▰▰▰▰▱ 3.8 | Non-technical users who are not comfortable with Docker or a command-line interface. | [read →](https://mrkeyoor.com/repos/vane/) |
 | **[DeepSeek-Reasonix](https://github.com/esengine/DeepSeek-Reasonix)** | ▰▰▰▰▱ 3.8 | Beginners looking for a simple, zero-configuration graphical interface. | [read →](https://mrkeyoor.com/repos/deepseek-reasonix/) |
 | **[xiaozhi-esp32](https://github.com/78/xiaozhi-esp32)** | ▰▰▰▰▱ 3.8 | Users seeking a plug-and-play commercial product with the polish of an Amazon Alexa or Google Home. | [read →](https://mrkeyoor.com/repos/xiaozhi-esp32/) |
@@ -168,8 +168,8 @@ Scores come from a fixed rubric applied to every project's documentation, issue 
 | **[open-design](https://github.com/nexu-io/open-design)** | ▰▰▰▰▱ 3.5 | Traditional UI/UX designers who rely on a visual, drag-and-drop canvas like Figma or Adobe XD. | [read →](https://mrkeyoor.com/repos/open-design/) |
 | **[OpenHands](https://github.com/OpenHands/OpenHands)** | ▰▰▰▰▱ 3.5 | Beginners looking for a simple, one-click way to try a coding agent; the setup and concepts require some technical familiarity. | [read →](https://mrkeyoor.com/repos/openhands-openhands/) |
 | **[learn-claude-code](https://github.com/shareAI-lab/learn-claude-code)** | ▰▰▰▰▱ 3.5 | Beginners looking for a copy-paste library to build their first 'AI agent.' This repository provides philosophy, not a framework. | [read →](https://mrkeyoor.com/repos/learn-claude-code/) |
-| **[awesome-claude-skills](https://github.com/ComposioHQ/awesome-claude-skills)** | ▰▰▰▰▱ 3.5 | Non-technical users who want a simple, out-of-the-box chatbot experience. | [read →](https://mrkeyoor.com/repos/awesome-claude-skills/) |
 | **[taste-skill](https://github.com/Leonxlnx/taste-skill)** | ▰▰▰▰▱ 3.5 | Developers who need pixel-perfect, deterministic control over their UI; this is a guide for an LLM, not a traditional component library. | [read →](https://mrkeyoor.com/repos/leonxlnx-taste-skill/) |
+| **[awesome-claude-skills](https://github.com/ComposioHQ/awesome-claude-skills)** | ▰▰▰▰▱ 3.5 | Non-technical users who want a simple, out-of-the-box chatbot experience. | [read →](https://mrkeyoor.com/repos/awesome-claude-skills/) |
 | **[ai-agents-for-beginners](https://github.com/microsoft/ai-agents-for-beginners)** | ▰▰▰▰▱ 3.5 | Experienced AI engineers seeking an advanced, production-grade framework; this is explicitly an introductory course. | [read →](https://mrkeyoor.com/repos/ai-agents-for-beginners/) |
 | **[oh-my-openagent](https://github.com/code-yeongyu/oh-my-openagent)** | ▰▰▰▰▱ 3.5 | Beginners looking for a simple, one-click AI code completion tool. | [read →](https://mrkeyoor.com/repos/oh-my-openagent/) |
 | **[career-ops](https://github.com/santifer/career-ops)** | ▰▰▰▰▱ 3.5 | Non-technical job seekers who aren't comfortable with CLIs and setting up local software. | [read →](https://mrkeyoor.com/repos/career-ops/) |
@@ -214,6 +214,7 @@ Scores come from a fixed rubric applied to every project's documentation, issue 
 | Project | Score | Skip it if | Review |
 |---|---|---|---|
 | **[transformers](https://github.com/huggingface/transformers)** | ▰▰▰▰▰ 5 | Absolute beginners to programming who have no experience with Python or its package management. | [read →](https://mrkeyoor.com/repos/transformers/) |
+| **[skills](https://github.com/mattpocock/skills)** | ▰▰▰▰▰ 4.5 | Developers who do not use AI coding agents, as this tool has no other purpose. | [read →](https://mrkeyoor.com/repos/mattpocock-skills/) |
 | **[ollama](https://github.com/ollama/ollama)** | ▰▰▰▰▰ 4.5 | Users with older or low-spec computers. | [read →](https://mrkeyoor.com/repos/ollama/) |
 | **[langchain](https://github.com/langchain-ai/langchain)** | ▰▰▰▰▰ 4.5 | Beginners whose goal is to make simple, direct API calls to an LLM; the framework adds unnecessary complexity. | [read →](https://mrkeyoor.com/repos/langchain/) |
 | **[open-webui](https://github.com/open-webui/open-webui)** | ▰▰▰▰▱ 4.3 | Casual users who just want a simple, zero-setup chat interface for a single local model; the feature set is overkill. | [read →](https://mrkeyoor.com/repos/open-webui/) |
@@ -261,6 +262,7 @@ Scores come from a fixed rubric applied to every project's documentation, issue 
 | **[ripgrep](https://github.com/BurntSushi/ripgrep)** | ▰▰▰▰▰ 4.8 | Users who require strict POSIX compliance for scripting; `ripgrep` is not a 100% drop-in replacement for GNU grep in all shell scripts. | [read →](https://mrkeyoor.com/repos/ripgrep/) |
 | **[bat](https://github.com/sharkdp/bat)** | ▰▰▰▰▰ 4.8 | Purists who prefer the simple, unadorned, and POSIX-compliant behavior of the original `cat` command. | [read →](https://mrkeyoor.com/repos/bat/) |
 | **[starship](https://github.com/starship/starship)** | ▰▰▰▰▰ 4.8 | Users who are perfectly happy with their shell's default, minimalist prompt. | [read →](https://mrkeyoor.com/repos/starship/) |
+| **[guava](https://github.com/google/guava)** | ▰▰▰▰▰ 4.8 | Developers prioritizing a minimal dependency footprint. | [read →](https://mrkeyoor.com/repos/guava/) |
 | **[cli](https://github.com/cli/cli)** | ▰▰▰▰▰ 4.8 | Developers who prefer graphical user interfaces for all Git and GitHub interactions. | [read →](https://mrkeyoor.com/repos/cli/) |
 | **[cli](https://github.com/httpie/cli)** | ▰▰▰▰▰ 4.8 | Users in minimal environments (like lean Docker containers) where installing Python is undesirable. | [read →](https://mrkeyoor.com/repos/httpie-cli/) |
 | **[spdlog](https://github.com/gabime/spdlog)** | ▰▰▰▰▰ 4.8 | Developers working on projects with extremely strict license compliance checks, as the repository metadata lacks a clear, automatically-detectable license assertion. | [read →](https://mrkeyoor.com/repos/spdlog/) |
@@ -317,6 +319,7 @@ Scores come from a fixed rubric applied to every project's documentation, issue 
 | **[jellyfin](https://github.com/jellyfin/jellyfin)** | ▰▰▰▰▱ 4 | Users seeking a simple, one-click appliance with zero technical overhead. | [read →](https://mrkeyoor.com/repos/jellyfin/) |
 | **[server](https://github.com/nextcloud/server)** | ▰▰▰▰▱ 4 | Anyone who wants a zero-maintenance, 'it just works' cloud service. | [read →](https://mrkeyoor.com/repos/server/) |
 | **[actual](https://github.com/actualbudget/actual)** | ▰▰▰▰▱ 4 | Users who expect a one-click mobile app experience with seamless, automatic bank syncing out of the box. | [read →](https://mrkeyoor.com/repos/actual/) |
+| **[authentik](https://github.com/goauthentik/authentik)** | ▰▰▰▰▱ 4 | Users who are completely new to identity management concepts. | [read →](https://mrkeyoor.com/repos/authentik/) |
 | **[listmonk](https://github.com/knadh/listmonk)** | ▰▰▰▰▱ 4 | Non-technical users who need a fully managed, point-and-click solution. | [read →](https://mrkeyoor.com/repos/listmonk/) |
 | **[invidious](https://github.com/iv-org/invidious)** | ▰▰▰▰▱ 4 | Content creators or users who want to actively comment, like, or manage their YouTube channel, as Invidious is a read-only experience. | [read →](https://mrkeyoor.com/repos/invidious/) |
 | **[mealie](https://github.com/mealie-recipes/mealie)** | ▰▰▰▰▱ 4 | Users who are uncomfortable with Docker or managing a personal server, as this is the primary way to run Mealie. | [read →](https://mrkeyoor.com/repos/mealie/) |
@@ -350,6 +353,7 @@ Scores come from a fixed rubric applied to every project's documentation, issue 
 | **[chroma](https://github.com/chroma-core/chroma)** | ▰▰▰▰▱ 4 | Teams needing a battle-tested, mature database for mission-critical, petabyte-scale workloads. | [read →](https://mrkeyoor.com/repos/chroma/) |
 | **[airbyte](https://github.com/airbytehq/airbyte)** | ▰▰▰▰▱ 3.8 | Individuals or teams who only need to sync one or two common data sources; a simpler script or a dedicated integration might… | [read →](https://mrkeyoor.com/repos/airbyte/) |
 | **[XHS-Downloader](https://github.com/JoeanAmier/XHS-Downloader)** | ▰▰▰▰▱ 3.8 | Users who are completely uncomfortable with command-line tools or manually handling browser cookies, as the easiest and most powerful features require this. | [read →](https://mrkeyoor.com/repos/xhs-downloader/) |
+| **[ChinaTextbook](https://github.com/TapXWorld/ChinaTextbook)** | ▰▰▰▱▱ 3 | Anyone who cannot read Mandarin, as the entire project and all its contents are in Chinese. | [read →](https://mrkeyoor.com/repos/chinatextbook/) |
 | **[pdf-inspector](https://github.com/firecrawl/pdf-inspector)** | ▰▰▰▱▱ 2.8 | Anyone needing to extract text from scanned documents, photographs, or image-only PDFs. | [read →](https://mrkeyoor.com/repos/pdf-inspector/) |
 | **[minio](https://github.com/minio/minio)** | ▰▰▰▱▱ 2.5 | Anyone looking for an actively maintained open-source project. | [read →](https://mrkeyoor.com/repos/minio/) |
 
