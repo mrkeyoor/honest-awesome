@@ -2,7 +2,7 @@
 
 > The awesome list that tells you what **NOT** to install.
 
-Every awesome list tells you what exists. None of them tell you what to avoid. This one does: **346 open-source tools**, each scored 1–5 on **setup ease, docs, community, and maturity**, each with an honest **"skip it if"** warning, each linking to a full review with sources.
+Every awesome list tells you what exists. None of them tell you what to avoid. This one does: **351 open-source tools**, each scored 1–5 on **setup ease, docs, community, and maturity**, each with an honest **"skip it if"** warning, each linking to a full review with sources.
 
 Scores come from a fixed rubric applied to every project's documentation, issue tracker, release history, and community activity — the same rubric for a 200-star repo and a 200,000-star one. No project has ever paid to be listed or to change a score. Regenerated daily from the review database at [mrkeyoor.com](https://mrkeyoor.com/repos/). Last update: 2026-08-08.
 
@@ -10,12 +10,12 @@ Scores come from a fixed rubric applied to every project's documentation, issue 
 
 ## Contents
 
-- [AI & Agent Tools](#ai-agent-tools) (187)
+- [AI & Agent Tools](#ai-agent-tools) (189)
 - [Local LLM Tools](#local-llm-tools) (35)
-- [Dev Tools](#dev-tools) (40)
+- [Dev Tools](#dev-tools) (41)
 - [Self-Hosted Apps](#self-hosted-apps) (35)
 - [Data & Databases](#data-databases) (22)
-- [Web](#web) (19)
+- [Web](#web) (21)
 - [Workflow Automation](#workflow-automation) (8)
 - [How scores work](#how-scores-work)
 - [Use the data](#use-the-data)
@@ -151,12 +151,13 @@ Scores come from a fixed rubric applied to every project's documentation, issue 
 | **[qwen-code](https://github.com/QwenLM/qwen-code)** | ▰▰▰▰▱ 3.8 | Programmers who prefer a purely graphical, mouse-driven interface and rarely use the terminal. | [read →](https://mrkeyoor.com/repos/qwen-code/) |
 | **[agentmemory](https://github.com/rohitg00/agentmemory)** | ▰▰▰▰▱ 3.8 | Casual users of web-based AI chatbots, who won't benefit from a developer-focused, self-hosted tool. | [read →](https://mrkeyoor.com/repos/agentmemory/) |
 | **[oh-my-pi](https://github.com/can1357/oh-my-pi)** | ▰▰▰▰▱ 3.8 | Beginners who may be overwhelmed by the complexity of configuring features like LSP and DAP. | [read →](https://mrkeyoor.com/repos/oh-my-pi/) |
+| **[skills](https://github.com/google/skills)** | ▰▰▰▰▱ 3.8 | Anyone working primarily with AWS, Azure, or other cloud providers, as the skills are entirely GCP-specific. | [read →](https://mrkeyoor.com/repos/google-skills/) |
 | **[xiaohongshu-mcp](https://github.com/xpzouying/xiaohongshu-mcp)** | ▰▰▰▰▱ 3.8 | Non-technical users looking for a simple, graphical application. | [read →](https://mrkeyoor.com/repos/xiaohongshu-mcp/) |
 | **[OpenMetadata](https://github.com/open-metadata/OpenMetadata)** | ▰▰▰▰▱ 3.8 | Small teams or startups with a simple, single-database architecture; the overhead is overkill. | [read →](https://mrkeyoor.com/repos/openmetadata/) |
 | **[Auto-claude-code-research-in-sleep](https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep)** | ▰▰▰▰▱ 3.8 | Beginners looking for a simple, one-click "push button, get research paper" tool. | [read →](https://mrkeyoor.com/repos/auto-claude-code-research-in-sleep/) |
 | **[agents](https://github.com/livekit/agents)** | ▰▰▰▰▱ 3.8 | Anyone needing a simple, text-only chatbot, as this framework is specifically designed for the complexities of real-time voice. | [read →](https://mrkeyoor.com/repos/livekit-agents/) |
-| **[osaurus](https://github.com/osaurus-ai/osaurus)** | ▰▰▰▰▱ 3.8 | Windows or Linux users. | [read →](https://mrkeyoor.com/repos/osaurus/) |
 | **[prime-agent](https://github.com/PrimeIntellect-ai/prime-agent)** | ▰▰▰▰▱ 3.8 | Beginners looking for a simple, graphical AI chat interface. | [read →](https://mrkeyoor.com/repos/prime-agent/) |
+| **[osaurus](https://github.com/osaurus-ai/osaurus)** | ▰▰▰▰▱ 3.8 | Windows or Linux users. | [read →](https://mrkeyoor.com/repos/osaurus/) |
 | **[Unity-MCP](https://github.com/IvanMurzak/Unity-MCP)** | ▰▰▰▰▱ 3.8 | Beginners who just need simple code completion; standard tools like GitHub Copilot are less complex and more focused. | [read →](https://mrkeyoor.com/repos/unity-mcp/) |
 | **[loopx](https://github.com/huangruiteng/loopx)** | ▰▰▰▰▱ 3.8 | Users looking for a simple, single-shot "ask and get an answer" AI agent. | [read →](https://mrkeyoor.com/repos/loopx/) |
 | **[Hyper-Extract](https://github.com/yifanfeng97/Hyper-Extract)** | ▰▰▰▰▱ 3.8 | Beginners unfamiliar with the command line or managing API keys for LLM services. | [read →](https://mrkeyoor.com/repos/hyper-extract/) |
@@ -182,6 +183,7 @@ Scores come from a fixed rubric applied to every project's documentation, issue 
 | **[DeepTutor](https://github.com/HKUDS/DeepTutor)** | ▰▰▰▰▱ 3.5 | Non-technical users looking for a simple, plug-and-play chatbot like ChatGPT. | [read →](https://mrkeyoor.com/repos/deeptutor/) |
 | **[fastapi_mcp](https://github.com/tadata-org/fastapi_mcp)** | ▰▰▰▰▱ 3.5 | Teams not using the FastAPI framework, as this library is tightly coupled to it. | [read →](https://mrkeyoor.com/repos/fastapi-mcp/) |
 | **[ida-pro-mcp](https://github.com/mrexodia/ida-pro-mcp)** | ▰▰▰▰▱ 3.5 | Beginners in reverse engineering. | [read →](https://mrkeyoor.com/repos/ida-pro-mcp/) |
+| **[TradingAgents](https://github.com/TauricResearch/TradingAgents)** | ▰▰▰▱▱ 3.3 | Anyone seeking a simple, plug-and-play trading bot to make money without effort. | [read →](https://mrkeyoor.com/repos/tradingagents/) |
 | **[MiroFish](https://github.com/666ghj/MiroFish)** | ▰▰▰▱▱ 3.3 | Anyone needing a simple, fast forecasting tool. | [read →](https://mrkeyoor.com/repos/mirofish/) |
 | **[JeecgBoot](https://github.com/jeecgboot/JeecgBoot)** | ▰▰▰▱▱ 3.3 | Teams outside of China who will likely struggle with the significant language barrier in documentation, community support channels (like QQ), and parts… | [read →](https://mrkeyoor.com/repos/jeecgboot/) |
 | **[OpenMontage](https://github.com/calesthio/OpenMontage)** | ▰▰▰▱▱ 3.3 | Professional video editors who require frame-perfect control, non-destructive editing, and industry-standard tools. | [read →](https://mrkeyoor.com/repos/openmontage/) |
@@ -293,6 +295,7 @@ Scores come from a fixed rubric applied to every project's documentation, issue 
 | **[localstack](https://github.com/localstack/localstack)** | ▰▰▰▰▱ 4 | Users who require a 100% perfect, bug-for-bug replica of AWS, as emulators can have subtle discrepancies with the real services. | [read →](https://mrkeyoor.com/repos/localstack/) |
 | **[gitleaks](https://github.com/gitleaks/gitleaks)** | ▰▰▰▰▱ 4 | Teams looking for a fully-managed, enterprise solution with a graphical user interface, dashboards, and role-based access control. | [read →](https://mrkeyoor.com/repos/gitleaks/) |
 | **[lumen](https://github.com/jnsahaj/lumen)** | ▰▰▰▰▱ 4 | Users who strongly prefer a graphical, mouse-centric interface for all development tasks. | [read →](https://mrkeyoor.com/repos/lumen/) |
+| **[DevOps-Interview-Guide](https://github.com/litu54/DevOps-Interview-Guide)** | ▰▰▰▰▱ 4 | Anyone looking for a learning guide or textbook. | [read →](https://mrkeyoor.com/repos/devops-interview-guide/) |
 | **[gin-vue-admin](https://github.com/flipped-aurora/gin-vue-admin)** | ▰▰▰▰▱ 3.8 | Projects requiring a permissive open-source license like MIT or Apache 2.0, due to its BSL 1.1 license and mandatory commercial licensing for… | [read →](https://mrkeyoor.com/repos/gin-vue-admin/) |
 | **[gh-stack](https://github.com/github/gh-stack)** | ▰▰▰▰▱ 3.5 | Solo developers or teams that prefer large, single-feature pull requests. | [read →](https://mrkeyoor.com/repos/gh-stack/) |
 | **[Lighthouse](https://github.com/HarbourMasters/Lighthouse)** | ▰▰▰▱▱ 3 | Casual retro gamers who just want to play a variety of N64 games; a general-purpose emulator like Project64 is a much simpler… | [read →](https://mrkeyoor.com/repos/lighthouse/) |
@@ -387,6 +390,8 @@ Scores come from a fixed rubric applied to every project's documentation, issue 
 | **[svelte](https://github.com/sveltejs/svelte)** | ▰▰▰▰▰ 4.5 | Large enterprise teams that require the vast ecosystem and corporate backing of frameworks like React or Angular. | [read →](https://mrkeyoor.com/repos/svelte/) |
 | **[htmx](https://github.com/bigskysoftware/htmx)** | ▰▰▰▰▰ 4.5 | Developers building highly complex, state-intensive single-page applications (SPAs) like Figma, Google Docs, or a real-time trading platform. | [read →](https://mrkeyoor.com/repos/htmx/) |
 | **[payload](https://github.com/payloadcms/payload)** | ▰▰▰▰▰ 4.5 | Non-technical users who want a no-code, fully managed SaaS solution without touching a command line. | [read →](https://mrkeyoor.com/repos/payload/) |
+| **[fanqiang](https://github.com/bannedbook/fanqiang)** | ▰▰▰▱▱ 3.3 | Users who cannot read Chinese, as the entire repository is unusable without it. | [read →](https://mrkeyoor.com/repos/fanqiang/) |
+| **[ladybird](https://github.com/LadybirdBrowser/ladybird)** | ▰▰▰▱▱ 2.5 | Anyone looking for a web browser to use for daily tasks. | [read →](https://mrkeyoor.com/repos/ladybird/) |
 
 ## Workflow Automation
 
