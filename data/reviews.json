@@ -1,14 +1,14 @@
 {
- "generated": "2026-08-07",
+ "generated": "2026-08-08",
  "source": "https://mrkeyoor.com/repos/",
  "license": "CC-BY-4.0",
- "count": 339,
+ "count": 346,
  "reviews": [
   {
    "repo": "thedotmack/claude-mem",
    "name": "claude-mem",
    "category": "ai-tools",
-   "stars": 89830,
+   "stars": 90012,
    "language": "JavaScript",
    "scores": {
     "setupEase": 5,
@@ -26,7 +26,7 @@
    "repo": "PrefectHQ/fastmcp",
    "name": "fastmcp",
    "category": "ai-tools",
-   "stars": 27075,
+   "stars": 27103,
    "language": "Python",
    "scores": {
     "setupEase": 5,
@@ -44,7 +44,7 @@
    "repo": "redis/redis",
    "name": "redis",
    "category": "data",
-   "stars": 75898,
+   "stars": 75922,
    "language": "C",
    "scores": {
     "setupEase": 5,
@@ -62,7 +62,7 @@
    "repo": "ClickHouse/ClickHouse",
    "name": "ClickHouse",
    "category": "data",
-   "stars": 49085,
+   "stars": 49115,
    "language": "C++",
    "scores": {
     "setupEase": 5,
@@ -98,7 +98,7 @@
    "repo": "expo/expo",
    "name": "expo",
    "category": "dev-tools",
-   "stars": 51336,
+   "stars": 51404,
    "language": "TypeScript",
    "scores": {
     "setupEase": 5,
@@ -116,7 +116,7 @@
    "repo": "electron/electron",
    "name": "electron",
    "category": "dev-tools",
-   "stars": 122363,
+   "stars": 122383,
    "language": "C++",
    "scores": {
     "setupEase": 5,
@@ -134,7 +134,7 @@
    "repo": "junegunn/fzf",
    "name": "fzf",
    "category": "dev-tools",
-   "stars": 82382,
+   "stars": 82437,
    "language": "Go",
    "scores": {
     "setupEase": 5,
@@ -152,7 +152,7 @@
    "repo": "microsoft/vscode",
    "name": "vscode",
    "category": "dev-tools",
-   "stars": 188413,
+   "stars": 188491,
    "language": "TypeScript",
    "scores": {
     "setupEase": 5,
@@ -170,7 +170,7 @@
    "repo": "huggingface/transformers",
    "name": "transformers",
    "category": "llm-tools",
-   "stars": 163384,
+   "stars": 163450,
    "language": "Python",
    "scores": {
     "setupEase": 5,
@@ -458,7 +458,7 @@
    "repo": "f/prompts.chat",
    "name": "prompts.chat",
    "category": "ai-tools",
-   "stars": 166811,
+   "stars": 166870,
    "language": "HTML",
    "scores": {
     "setupEase": 4,
@@ -476,7 +476,7 @@
    "repo": "luongnv89/claude-howto",
    "name": "claude-howto",
    "category": "ai-tools",
-   "stars": 40869,
+   "stars": 40907,
    "language": "Python",
    "scores": {
     "setupEase": 5,
@@ -494,7 +494,7 @@
    "repo": "shanraisshan/claude-code-best-practice",
    "name": "claude-code-best-practice",
    "category": "ai-tools",
-   "stars": 64068,
+   "stars": 64149,
    "language": "HTML",
    "scores": {
     "setupEase": 5,
@@ -512,7 +512,7 @@
    "repo": "czlonkowski/n8n-mcp",
    "name": "n8n-mcp",
    "category": "ai-tools",
-   "stars": 22605,
+   "stars": 22626,
    "language": "TypeScript",
    "scores": {
     "setupEase": 5,
@@ -530,7 +530,7 @@
    "repo": "Kong/kong",
    "name": "kong",
    "category": "ai-tools",
-   "stars": 43925,
+   "stars": 43942,
    "language": "Lua",
    "scores": {
     "setupEase": 4,
@@ -548,7 +548,7 @@
    "repo": "aaif-goose/goose",
    "name": "goose",
    "category": "ai-tools",
-   "stars": 52310,
+   "stars": 52509,
    "language": "Rust",
    "scores": {
     "setupEase": 5,
@@ -566,7 +566,7 @@
    "repo": "prometheus/prometheus",
    "name": "prometheus",
    "category": "data",
-   "stars": 65554,
+   "stars": 65610,
    "language": "Go",
    "scores": {
     "setupEase": 4,
@@ -584,7 +584,7 @@
    "repo": "grafana/grafana",
    "name": "grafana",
    "category": "data",
-   "stars": 76066,
+   "stars": 76149,
    "language": "TypeScript",
    "scores": {
     "setupEase": 4,
@@ -602,7 +602,7 @@
    "repo": "meilisearch/meilisearch",
    "name": "meilisearch",
    "category": "data",
-   "stars": 58869,
+   "stars": 58902,
    "language": "Rust",
    "scores": {
     "setupEase": 5,
@@ -620,7 +620,7 @@
    "repo": "qdrant/qdrant",
    "name": "qdrant",
    "category": "data",
-   "stars": 33786,
+   "stars": 33823,
    "language": "Rust",
    "scores": {
     "setupEase": 5,
@@ -638,7 +638,7 @@
    "repo": "duckdb/duckdb",
    "name": "duckdb",
    "category": "data",
-   "stars": 40027,
+   "stars": 40065,
    "language": "C++",
    "scores": {
     "setupEase": 5,
@@ -674,7 +674,7 @@
    "repo": "gabime/spdlog",
    "name": "spdlog",
    "category": "dev-tools",
-   "stars": 29416,
+   "stars": 29447,
    "language": "C++",
    "scores": {
     "setupEase": 5,
@@ -692,7 +692,7 @@
    "repo": "Snailclimb/JavaGuide",
    "name": "JavaGuide",
    "category": "dev-tools",
-   "stars": 157549,
+   "stars": 157606,
    "language": "JavaScript",
    "scores": {
     "setupEase": 5,
@@ -710,7 +710,7 @@
    "repo": "flutter/flutter",
    "name": "flutter",
    "category": "dev-tools",
-   "stars": 178232,
+   "stars": 178263,
    "language": "Dart",
    "scores": {
     "setupEase": 4,
@@ -728,7 +728,7 @@
    "repo": "caddyserver/caddy",
    "name": "caddy",
    "category": "dev-tools",
-   "stars": 74689,
+   "stars": 74738,
    "language": "Go",
    "scores": {
     "setupEase": 5,
@@ -746,7 +746,7 @@
    "repo": "httpie/cli",
    "name": "cli",
    "category": "dev-tools",
-   "stars": 38390,
+   "stars": 38403,
    "language": "Python",
    "scores": {
     "setupEase": 5,
@@ -764,7 +764,7 @@
    "repo": "starship/starship",
    "name": "starship",
    "category": "dev-tools",
-   "stars": 59273,
+   "stars": 59300,
    "language": "Rust",
    "scores": {
     "setupEase": 4,
@@ -782,7 +782,7 @@
    "repo": "sharkdp/bat",
    "name": "bat",
    "category": "dev-tools",
-   "stars": 60111,
+   "stars": 60134,
    "language": "Rust",
    "scores": {
     "setupEase": 5,
@@ -800,7 +800,7 @@
    "repo": "BurntSushi/ripgrep",
    "name": "ripgrep",
    "category": "dev-tools",
-   "stars": 67035,
+   "stars": 67108,
    "language": "Rust",
    "scores": {
     "setupEase": 5,
@@ -818,7 +818,7 @@
    "repo": "cli/cli",
    "name": "cli",
    "category": "dev-tools",
-   "stars": 45685,
+   "stars": 45735,
    "language": "Go",
    "scores": {
     "setupEase": 5,
@@ -836,7 +836,7 @@
    "repo": "netdata/netdata",
    "name": "netdata",
    "category": "self-hosted",
-   "stars": 80044,
+   "stars": 80075,
    "language": "Go",
    "scores": {
     "setupEase": 5,
@@ -854,7 +854,7 @@
    "repo": "syncthing/syncthing",
    "name": "syncthing",
    "category": "self-hosted",
-   "stars": 87341,
+   "stars": 87439,
    "language": "Go",
    "scores": {
     "setupEase": 4,
@@ -980,7 +980,7 @@
    "repo": "roboflow/supervision",
    "name": "supervision",
    "category": "ai-tools",
-   "stars": 48947,
+   "stars": 49168,
    "language": "Python",
    "scores": {
     "setupEase": 5,
@@ -1088,7 +1088,7 @@
    "repo": "langchain-ai/langgraph",
    "name": "langgraph",
    "category": "ai-tools",
-   "stars": 39014,
+   "stars": 39162,
    "language": "Python",
    "scores": {
     "setupEase": 4,
@@ -1142,7 +1142,7 @@
    "repo": "asgeirtj/system_prompts_leaks",
    "name": "system_prompts_leaks",
    "category": "ai-tools",
-   "stars": 62428,
+   "stars": 62532,
    "language": "JavaScript",
    "scores": {
     "setupEase": 5,
@@ -1160,7 +1160,7 @@
    "repo": "DietrichGebert/ponytail",
    "name": "ponytail",
    "category": "ai-tools",
-   "stars": 96763,
+   "stars": 98140,
    "language": "JavaScript",
    "scores": {
     "setupEase": 5,
@@ -1178,7 +1178,7 @@
    "repo": "JuliusBrussee/caveman",
    "name": "caveman",
    "category": "ai-tools",
-   "stars": 96027,
+   "stars": 96631,
    "language": "JavaScript",
    "scores": {
     "setupEase": 5,
@@ -1196,7 +1196,7 @@
    "repo": "yzfly/Awesome-MCP-ZH",
    "name": "Awesome-MCP-ZH",
    "category": "ai-tools",
-   "stars": 7520,
+   "stars": 7531,
    "language": "",
    "scores": {
     "setupEase": 5,
@@ -1214,7 +1214,7 @@
    "repo": "deepset-ai/haystack",
    "name": "haystack",
    "category": "ai-tools",
-   "stars": 26113,
+   "stars": 26137,
    "language": "Python",
    "scores": {
     "setupEase": 5,
@@ -1232,7 +1232,7 @@
    "repo": "mukul975/Anthropic-Cybersecurity-Skills",
    "name": "Anthropic-Cybersecurity-Skills",
    "category": "ai-tools",
-   "stars": 27297,
+   "stars": 27432,
    "language": "Python",
    "scores": {
     "setupEase": 4,
@@ -1250,7 +1250,7 @@
    "repo": "tirth8205/code-review-graph",
    "name": "code-review-graph",
    "category": "ai-tools",
-   "stars": 28612,
+   "stars": 29311,
    "language": "Python",
    "scores": {
     "setupEase": 5,
@@ -1268,7 +1268,7 @@
    "repo": "mindsdb/mindshub",
    "name": "mindshub",
    "category": "ai-tools",
-   "stars": 39517,
+   "stars": 39526,
    "language": "Makefile",
    "scores": {
     "setupEase": 4,
@@ -1286,7 +1286,7 @@
    "repo": "rohitg00/ai-engineering-from-scratch",
    "name": "ai-engineering-from-scratch",
    "category": "ai-tools",
-   "stars": 45996,
+   "stars": 46204,
    "language": "Python",
    "scores": {
     "setupEase": 5,
@@ -1304,7 +1304,7 @@
    "repo": "simonw/llm",
    "name": "llm",
    "category": "ai-tools",
-   "stars": 12304,
+   "stars": 12322,
    "language": "Python",
    "scores": {
     "setupEase": 5,
@@ -1322,7 +1322,7 @@
    "repo": "danielmiessler/fabric",
    "name": "Fabric",
    "category": "ai-tools",
-   "stars": 43330,
+   "stars": 43350,
    "language": "Go",
    "scores": {
     "setupEase": 5,
@@ -1340,7 +1340,7 @@
    "repo": "temporalio/temporal",
    "name": "temporal",
    "category": "automation",
-   "stars": 22104,
+   "stars": 22156,
    "language": "Go",
    "scores": {
     "setupEase": 5,
@@ -1358,7 +1358,7 @@
    "repo": "n8n-io/n8n",
    "name": "n8n",
    "category": "automation",
-   "stars": 199499,
+   "stars": 199708,
    "language": "TypeScript",
    "scores": {
     "setupEase": 4,
@@ -1376,7 +1376,7 @@
    "repo": "nocodb/nocodb",
    "name": "nocodb",
    "category": "data",
-   "stars": 64416,
+   "stars": 64440,
    "language": "TypeScript",
    "scores": {
     "setupEase": 5,
@@ -1394,7 +1394,7 @@
    "repo": "metabase/metabase",
    "name": "metabase",
    "category": "data",
-   "stars": 48535,
+   "stars": 48575,
    "language": "Clojure",
    "scores": {
     "setupEase": 5,
@@ -1430,7 +1430,7 @@
    "repo": "supabase/supabase",
    "name": "supabase",
    "category": "data",
-   "stars": 107557,
+   "stars": 107655,
    "language": "TypeScript",
    "scores": {
     "setupEase": 5,
@@ -1445,10 +1445,28 @@
    "reviewed_at": "2026-08-02T02:16:27.960Z"
   },
   {
+   "repo": "jdx/mise",
+   "name": "mise",
+   "category": "dev-tools",
+   "stars": 32014,
+   "language": "Rust",
+   "scores": {
+    "setupEase": 5,
+    "docs": 5,
+    "community": 4,
+    "maturity": 4
+   },
+   "overall": 4.5,
+   "verdict": "mise is an excellent, modern replacement for a collection of separate developer tools like `asdf`, `direnv`, and `make`.",
+   "skip_if": "Developers who only work in a single language with a stable toolchain and have no need for version switching.",
+   "review_url": "https://mrkeyoor.com/repos/mise/",
+   "reviewed_at": "2026-08-07T17:56:40.041Z"
+  },
+  {
    "repo": "tauri-apps/tauri",
    "name": "tauri",
    "category": "dev-tools",
-   "stars": 109933,
+   "stars": 109997,
    "language": "Rust",
    "scores": {
     "setupEase": 4,
@@ -1466,7 +1484,7 @@
    "repo": "codecrafters-io/build-your-own-x",
    "name": "build-your-own-x",
    "category": "dev-tools",
-   "stars": 536568,
+   "stars": 537429,
    "language": "Markdown",
    "scores": {
     "setupEase": 5,
@@ -1484,7 +1502,7 @@
    "repo": "opentofu/opentofu",
    "name": "opentofu",
    "category": "dev-tools",
-   "stars": 29681,
+   "stars": 29707,
    "language": "Go",
    "scores": {
     "setupEase": 5,
@@ -1502,7 +1520,7 @@
    "repo": "traefik/traefik",
    "name": "traefik",
    "category": "dev-tools",
-   "stars": 64298,
+   "stars": 64327,
    "language": "Go",
    "scores": {
     "setupEase": 4,
@@ -1520,7 +1538,7 @@
    "repo": "dbeaver/dbeaver",
    "name": "dbeaver",
    "category": "dev-tools",
-   "stars": 51308,
+   "stars": 51340,
    "language": "Java",
    "scores": {
     "setupEase": 5,
@@ -1538,7 +1556,7 @@
    "repo": "tmux/tmux",
    "name": "tmux",
    "category": "dev-tools",
-   "stars": 48431,
+   "stars": 48468,
    "language": "C",
    "scores": {
     "setupEase": 5,
@@ -1556,7 +1574,7 @@
    "repo": "jesseduffield/lazydocker",
    "name": "lazydocker",
    "category": "dev-tools",
-   "stars": 52319,
+   "stars": 52343,
    "language": "Go",
    "scores": {
     "setupEase": 5,
@@ -1574,7 +1592,7 @@
    "repo": "mattpocock/skills",
    "name": "skills",
    "category": "llm-tools",
-   "stars": 206213,
+   "stars": 209012,
    "language": "Shell",
    "scores": {
     "setupEase": 5,
@@ -1592,7 +1610,7 @@
    "repo": "langchain-ai/langchain",
    "name": "langchain",
    "category": "llm-tools",
-   "stars": 143529,
+   "stars": 143661,
    "language": "Python",
    "scores": {
     "setupEase": 5,
@@ -1610,7 +1628,7 @@
    "repo": "ollama/ollama",
    "name": "ollama",
    "category": "llm-tools",
-   "stars": 177880,
+   "stars": 178020,
    "language": "Go",
    "scores": {
     "setupEase": 5,
@@ -1628,7 +1646,7 @@
    "repo": "dani-garcia/vaultwarden",
    "name": "vaultwarden",
    "category": "self-hosted",
-   "stars": 65006,
+   "stars": 65096,
    "language": "Rust",
    "scores": {
     "setupEase": 4,
@@ -1646,7 +1664,7 @@
    "repo": "go-gitea/gitea",
    "name": "gitea",
    "category": "self-hosted",
-   "stars": 57223,
+   "stars": 57266,
    "language": "Go",
    "scores": {
     "setupEase": 5,
@@ -1682,7 +1700,7 @@
    "repo": "siyuan-note/siyuan",
    "name": "siyuan",
    "category": "self-hosted",
-   "stars": 45648,
+   "stars": 45670,
    "language": "TypeScript",
    "scores": {
     "setupEase": 5,
@@ -2006,7 +2024,7 @@
    "repo": "firecrawl/firecrawl",
    "name": "firecrawl",
    "category": "ai-tools",
-   "stars": 161941,
+   "stars": 162957,
    "language": "TypeScript",
    "scores": {
     "setupEase": 5,
@@ -2042,7 +2060,7 @@
    "repo": "CherryHQ/cherry-studio",
    "name": "cherry-studio",
    "category": "ai-tools",
-   "stars": 49789,
+   "stars": 50046,
    "language": "TypeScript",
    "scores": {
     "setupEase": 5,
@@ -2096,7 +2114,7 @@
    "repo": "Egonex-AI/Understand-Anything",
    "name": "Understand-Anything",
    "category": "ai-tools",
-   "stars": 77716,
+   "stars": 77895,
    "language": "TypeScript",
    "scores": {
     "setupEase": 4,
@@ -2132,7 +2150,7 @@
    "repo": "firerpa/lamda",
    "name": "lamda",
    "category": "ai-tools",
-   "stars": 8084,
+   "stars": 8088,
    "language": "Python",
    "scores": {
     "setupEase": 4,
@@ -2150,7 +2168,7 @@
    "repo": "OpenByteInc/QuantDinger",
    "name": "QuantDinger",
    "category": "ai-tools",
-   "stars": 10291,
+   "stars": 10363,
    "language": "Python",
    "scores": {
     "setupEase": 5,
@@ -2168,7 +2186,7 @@
    "repo": "mcp-use/mcp-use",
    "name": "mcp-use",
    "category": "ai-tools",
-   "stars": 10453,
+   "stars": 10456,
    "language": "TypeScript",
    "scores": {
     "setupEase": 5,
@@ -2186,7 +2204,7 @@
    "repo": "yusufkaraaslan/Skill_Seekers",
    "name": "Skill_Seekers",
    "category": "ai-tools",
-   "stars": 14706,
+   "stars": 14720,
    "language": "Python",
    "scores": {
     "setupEase": 4,
@@ -2204,7 +2222,7 @@
    "repo": "triggerdotdev/trigger.dev",
    "name": "trigger.dev",
    "category": "ai-tools",
-   "stars": 15911,
+   "stars": 15930,
    "language": "TypeScript",
    "scores": {
     "setupEase": 4,
@@ -2222,7 +2240,7 @@
    "repo": "microsoft/mcp-for-beginners",
    "name": "mcp-for-beginners",
    "category": "ai-tools",
-   "stars": 16926,
+   "stars": 16938,
    "language": "Jupyter Notebook",
    "scores": {
     "setupEase": 5,
@@ -2240,7 +2258,7 @@
    "repo": "nukeop/nuclear",
    "name": "nuclear",
    "category": "ai-tools",
-   "stars": 18199,
+   "stars": 18217,
    "language": "TypeScript",
    "scores": {
     "setupEase": 5,
@@ -2258,7 +2276,7 @@
    "repo": "1Panel-dev/MaxKB",
    "name": "MaxKB",
    "category": "ai-tools",
-   "stars": 22405,
+   "stars": 22432,
    "language": "Python",
    "scores": {
     "setupEase": 5,
@@ -2276,7 +2294,7 @@
    "repo": "mastra-ai/mastra",
    "name": "mastra",
    "category": "ai-tools",
-   "stars": 26934,
+   "stars": 27023,
    "language": "TypeScript",
    "scores": {
     "setupEase": 5,
@@ -2294,7 +2312,7 @@
    "repo": "yamadashy/repomix",
    "name": "repomix",
    "category": "ai-tools",
-   "stars": 27643,
+   "stars": 27696,
    "language": "TypeScript",
    "scores": {
     "setupEase": 5,
@@ -2312,7 +2330,7 @@
    "repo": "alibaba/page-agent",
    "name": "page-agent",
    "category": "ai-tools",
-   "stars": 28449,
+   "stars": 28499,
    "language": "TypeScript",
    "scores": {
     "setupEase": 5,
@@ -2330,7 +2348,7 @@
    "repo": "labring/FastGPT",
    "name": "FastGPT",
    "category": "ai-tools",
-   "stars": 29271,
+   "stars": 29286,
    "language": "TypeScript",
    "scores": {
     "setupEase": 5,
@@ -2348,7 +2366,7 @@
    "repo": "ComposioHQ/composio",
    "name": "composio",
    "category": "ai-tools",
-   "stars": 29546,
+   "stars": 29574,
    "language": "TypeScript",
    "scores": {
     "setupEase": 5,
@@ -2366,7 +2384,7 @@
    "repo": "bojieli/ai-agent-book",
    "name": "ai-agent-book",
    "category": "ai-tools",
-   "stars": 32573,
+   "stars": 34279,
    "language": "Python",
    "scores": {
     "setupEase": 4,
@@ -2384,7 +2402,7 @@
    "repo": "github/github-mcp-server",
    "name": "github-mcp-server",
    "category": "ai-tools",
-   "stars": 31967,
+   "stars": 32029,
    "language": "Go",
    "scores": {
     "setupEase": 4,
@@ -2402,7 +2420,7 @@
    "repo": "zhayujie/CowAgent",
    "name": "CowAgent",
    "category": "ai-tools",
-   "stars": 46327,
+   "stars": 46396,
    "language": "Python",
    "scores": {
     "setupEase": 5,
@@ -2420,7 +2438,7 @@
    "repo": "ChromeDevTools/chrome-devtools-mcp",
    "name": "chrome-devtools-mcp",
    "category": "ai-tools",
-   "stars": 48546,
+   "stars": 48672,
    "language": "TypeScript",
    "scores": {
     "setupEase": 4,
@@ -2438,7 +2456,7 @@
    "repo": "MemPalace/mempalace",
    "name": "mempalace",
    "category": "ai-tools",
-   "stars": 58106,
+   "stars": 58187,
    "language": "Python",
    "scores": {
     "setupEase": 4,
@@ -2456,7 +2474,7 @@
    "repo": "Panniantong/Agent-Reach",
    "name": "Agent-Reach",
    "category": "ai-tools",
-   "stars": 66658,
+   "stars": 67925,
    "language": "Python",
    "scores": {
     "setupEase": 4,
@@ -2474,7 +2492,7 @@
    "repo": "D4Vinci/Scrapling",
    "name": "Scrapling",
    "category": "ai-tools",
-   "stars": 72667,
+   "stars": 72966,
    "language": "Python",
    "scores": {
     "setupEase": 5,
@@ -2492,7 +2510,7 @@
    "repo": "Graphify-Labs/graphify",
    "name": "graphify",
    "category": "ai-tools",
-   "stars": 102713,
+   "stars": 103692,
    "language": "Python",
    "scores": {
     "setupEase": 5,
@@ -2510,7 +2528,7 @@
    "repo": "microsoft/generative-ai-for-beginners",
    "name": "generative-ai-for-beginners",
    "category": "ai-tools",
-   "stars": 116490,
+   "stars": 116864,
    "language": "Jupyter Notebook",
    "scores": {
     "setupEase": 3,
@@ -2528,7 +2546,7 @@
    "repo": "GLips/Figma-Context-MCP",
    "name": "Figma-Context-MCP",
    "category": "ai-tools",
-   "stars": 15585,
+   "stars": 15599,
    "language": "TypeScript",
    "scores": {
     "setupEase": 5,
@@ -2546,7 +2564,7 @@
    "repo": "block/goose",
    "name": "goose",
    "category": "ai-tools",
-   "stars": 52278,
+   "stars": 52495,
    "language": "Rust",
    "scores": {
     "setupEase": 5,
@@ -2564,7 +2582,7 @@
    "repo": "Aider-AI/aider",
    "name": "aider",
    "category": "ai-tools",
-   "stars": 47945,
+   "stars": 48010,
    "language": "Python",
    "scores": {
     "setupEase": 4,
@@ -2582,7 +2600,7 @@
    "repo": "google-gemini/gemini-cli",
    "name": "gemini-cli",
    "category": "ai-tools",
-   "stars": 106366,
+   "stars": 106401,
    "language": "TypeScript",
    "scores": {
     "setupEase": 5,
@@ -2618,7 +2636,7 @@
    "repo": "kestra-io/kestra",
    "name": "kestra",
    "category": "automation",
-   "stars": 27555,
+   "stars": 27567,
    "language": "Java",
    "scores": {
     "setupEase": 5,
@@ -2636,7 +2654,7 @@
    "repo": "directus/directus",
    "name": "directus",
    "category": "data",
-   "stars": 37172,
+   "stars": 37217,
    "language": "TypeScript",
    "scores": {
     "setupEase": 4,
@@ -2654,7 +2672,7 @@
    "repo": "typesense/typesense",
    "name": "typesense",
    "category": "data",
-   "stars": 26399,
+   "stars": 26407,
    "language": "C++",
    "scores": {
     "setupEase": 5,
@@ -2690,7 +2708,7 @@
    "repo": "tw93/Pake",
    "name": "Pake",
    "category": "dev-tools",
-   "stars": 60486,
+   "stars": 60510,
    "language": "Rust",
    "scores": {
     "setupEase": 5,
@@ -2708,7 +2726,7 @@
    "repo": "go-kratos/kratos",
    "name": "kratos",
    "category": "dev-tools",
-   "stars": 25847,
+   "stars": 25856,
    "language": "Go",
    "scores": {
     "setupEase": 4,
@@ -2726,7 +2744,7 @@
    "repo": "usebruno/bruno",
    "name": "bruno",
    "category": "dev-tools",
-   "stars": 46135,
+   "stars": 46182,
    "language": "JavaScript",
    "scores": {
     "setupEase": 5,
@@ -2744,7 +2762,7 @@
    "repo": "hoppscotch/hoppscotch",
    "name": "hoppscotch",
    "category": "dev-tools",
-   "stars": 79972,
+   "stars": 79991,
    "language": "TypeScript",
    "scores": {
     "setupEase": 5,
@@ -2762,7 +2780,7 @@
    "repo": "neovim/neovim",
    "name": "neovim",
    "category": "dev-tools",
-   "stars": 101636,
+   "stars": 101687,
    "language": "Vim Script",
    "scores": {
     "setupEase": 2,
@@ -2780,7 +2798,7 @@
    "repo": "geo-tp/ESP32-Bit-Pirate",
    "name": "ESP32-Bit-Pirate",
    "category": "dev-tools",
-   "stars": 5341,
+   "stars": 5364,
    "language": "C++",
    "scores": {
     "setupEase": 5,
@@ -2816,7 +2834,7 @@
    "repo": "browser-use/browser-use",
    "name": "browser-use",
    "category": "llm-tools",
-   "stars": 108021,
+   "stars": 108211,
    "language": "Python",
    "scores": {
     "setupEase": 5,
@@ -2834,7 +2852,7 @@
    "repo": "Mintplex-Labs/anything-llm",
    "name": "anything-llm",
    "category": "llm-tools",
-   "stars": 64408,
+   "stars": 64473,
    "language": "JavaScript",
    "scores": {
     "setupEase": 5,
@@ -2852,7 +2870,7 @@
    "repo": "open-webui/open-webui",
    "name": "open-webui",
    "category": "llm-tools",
-   "stars": 148001,
+   "stars": 148193,
    "language": "Python",
    "scores": {
     "setupEase": 4,
@@ -2870,7 +2888,7 @@
    "repo": "vllm-project/vllm",
    "name": "vllm",
    "category": "llm-tools",
-   "stars": 88299,
+   "stars": 88475,
    "language": "Python",
    "scores": {
     "setupEase": 4,
@@ -2888,7 +2906,7 @@
    "repo": "0xJacky/nginx-ui",
    "name": "nginx-ui",
    "category": "self-hosted",
-   "stars": 11373,
+   "stars": 11379,
    "language": "Go",
    "scores": {
     "setupEase": 5,
@@ -3122,7 +3140,7 @@
    "repo": "ruvnet/RuView",
    "name": "RuView",
    "category": "ai-tools",
-   "stars": 88695,
+   "stars": 88869,
    "language": "Rust",
    "scores": {
     "setupEase": 3,
@@ -3158,7 +3176,7 @@
    "repo": "nextlevelbuilder/ui-ux-pro-max-skill",
    "name": "ui-ux-pro-max-skill",
    "category": "ai-tools",
-   "stars": 113708,
+   "stars": 114403,
    "language": "Python",
    "scores": {
     "setupEase": 5,
@@ -3176,7 +3194,7 @@
    "repo": "Zipstack/unstract",
    "name": "unstract",
    "category": "ai-tools",
-   "stars": 7119,
+   "stars": 7126,
    "language": "Python",
    "scores": {
     "setupEase": 5,
@@ -3194,7 +3212,7 @@
    "repo": "mksglu/context-mode",
    "name": "context-mode",
    "category": "ai-tools",
-   "stars": 19633,
+   "stars": 19690,
    "language": "TypeScript",
    "scores": {
     "setupEase": 4,
@@ -3212,7 +3230,7 @@
    "repo": "modelscope/FunASR",
    "name": "FunASR",
    "category": "ai-tools",
-   "stars": 19656,
+   "stars": 19709,
    "language": "Python",
    "scores": {
     "setupEase": 4,
@@ -3230,7 +3248,7 @@
    "repo": "ruvnet/ruflo",
    "name": "ruflo",
    "category": "ai-tools",
-   "stars": 67082,
+   "stars": 67265,
    "language": "TypeScript",
    "scores": {
     "setupEase": 4,
@@ -3248,7 +3266,7 @@
    "repo": "agentscope-ai/agentscope",
    "name": "agentscope",
    "category": "ai-tools",
-   "stars": 28610,
+   "stars": 28707,
    "language": "Python",
    "scores": {
     "setupEase": 4,
@@ -3266,7 +3284,7 @@
    "repo": "assafelovic/gpt-researcher",
    "name": "gpt-researcher",
    "category": "ai-tools",
-   "stars": 28830,
+   "stars": 28873,
    "language": "Python",
    "scores": {
     "setupEase": 4,
@@ -3284,7 +3302,7 @@
    "repo": "HKUDS/Vibe-Trading",
    "name": "Vibe-Trading",
    "category": "ai-tools",
-   "stars": 29711,
+   "stars": 30179,
    "language": "Python",
    "scores": {
     "setupEase": 4,
@@ -3302,7 +3320,7 @@
    "repo": "anthropics/claude-plugins-official",
    "name": "claude-plugins-official",
    "category": "ai-tools",
-   "stars": 33135,
+   "stars": 33241,
    "language": "Python",
    "scores": {
     "setupEase": 5,
@@ -3320,7 +3338,7 @@
    "repo": "microsoft/playwright-mcp",
    "name": "playwright-mcp",
    "category": "ai-tools",
-   "stars": 35830,
+   "stars": 35894,
    "language": "TypeScript",
    "scores": {
     "setupEase": 5,
@@ -3338,7 +3356,7 @@
    "repo": "PDFMathTranslate/PDFMathTranslate",
    "name": "PDFMathTranslate",
    "category": "ai-tools",
-   "stars": 35968,
+   "stars": 36012,
    "language": "Python",
    "scores": {
     "setupEase": 5,
@@ -3356,7 +3374,7 @@
    "repo": "DeusData/codebase-memory-mcp",
    "name": "codebase-memory-mcp",
    "category": "ai-tools",
-   "stars": 37577,
+   "stars": 38022,
    "language": "C",
    "scores": {
     "setupEase": 5,
@@ -3374,7 +3392,7 @@
    "repo": "diegosouzapw/OmniRoute",
    "name": "OmniRoute",
    "category": "ai-tools",
-   "stars": 40353,
+   "stars": 42344,
    "language": "TypeScript",
    "scores": {
     "setupEase": 5,
@@ -3392,7 +3410,7 @@
    "repo": "wshobson/agents",
    "name": "agents",
    "category": "ai-tools",
-   "stars": 38502,
+   "stars": 38575,
    "language": "Python",
    "scores": {
     "setupEase": 4,
@@ -3410,7 +3428,7 @@
    "repo": "HKUDS/nanobot",
    "name": "nanobot",
    "category": "ai-tools",
-   "stars": 46645,
+   "stars": 46727,
    "language": "Python",
    "scores": {
     "setupEase": 4,
@@ -3428,7 +3446,7 @@
    "repo": "koala73/worldmonitor",
    "name": "worldmonitor",
    "category": "ai-tools",
-   "stars": 78936,
+   "stars": 79581,
    "language": "TypeScript",
    "scores": {
     "setupEase": 3,
@@ -3446,7 +3464,7 @@
    "repo": "lobehub/lobehub",
    "name": "lobehub",
    "category": "ai-tools",
-   "stars": 81282,
+   "stars": 81363,
    "language": "TypeScript",
    "scores": {
     "setupEase": 5,
@@ -3464,7 +3482,7 @@
    "repo": "affaan-m/ECC",
    "name": "ECC",
    "category": "ai-tools",
-   "stars": 237911,
+   "stars": 238526,
    "language": "JavaScript",
    "scores": {
     "setupEase": 3,
@@ -3482,7 +3500,7 @@
    "repo": "mendableai/firecrawl",
    "name": "firecrawl",
    "category": "ai-tools",
-   "stars": 161298,
+   "stars": 162549,
    "language": "TypeScript",
    "scores": {
     "setupEase": 5,
@@ -3500,7 +3518,7 @@
    "repo": "BerriAI/litellm",
    "name": "litellm",
    "category": "ai-tools",
-   "stars": 55589,
+   "stars": 55811,
    "language": "Python",
    "scores": {
     "setupEase": 4,
@@ -3518,7 +3536,7 @@
    "repo": "upstash/context7",
    "name": "context7",
    "category": "ai-tools",
-   "stars": 60279,
+   "stars": 60375,
    "language": "TypeScript",
    "scores": {
     "setupEase": 5,
@@ -3554,7 +3572,7 @@
    "repo": "punkpeye/awesome-mcp-servers",
    "name": "awesome-mcp-servers",
    "category": "ai-tools",
-   "stars": 91828,
+   "stars": 91916,
    "language": "",
    "scores": {
     "setupEase": 5,
@@ -3572,7 +3590,7 @@
    "repo": "apache/airflow",
    "name": "airflow",
    "category": "automation",
-   "stars": 46392,
+   "stars": 46409,
    "language": "Python",
    "scores": {
     "setupEase": 2,
@@ -3608,7 +3626,7 @@
    "repo": "chroma-core/chroma",
    "name": "chroma",
    "category": "data",
-   "stars": 28958,
+   "stars": 28969,
    "language": "Rust",
    "scores": {
     "setupEase": 5,
@@ -3626,7 +3644,7 @@
    "repo": "surrealdb/surrealdb",
    "name": "surrealdb",
    "category": "data",
-   "stars": 32806,
+   "stars": 32816,
    "language": "Rust",
    "scores": {
     "setupEase": 5,
@@ -3698,7 +3716,7 @@
    "repo": "oven-sh/bun",
    "name": "bun",
    "category": "dev-tools",
-   "stars": 95292,
+   "stars": 95316,
    "language": "Rust",
    "scores": {
     "setupEase": 5,
@@ -3734,7 +3752,7 @@
    "repo": "jesseduffield/lazygit",
    "name": "lazygit",
    "category": "dev-tools",
-   "stars": 81063,
+   "stars": 81129,
    "language": "Go",
    "scores": {
     "setupEase": 5,
@@ -3752,7 +3770,7 @@
    "repo": "zed-industries/zed",
    "name": "zed",
    "category": "dev-tools",
-   "stars": 88112,
+   "stars": 88232,
    "language": "Rust",
    "scores": {
     "setupEase": 5,
@@ -3770,7 +3788,7 @@
    "repo": "bytedance/deer-flow",
    "name": "deer-flow",
    "category": "llm-tools",
-   "stars": 79350,
+   "stars": 79501,
    "language": "Python",
    "scores": {
     "setupEase": 4,
@@ -3788,7 +3806,7 @@
    "repo": "crewAIInc/crewAI",
    "name": "crewAI",
    "category": "llm-tools",
-   "stars": 56668,
+   "stars": 56758,
    "language": "Python",
    "scores": {
     "setupEase": 4,
@@ -3806,7 +3824,7 @@
    "repo": "langgenius/dify",
    "name": "dify",
    "category": "llm-tools",
-   "stars": 151482,
+   "stars": 151734,
    "language": "TypeScript",
    "scores": {
     "setupEase": 5,
@@ -3824,7 +3842,7 @@
    "repo": "run-llama/llama_index",
    "name": "llama_index",
    "category": "llm-tools",
-   "stars": 51410,
+   "stars": 51448,
    "language": "Python",
    "scores": {
     "setupEase": 3,
@@ -3842,7 +3860,7 @@
    "repo": "lobehub/lobe-chat",
    "name": "lobehub",
    "category": "llm-tools",
-   "stars": 81317,
+   "stars": 81401,
    "language": "TypeScript",
    "scores": {
     "setupEase": 5,
@@ -3860,7 +3878,7 @@
    "repo": "mudler/LocalAI",
    "name": "LocalAI",
    "category": "llm-tools",
-   "stars": 48277,
+   "stars": 48314,
    "language": "Go",
    "scores": {
     "setupEase": 4,
@@ -3878,7 +3896,7 @@
    "repo": "AUTOMATIC1111/stable-diffusion-webui",
    "name": "stable-diffusion-webui",
    "category": "llm-tools",
-   "stars": 164416,
+   "stars": 164436,
    "language": "Python",
    "scores": {
     "setupEase": 2,
@@ -3896,7 +3914,7 @@
    "repo": "ggml-org/llama.cpp",
    "name": "llama.cpp",
    "category": "llm-tools",
-   "stars": 122842,
+   "stars": 123030,
    "language": "C++",
    "scores": {
     "setupEase": 4,
@@ -3932,7 +3950,7 @@
    "repo": "iv-org/invidious",
    "name": "invidious",
    "category": "self-hosted",
-   "stars": 22402,
+   "stars": 22442,
    "language": "Crystal",
    "scores": {
     "setupEase": 3,
@@ -3950,7 +3968,7 @@
    "repo": "AppFlowy-IO/AppFlowy",
    "name": "AppFlowy",
    "category": "self-hosted",
-   "stars": 74994,
+   "stars": 75074,
    "language": "Dart",
    "scores": {
     "setupEase": 4,
@@ -3986,7 +4004,7 @@
    "repo": "actualbudget/actual",
    "name": "actual",
    "category": "self-hosted",
-   "stars": 27984,
+   "stars": 28019,
    "language": "TypeScript",
    "scores": {
     "setupEase": 3,
@@ -4004,7 +4022,7 @@
    "repo": "knadh/listmonk",
    "name": "listmonk",
    "category": "self-hosted",
-   "stars": 22639,
+   "stars": 22670,
    "language": "Go",
    "scores": {
     "setupEase": 4,
@@ -4073,10 +4091,28 @@
    "reviewed_at": "2026-08-01T22:49:47.276Z"
   },
   {
+   "repo": "PrimeIntellect-ai/prime-agent",
+   "name": "prime-agent",
+   "category": "ai-tools",
+   "stars": 5443,
+   "language": "TypeScript",
+   "scores": {
+    "setupEase": 4,
+    "docs": 4,
+    "community": 4,
+    "maturity": 3
+   },
+   "overall": 3.8,
+   "verdict": "Prime Agent is a compelling tool for anyone serious about using AI for complex, long-duration tasks.",
+   "skip_if": "Beginners looking for a simple, graphical AI chat interface.",
+   "review_url": "https://mrkeyoor.com/repos/prime-agent/",
+   "reviewed_at": "2026-08-07T14:15:49.886Z"
+  },
+  {
    "repo": "huangruiteng/loopx",
    "name": "loopx",
    "category": "ai-tools",
-   "stars": 2205,
+   "stars": 3328,
    "language": "Python",
    "scores": {
     "setupEase": 5,
@@ -4238,7 +4274,7 @@
    "repo": "esengine/DeepSeek-Reasonix",
    "name": "DeepSeek-Reasonix",
    "category": "ai-tools",
-   "stars": 31947,
+   "stars": 32930,
    "language": "Go",
    "scores": {
     "setupEase": 5,
@@ -4310,7 +4346,7 @@
    "repo": "Significant-Gravitas/AutoGPT",
    "name": "AutoGPT",
    "category": "ai-tools",
-   "stars": 185844,
+   "stars": 186357,
    "language": "Python",
    "scores": {
     "setupEase": 3,
@@ -4328,7 +4364,7 @@
    "repo": "stablyai/orca",
    "name": "orca",
    "category": "ai-tools",
-   "stars": 38663,
+   "stars": 39757,
    "language": "TypeScript",
    "scores": {
     "setupEase": 5,
@@ -4346,7 +4382,7 @@
    "repo": "osaurus-ai/osaurus",
    "name": "osaurus",
    "category": "ai-tools",
-   "stars": 7529,
+   "stars": 7558,
    "language": "Swift",
    "scores": {
     "setupEase": 5,
@@ -4364,7 +4400,7 @@
    "repo": "wanshuiyin/Auto-claude-code-research-in-sleep",
    "name": "Auto-claude-code-research-in-sleep",
    "category": "ai-tools",
-   "stars": 14283,
+   "stars": 14377,
    "language": "Python",
    "scores": {
     "setupEase": 3,
@@ -4382,7 +4418,7 @@
    "repo": "open-metadata/OpenMetadata",
    "name": "OpenMetadata",
    "category": "ai-tools",
-   "stars": 14662,
+   "stars": 14762,
    "language": "TypeScript",
    "scores": {
     "setupEase": 3,
@@ -4400,7 +4436,7 @@
    "repo": "xpzouying/xiaohongshu-mcp",
    "name": "xiaohongshu-mcp",
    "category": "ai-tools",
-   "stars": 15080,
+   "stars": 15125,
    "language": "Go",
    "scores": {
     "setupEase": 3,
@@ -4418,7 +4454,7 @@
    "repo": "oraios/serena",
    "name": "serena",
    "category": "ai-tools",
-   "stars": 27609,
+   "stars": 27711,
    "language": "Python",
    "scores": {
     "setupEase": 3,
@@ -4436,7 +4472,7 @@
    "repo": "78/xiaozhi-esp32",
    "name": "xiaozhi-esp32",
    "category": "ai-tools",
-   "stars": 28660,
+   "stars": 28725,
    "language": "C++",
    "scores": {
     "setupEase": 4,
@@ -4454,7 +4490,7 @@
    "repo": "AstrBotDevs/AstrBot",
    "name": "AstrBot",
    "category": "ai-tools",
-   "stars": 38617,
+   "stars": 38783,
    "language": "Python",
    "scores": {
     "setupEase": 4,
@@ -4472,7 +4508,7 @@
    "repo": "sickn33/agentic-awesome-skills",
    "name": "agentic-awesome-skills",
    "category": "ai-tools",
-   "stars": 44532,
+   "stars": 44603,
    "language": "Python",
    "scores": {
     "setupEase": 3,
@@ -4490,7 +4526,7 @@
    "repo": "sansan0/TrendRadar",
    "name": "TrendRadar",
    "category": "ai-tools",
-   "stars": 61174,
+   "stars": 61245,
    "language": "Python",
    "scores": {
     "setupEase": 4,
@@ -4508,7 +4544,7 @@
    "repo": "headroomlabs-ai/headroom",
    "name": "headroom",
    "category": "ai-tools",
-   "stars": 64881,
+   "stars": 65288,
    "language": "Python",
    "scores": {
     "setupEase": 4,
@@ -4526,7 +4562,7 @@
    "repo": "farion1231/cc-switch",
    "name": "cc-switch",
    "category": "ai-tools",
-   "stars": 124564,
+   "stars": 125288,
    "language": "Rust",
    "scores": {
     "setupEase": 5,
@@ -4544,7 +4580,7 @@
    "repo": "deepfakes/faceswap",
    "name": "faceswap",
    "category": "ai-tools",
-   "stars": 57240,
+   "stars": 57356,
    "language": "Python",
    "scores": {
     "setupEase": 2,
@@ -4562,7 +4598,7 @@
    "repo": "charmbracelet/crush",
    "name": "crush",
    "category": "ai-tools",
-   "stars": 27075,
+   "stars": 27140,
    "language": "Go",
    "scores": {
     "setupEase": 5,
@@ -4580,7 +4616,7 @@
    "repo": "modelcontextprotocol/servers",
    "name": "servers",
    "category": "ai-tools",
-   "stars": 89227,
+   "stars": 89312,
    "language": "TypeScript",
    "scores": {
     "setupEase": 5,
@@ -4598,7 +4634,7 @@
    "repo": "openai/codex",
    "name": "codex",
    "category": "ai-tools",
-   "stars": 104041,
+   "stars": 104609,
    "language": "Rust",
    "scores": {
     "setupEase": 5,
@@ -4616,7 +4652,7 @@
    "repo": "leonxlnx/taste-skill",
    "name": "taste-skill",
    "category": "ai-tools",
-   "stars": 72007,
+   "stars": 73461,
    "language": "JavaScript",
    "scores": {
     "setupEase": 5,
@@ -4634,7 +4670,7 @@
    "repo": "obra/superpowers",
    "name": "superpowers",
    "category": "ai-tools",
-   "stars": 267342,
+   "stars": 268637,
    "language": "Shell",
    "scores": {
     "setupEase": 4,
@@ -4652,7 +4688,7 @@
    "repo": "JoeanAmier/XHS-Downloader",
    "name": "XHS-Downloader",
    "category": "data",
-   "stars": 12239,
+   "stars": 12272,
    "language": "JavaScript",
    "scores": {
     "setupEase": 4,
@@ -4670,7 +4706,7 @@
    "repo": "airbytehq/airbyte",
    "name": "airbyte",
    "category": "data",
-   "stars": 21791,
+   "stars": 21826,
    "language": "Python",
    "scores": {
     "setupEase": 3,
@@ -4688,7 +4724,7 @@
    "repo": "flipped-aurora/gin-vue-admin",
    "name": "gin-vue-admin",
    "category": "dev-tools",
-   "stars": 24914,
+   "stars": 24923,
    "language": "Go",
    "scores": {
     "setupEase": 4,
@@ -4703,10 +4739,28 @@
    "reviewed_at": "2026-08-02T20:42:03.556Z"
   },
   {
+   "repo": "chenyme/grok2api",
+   "name": "grok2api",
+   "category": "llm-tools",
+   "stars": 7109,
+   "language": "Go",
+   "scores": {
+    "setupEase": 4,
+    "docs": 3,
+    "community": 4,
+    "maturity": 4
+   },
+   "overall": 3.8,
+   "verdict": "Grok2API is a technically impressive and powerful tool for a very specific niche: power users who need to scale their access to Grok's models.",
+   "skip_if": "Enterprises with strict compliance or security policies, as this is an unofficial tool that may violate Grok's Terms of Service.",
+   "review_url": "https://mrkeyoor.com/repos/grok2api/",
+   "reviewed_at": "2026-08-07T17:56:01.916Z"
+  },
+  {
    "repo": "unslothai/unsloth",
    "name": "unsloth",
    "category": "llm-tools",
-   "stars": 69626,
+   "stars": 69694,
    "language": "Python",
    "scores": {
     "setupEase": 5,
@@ -4724,7 +4778,7 @@
    "repo": "FlowiseAI/Flowise",
    "name": "Flowise",
    "category": "llm-tools",
-   "stars": 55197,
+   "stars": 55241,
    "language": "TypeScript",
    "scores": {
     "setupEase": 5,
@@ -4742,7 +4796,7 @@
    "repo": "danny-avila/LibreChat",
    "name": "LibreChat",
    "category": "llm-tools",
-   "stars": 41708,
+   "stars": 41776,
    "language": "TypeScript",
    "scores": {
     "setupEase": 4,
@@ -4760,7 +4814,7 @@
    "repo": "comfyanonymous/ComfyUI",
    "name": "ComfyUI",
    "category": "llm-tools",
-   "stars": 124115,
+   "stars": 124688,
    "language": "Python",
    "scores": {
     "setupEase": 4,
@@ -4778,7 +4832,7 @@
    "repo": "openstatusHQ/openstatus",
    "name": "openstatus",
    "category": "self-hosted",
-   "stars": 8945,
+   "stars": 8946,
    "language": "TypeScript",
    "scores": {
     "setupEase": 5,
@@ -4796,7 +4850,7 @@
    "repo": "alibaba/nacos",
    "name": "nacos",
    "category": "self-hosted",
-   "stars": 33238,
+   "stars": 33245,
    "language": "Java",
    "scores": {
     "setupEase": 3,
@@ -4814,7 +4868,7 @@
    "repo": "pocketbase/pocketbase",
    "name": "pocketbase",
    "category": "self-hosted",
-   "stars": 60488,
+   "stars": 60550,
    "language": "Go",
    "scores": {
     "setupEase": 5,
@@ -4868,7 +4922,7 @@
    "repo": "OpenHands/OpenHands",
    "name": "OpenHands",
    "category": "ai-tools",
-   "stars": 83263,
+   "stars": 83415,
    "language": "TypeScript",
    "scores": {
     "setupEase": 3,
@@ -4922,7 +4976,7 @@
    "repo": "microsoft/ai-agents-for-beginners",
    "name": "ai-agents-for-beginners",
    "category": "ai-tools",
-   "stars": 71390,
+   "stars": 71569,
    "language": "Jupyter Notebook",
    "scores": {
     "setupEase": 3,
@@ -4994,7 +5048,7 @@
    "repo": "Alishahryar1/free-claude-code",
    "name": "free-claude-code",
    "category": "ai-tools",
-   "stars": 44553,
+   "stars": 44816,
    "language": "Python",
    "scores": {
     "setupEase": 5,
@@ -5012,7 +5066,7 @@
    "repo": "router-for-me/CLIProxyAPI",
    "name": "CLIProxyAPI",
    "category": "ai-tools",
-   "stars": 46310,
+   "stars": 46497,
    "language": "Go",
    "scores": {
     "setupEase": 4,
@@ -5030,7 +5084,7 @@
    "repo": "santifer/career-ops",
    "name": "career-ops",
    "category": "ai-tools",
-   "stars": 62985,
+   "stars": 63180,
    "language": "JavaScript",
    "scores": {
     "setupEase": 2,
@@ -5048,7 +5102,7 @@
    "repo": "Leonxlnx/taste-skill",
    "name": "taste-skill",
    "category": "ai-tools",
-   "stars": 72766,
+   "stars": 73931,
    "language": "JavaScript",
    "scores": {
     "setupEase": 5,
@@ -5066,7 +5120,7 @@
    "repo": "shareAI-lab/learn-claude-code",
    "name": "learn-claude-code",
    "category": "ai-tools",
-   "stars": 73382,
+   "stars": 73529,
    "language": "Python",
    "scores": {
     "setupEase": 5,
@@ -5084,7 +5138,7 @@
    "repo": "NousResearch/hermes-agent",
    "name": "hermes-agent",
    "category": "ai-tools",
-   "stars": 225868,
+   "stars": 227000,
    "language": "Python",
    "scores": {
     "setupEase": 4,
@@ -5102,7 +5156,7 @@
    "repo": "mrexodia/ida-pro-mcp",
    "name": "ida-pro-mcp",
    "category": "ai-tools",
-   "stars": 11099,
+   "stars": 11173,
    "language": "Python",
    "scores": {
     "setupEase": 3,
@@ -5120,7 +5174,7 @@
    "repo": "tadata-org/fastapi_mcp",
    "name": "fastapi_mcp",
    "category": "ai-tools",
-   "stars": 11978,
+   "stars": 11977,
    "language": "Python",
    "scores": {
     "setupEase": 5,
@@ -5138,7 +5192,7 @@
    "repo": "heygen-com/hyperframes",
    "name": "hyperframes",
    "category": "ai-tools",
-   "stars": 39629,
+   "stars": 39920,
    "language": "TypeScript",
    "scores": {
     "setupEase": 3,
@@ -5156,7 +5210,7 @@
    "repo": "ComposioHQ/awesome-claude-skills",
    "name": "awesome-claude-skills",
    "category": "ai-tools",
-   "stars": 71817,
+   "stars": 72007,
    "language": "Python",
    "scores": {
     "setupEase": 3,
@@ -5174,7 +5228,7 @@
    "repo": "hesreallyhim/awesome-claude-code",
    "name": "awesome-claude-code",
    "category": "ai-tools",
-   "stars": 51742,
+   "stars": 51866,
    "language": "Python",
    "scores": {
     "setupEase": 5,
@@ -5192,7 +5246,7 @@
    "repo": "anthropics/claude-code",
    "name": "claude-code",
    "category": "ai-tools",
-   "stars": 140269,
+   "stars": 140538,
    "language": "Python",
    "scores": {
     "setupEase": 5,
@@ -5210,7 +5264,7 @@
    "repo": "anthropics/skills",
    "name": "skills",
    "category": "ai-tools",
-   "stars": 166502,
+   "stars": 166872,
    "language": "Python",
    "scores": {
     "setupEase": 5,
@@ -5225,10 +5279,28 @@
    "reviewed_at": "2026-08-01T20:35:08.561Z"
   },
   {
+   "repo": "K2SOsint/Legendary_OSINT",
+   "name": "Legendary_OSINT",
+   "category": "data",
+   "stars": 1280,
+   "language": "",
+   "scores": {
+    "setupEase": 5,
+    "docs": 4,
+    "community": 2,
+    "maturity": 3
+   },
+   "overall": 3.5,
+   "verdict": "Legendary_OSINT is a well-organized and highly useful directory for discovering intelligence-gathering tools.",
+   "skip_if": "Users looking for a single, installable software package; this is a list of links, not a program.",
+   "review_url": "https://mrkeyoor.com/repos/legendary-osint/",
+   "reviewed_at": "2026-08-07T17:56:50.730Z"
+  },
+  {
    "repo": "github/gh-stack",
    "name": "gh-stack",
    "category": "dev-tools",
-   "stars": 1096,
+   "stars": 1153,
    "language": "Go",
    "scores": {
     "setupEase": 5,
@@ -5246,7 +5318,7 @@
    "repo": "lyogavin/airllm",
    "name": "airllm",
    "category": "llm-tools",
-   "stars": 29209,
+   "stars": 29920,
    "language": "Jupyter Notebook",
    "scores": {
     "setupEase": 4,
@@ -5264,7 +5336,7 @@
    "repo": "1jehuang/jcode",
    "name": "jcode",
    "category": "llm-tools",
-   "stars": 16108,
+   "stars": 16360,
    "language": "Rust",
    "scores": {
     "setupEase": 5,
@@ -5282,7 +5354,7 @@
    "repo": "github/copilot-sdk",
    "name": "copilot-sdk",
    "category": "llm-tools",
-   "stars": 10354,
+   "stars": 10359,
    "language": "Java",
    "scores": {
     "setupEase": 4,
@@ -5295,6 +5367,24 @@
    "skip_if": "Developers without a GitHub Copilot subscription, as it's a requirement for standard use.",
    "review_url": "https://mrkeyoor.com/repos/copilot-sdk/",
    "reviewed_at": "2026-08-01T21:40:39.178Z"
+  },
+  {
+   "repo": "666ghj/MiroFish",
+   "name": "MiroFish",
+   "category": "ai-tools",
+   "stars": 70395,
+   "language": "Python",
+   "scores": {
+    "setupEase": 4,
+    "docs": 3,
+    "community": 4,
+    "maturity": 2
+   },
+   "overall": 3.3,
+   "verdict": "MiroFish is an ambitious and deeply compelling platform for anyone looking to explore complex \"what-if\" scenarios through AI simulation.",
+   "skip_if": "Anyone needing a simple, fast forecasting tool.",
+   "review_url": "https://mrkeyoor.com/repos/mirofish/",
+   "reviewed_at": "2026-08-07T17:55:15.382Z"
   },
   {
    "repo": "uber/ADR",
@@ -5354,7 +5444,7 @@
    "repo": "QuantumNous/new-api",
    "name": "new-api",
    "category": "ai-tools",
-   "stars": 44488,
+   "stars": 44636,
    "language": "Go",
    "scores": {
     "setupEase": 4,
@@ -5390,7 +5480,7 @@
    "repo": "abus-aikorea/voice-pro",
    "name": "voice-pro",
    "category": "ai-tools",
-   "stars": 12043,
+   "stars": 12082,
    "language": "Python",
    "scores": {
     "setupEase": 5,
@@ -5408,7 +5498,7 @@
    "repo": "jeecgboot/JeecgBoot",
    "name": "JeecgBoot",
    "category": "ai-tools",
-   "stars": 47289,
+   "stars": 47313,
    "language": "Java",
    "scores": {
     "setupEase": 4,
@@ -5426,7 +5516,7 @@
    "repo": "huginn/huginn",
    "name": "huginn",
    "category": "automation",
-   "stars": 49751,
+   "stars": 49757,
    "language": "Ruby",
    "scores": {
     "setupEase": 3,
@@ -5444,7 +5534,7 @@
    "repo": "windmill-labs/windmill",
    "name": "windmill",
    "category": "automation",
-   "stars": 17455,
+   "stars": 17469,
    "language": "Rust",
    "scores": {
     "setupEase": 3,
@@ -5462,7 +5552,7 @@
    "repo": "activepieces/activepieces",
    "name": "activepieces",
    "category": "automation",
-   "stars": 23583,
+   "stars": 23615,
    "language": "TypeScript",
    "scores": {
     "setupEase": 2,
@@ -5480,7 +5570,7 @@
    "repo": "antirez/ds4",
    "name": "ds4",
    "category": "llm-tools",
-   "stars": 20697,
+   "stars": 20895,
    "language": "C",
    "scores": {
     "setupEase": 4,
@@ -5498,7 +5588,7 @@
    "repo": "All-Hands-AI/OpenHands",
    "name": "OpenHands",
    "category": "llm-tools",
-   "stars": 83241,
+   "stars": 83409,
    "language": "TypeScript",
    "scores": {
     "setupEase": 3,
@@ -5529,6 +5619,24 @@
    "skip_if": "Businesses, teams, or organizations.",
    "review_url": "https://mrkeyoor.com/repos/cal-diy/",
    "reviewed_at": "2026-08-01T22:56:08.634Z"
+  },
+  {
+   "repo": "semantica-agi/semantica",
+   "name": "semantica",
+   "category": "ai-tools",
+   "stars": 2196,
+   "language": "Python",
+   "scores": {
+    "setupEase": 2,
+    "docs": 4,
+    "community": 3,
+    "maturity": 3
+   },
+   "overall": 3,
+   "verdict": "Semantica is a serious, heavyweight tool for solving the critical problem of AI accountability in high-stakes environments.",
+   "skip_if": "Hobbyists or developers building simple chatbots where auditability is not a concern.",
+   "review_url": "https://mrkeyoor.com/repos/semantica/",
+   "reviewed_at": "2026-08-07T14:16:43.161Z"
   },
   {
    "repo": "eyaltoledano/claude-task-master",
@@ -5588,7 +5696,7 @@
    "repo": "Wei-Shaw/sub2api",
    "name": "sub2api",
    "category": "ai-tools",
-   "stars": 36024,
+   "stars": 36273,
    "language": "Go",
    "scores": {
     "setupEase": 3,
@@ -5606,7 +5714,7 @@
    "repo": "awslabs/mcp",
    "name": "mcp",
    "category": "ai-tools",
-   "stars": 9554,
+   "stars": 9570,
    "language": "Python",
    "scores": {
     "setupEase": 3,
@@ -5624,7 +5732,7 @@
    "repo": "xinnan-tech/xiaozhi-esp32-server",
    "name": "xiaozhi-esp32-server",
    "category": "ai-tools",
-   "stars": 10237,
+   "stars": 10262,
    "language": "JavaScript",
    "scores": {
     "setupEase": 3,
@@ -5642,7 +5750,7 @@
    "repo": "emilkowalski/skills",
    "name": "skills",
    "category": "ai-tools",
-   "stars": 25059,
+   "stars": 26551,
    "language": "",
    "scores": {
     "setupEase": 5,
@@ -5660,7 +5768,7 @@
    "repo": "automatisch/automatisch",
    "name": "automatisch",
    "category": "automation",
-   "stars": 13925,
+   "stars": 13924,
    "language": "JavaScript",
    "scores": {
     "setupEase": 4,
@@ -5696,7 +5804,7 @@
    "repo": "HarbourMasters/Lighthouse",
    "name": "Lighthouse",
    "category": "dev-tools",
-   "stars": 323,
+   "stars": 331,
    "language": "C",
    "scores": {
     "setupEase": 3,
@@ -5714,7 +5822,7 @@
    "repo": "continuedev/continue",
    "name": "continue",
    "category": "llm-tools",
-   "stars": 35342,
+   "stars": 35374,
    "language": "TypeScript",
    "scores": {
     "setupEase": 4,
@@ -5732,7 +5840,7 @@
    "repo": "cline/cline",
    "name": "cline",
    "category": "llm-tools",
-   "stars": 65722,
+   "stars": 65840,
    "language": "TypeScript",
    "scores": {
     "setupEase": 3,
@@ -5804,7 +5912,7 @@
    "repo": "NirDiamant/GenAI_Agents",
    "name": "GenAI_Agents",
    "category": "ai-tools",
-   "stars": 23647,
+   "stars": 23678,
    "language": "Jupyter Notebook",
    "scores": {
     "setupEase": 4,
@@ -5822,7 +5930,7 @@
    "repo": "bytedance/UI-TARS-desktop",
    "name": "UI-TARS-desktop",
    "category": "ai-tools",
-   "stars": 38438,
+   "stars": 38501,
    "language": "TypeScript",
    "scores": {
     "setupEase": 3,
@@ -5858,7 +5966,7 @@
    "repo": "cloudflare/computer",
    "name": "computer",
    "category": "llm-tools",
-   "stars": 1821,
+   "stars": 5294,
    "language": "TypeScript",
    "scores": {
     "setupEase": 3,
@@ -5894,7 +6002,7 @@
    "repo": "TencentCloud/TencentDB-Agent-Memory",
    "name": "TencentDB-Agent-Memory",
    "category": "llm-tools",
-   "stars": 15448,
+   "stars": 17598,
    "language": "TypeScript",
    "scores": {
     "setupEase": 3,
@@ -5912,7 +6020,7 @@
    "repo": "microsoft/autogen",
    "name": "autogen",
    "category": "llm-tools",
-   "stars": 60254,
+   "stars": 60300,
    "language": "Python",
    "scores": {
     "setupEase": 4,
@@ -5930,7 +6038,7 @@
    "repo": "xlang-ai/OSWorld",
    "name": "OSWorld",
    "category": "ai-tools",
-   "stars": 3064,
+   "stars": 3067,
    "language": "Python",
    "scores": {
     "setupEase": 2,
@@ -5948,7 +6056,7 @@
    "repo": "patchy631/ai-engineering-hub",
    "name": "ai-engineering-hub",
    "category": "ai-tools",
-   "stars": 36851,
+   "stars": 36884,
    "language": "Jupyter Notebook",
    "scores": {
     "setupEase": 2,
@@ -5966,7 +6074,7 @@
    "repo": "minio/minio",
    "name": "minio",
    "category": "data",
-   "stars": 61390,
+   "stars": 61387,
    "language": "Go",
    "scores": {
     "setupEase": 2,
@@ -5981,10 +6089,28 @@
    "reviewed_at": "2026-08-02T02:23:34.228Z"
   },
   {
+   "repo": "unclebob/swarm-forge",
+   "name": "swarm-forge",
+   "category": "llm-tools",
+   "stars": 1769,
+   "language": "Clojure",
+   "scores": {
+    "setupEase": 3,
+    "docs": 3,
+    "community": 2,
+    "maturity": 2
+   },
+   "overall": 2.5,
+   "verdict": "SwarmForge is a brilliantly unconventional tool for developers who live in the terminal.",
+   "skip_if": "Beginners unfamiliar with `tmux`, shell scripting, or advanced git concepts like worktrees.",
+   "review_url": "https://mrkeyoor.com/repos/swarm-forge/",
+   "reviewed_at": "2026-08-07T17:56:37.858Z"
+  },
+  {
    "repo": "zhaoxuya520/reverse-skill",
    "name": "reverse-skill",
    "category": "llm-tools",
-   "stars": 19235,
+   "stars": 20569,
    "language": "PowerShell",
    "scores": {
     "setupEase": 4,
@@ -6020,7 +6146,7 @@
    "repo": "0x4m4/hexstrike-ai",
    "name": "hexstrike-ai",
    "category": "ai-tools",
-   "stars": 10823,
+   "stars": 10865,
    "language": "Python",
    "scores": {
     "setupEase": 2,
@@ -6038,7 +6164,7 @@
    "repo": "microsoft/TRELLIS.2",
    "name": "TRELLIS.2",
    "category": "ai-tools",
-   "stars": 10398,
+   "stars": 10462,
    "language": "Python",
    "scores": {
     "setupEase": 2,
@@ -6074,7 +6200,7 @@
    "repo": "AgentDeskAI/browser-tools-mcp",
    "name": "browser-tools-mcp",
    "category": "ai-tools",
-   "stars": 7284,
+   "stars": 7285,
    "language": "JavaScript",
    "scores": {
     "setupEase": 2,
