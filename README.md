@@ -2,21 +2,21 @@
 
 > The awesome list that tells you what **NOT** to install.
 
-Every awesome list tells you what exists. None of them tell you what to avoid. This one does: **414 open-source tools**, each scored 1–5 on **setup ease, docs, community, and maturity**, each with an honest **"skip it if"** warning, each linking to a full review with sources.
+Every awesome list tells you what exists. None of them tell you what to avoid. This one does: **451 open-source tools**, each scored 1–5 on **setup ease, docs, community, and maturity**, each with an honest **"skip it if"** warning, each linking to a full review with sources.
 
-Scores come from a fixed rubric applied to every project's documentation, issue tracker, release history, and community activity — the same rubric for a 200-star repo and a 200,000-star one. No project has ever paid to be listed or to change a score. Regenerated daily from the review database at [mrkeyoor.com](https://mrkeyoor.com/repos/). Last update: 2026-08-10.
+Scores come from a fixed rubric applied to every project's documentation, issue tracker, release history, and community activity — the same rubric for a 200-star repo and a 200,000-star one. No project has ever paid to be listed or to change a score. Regenerated daily from the review database at [mrkeyoor.com](https://mrkeyoor.com/repos/). Last update: 2026-08-11.
 
 **Disagree with a score?** [Open an issue](https://github.com/mrkeyoor/honest-awesome/issues) — challenges to scores are how this list gets better.
 
 ## Contents
 
-- [AI & Agent Tools](#ai-agent-tools) (207)
-- [Local LLM Tools](#local-llm-tools) (41)
-- [Dev Tools](#dev-tools) (61)
-- [Self-Hosted Apps](#self-hosted-apps) (50)
-- [Data & Databases](#data-databases) (23)
-- [Web](#web) (22)
-- [Workflow Automation](#workflow-automation) (10)
+- [AI & Agent Tools](#ai-agent-tools) (213)
+- [Local LLM Tools](#local-llm-tools) (42)
+- [Dev Tools](#dev-tools) (70)
+- [Self-Hosted Apps](#self-hosted-apps) (59)
+- [Data & Databases](#data-databases) (30)
+- [Web](#web) (23)
+- [Workflow Automation](#workflow-automation) (14)
 - [How scores work](#how-scores-work)
 - [Use the data](#use-the-data)
 
@@ -41,8 +41,8 @@ Scores come from a fixed rubric applied to every project's documentation, issue 
 | **[supervision](https://github.com/roboflow/supervision)** | ▰▰▰▰▰ 4.5 | Absolute beginners seeking a no-code, graphical interface for training and deploying models. | [read →](https://mrkeyoor.com/repos/supervision/) |
 | **[ai-engineering-from-scratch](https://github.com/rohitg00/ai-engineering-from-scratch)** | ▰▰▰▰▰ 4.5 | Anyone looking for a quick tutorial to build a flashy demo. | [read →](https://mrkeyoor.com/repos/ai-engineering-from-scratch/) |
 | **[Fabric](https://github.com/danielmiessler/Fabric)** | ▰▰▰▰▰ 4.5 | Users who strongly prefer graphical user interfaces (GUIs) for interacting with technology. | [read →](https://mrkeyoor.com/repos/fabric/) |
-| **[chatbox](https://github.com/chatboxai/chatbox)** | ▰▰▰▰▰ 4.5 | Casual users who are satisfied with the free web interface of a single service like ChatGPT and don't need advanced features. | [read →](https://mrkeyoor.com/repos/chatbox/) |
 | **[academic-research-skills](https://github.com/Imbad0202/academic-research-skills)** | ▰▰▰▰▰ 4.5 | Researchers looking for a fully autonomous "AI scientist" to write their papers from scratch. | [read →](https://mrkeyoor.com/repos/academic-research-skills/) |
+| **[chatbox](https://github.com/chatboxai/chatbox)** | ▰▰▰▰▰ 4.5 | Casual users who are satisfied with the free web interface of a single service like ChatGPT and don't need advanced features. | [read →](https://mrkeyoor.com/repos/chatbox/) |
 | **[CodeWhale](https://github.com/Hmbown/CodeWhale)** | ▰▰▰▰▰ 4.5 | Developers who exclusively use graphical IDEs like VS Code or JetBrains and prefer tightly integrated extensions. | [read →](https://mrkeyoor.com/repos/codewhale/) |
 | **[mindshub](https://github.com/mindsdb/mindshub)** | ▰▰▰▰▰ 4.5 | Users looking for a simple chatbot or a lightweight alternative to ChatGPT. | [read →](https://mrkeyoor.com/repos/mindshub/) |
 | **[langgraph](https://github.com/langchain-ai/langgraph)** | ▰▰▰▰▰ 4.5 | Beginners looking to build their first simple LLM application; LangChain's core Expression Language (LCEL) is a better starting point. | [read →](https://mrkeyoor.com/repos/langgraph/) |
@@ -124,6 +124,7 @@ Scores come from a fixed rubric applied to every project's documentation, issue 
 | **[Vibe-Trading](https://github.com/HKUDS/Vibe-Trading)** | ▰▰▰▰▱ 4 | Trading beginners. | [read →](https://mrkeyoor.com/repos/vibe-trading/) |
 | **[gpt-researcher](https://github.com/assafelovic/gpt-researcher)** | ▰▰▰▰▱ 4 | Users who need real-time, up-to-the-second information, as the research process, while fast, is not instantaneous. | [read →](https://mrkeyoor.com/repos/gpt-researcher/) |
 | **[agentscope](https://github.com/agentscope-ai/agentscope)** | ▰▰▰▰▱ 4 | Beginners looking for the simplest possible way to make a few LLM calls, as the feature set can be overkill. | [read →](https://mrkeyoor.com/repos/agentscope/) |
+| **[screenpipe](https://github.com/screenpipe/screenpipe)** | ▰▰▰▰▱ 4 | Companies expecting normal open-source rights: the current license allows only seven days of organizational evaluation and requires payment for commercial use, integration,… | [read →](https://mrkeyoor.com/repos/screenpipe/) |
 | **[FunASR](https://github.com/modelscope/FunASR)** | ▰▰▰▰▱ 4 | Beginners looking for a single, simple model that works for all languages and use cases. | [read →](https://mrkeyoor.com/repos/funasr/) |
 | **[context-mode](https://github.com/mksglu/context-mode)** | ▰▰▰▰▱ 4 | Casual users of web-based chatbots who don't engage in long-running, multi-step coding tasks. | [read →](https://mrkeyoor.com/repos/context-mode/) |
 | **[claude-seo](https://github.com/AgriciDaniel/claude-seo)** | ▰▰▰▰▱ 4 | Anyone expecting live rankings, backlink indexes, Search Console data, or reliable indexation status from the free core: the README says these require… | [read →](https://mrkeyoor.com/repos/claude-seo/) |
@@ -159,6 +160,7 @@ Scores come from a fixed rubric applied to every project's documentation, issue 
 | **[qwen-code](https://github.com/QwenLM/qwen-code)** | ▰▰▰▰▱ 3.8 | Programmers who prefer a purely graphical, mouse-driven interface and rarely use the terminal. | [read →](https://mrkeyoor.com/repos/qwen-code/) |
 | **[agentmemory](https://github.com/rohitg00/agentmemory)** | ▰▰▰▰▱ 3.8 | Casual users of web-based AI chatbots, who won't benefit from a developer-focused, self-hosted tool. | [read →](https://mrkeyoor.com/repos/agentmemory/) |
 | **[oh-my-pi](https://github.com/can1357/oh-my-pi)** | ▰▰▰▰▱ 3.8 | Beginners who may be overwhelmed by the complexity of configuring features like LSP and DAP. | [read →](https://mrkeyoor.com/repos/oh-my-pi/) |
+| **[dyad](https://github.com/dyad-sh/dyad)** | ▰▰▰▰▱ 3.8 | Linux users seeking a supported packaged desktop experience: the README advertises easy operation on Mac and Windows, not Linux. | [read →](https://mrkeyoor.com/repos/dyad/) |
 | **[skills](https://github.com/google/skills)** | ▰▰▰▰▱ 3.8 | Anyone working primarily with AWS, Azure, or other cloud providers, as the skills are entirely GCP-specific. | [read →](https://mrkeyoor.com/repos/google-skills/) |
 | **[xiaohongshu-mcp](https://github.com/xpzouying/xiaohongshu-mcp)** | ▰▰▰▰▱ 3.8 | Non-technical users looking for a simple, graphical application. | [read →](https://mrkeyoor.com/repos/xiaohongshu-mcp/) |
 | **[OpenMetadata](https://github.com/open-metadata/OpenMetadata)** | ▰▰▰▰▱ 3.8 | Small teams or startups with a simple, single-database architecture; the overhead is overkill. | [read →](https://mrkeyoor.com/repos/openmetadata/) |
@@ -174,6 +176,7 @@ Scores come from a fixed rubric applied to every project's documentation, issue 
 | **[Hyper-Extract](https://github.com/yifanfeng97/Hyper-Extract)** | ▰▰▰▰▱ 3.8 | Beginners unfamiliar with the command line or managing API keys for LLM services. | [read →](https://mrkeyoor.com/repos/hyper-extract/) |
 | **[harbor](https://github.com/av/harbor)** | ▰▰▰▰▱ 3.8 | Users who only need to run a single model and don't require extra services; a simpler tool like Ollama is a better… | [read →](https://mrkeyoor.com/repos/harbor/) |
 | **[opensrc](https://github.com/vercel-labs/opensrc)** | ▰▰▰▰▱ 3.8 | Developers who only need to browse code occasionally; using the GitHub or GitLab web interface is simpler for a quick look. | [read →](https://mrkeyoor.com/repos/opensrc/) |
+| **[deepteam](https://github.com/confident-ai/deepteam)** | ▰▰▰▰▱ 3.8 | Teams that require deterministic pass or fail gates without human review: attacks are generated at runtime and vulnerabilities are scored by language-model… | [read →](https://mrkeyoor.com/repos/deepteam/) |
 | **[harvey-labs](https://github.com/harveyai/harvey-labs)** | ▰▰▰▰▱ 3.8 | Teams seeking a benchmark made from pristine lawyer-authored matters. | [read →](https://mrkeyoor.com/repos/harvey-labs/) |
 | **[hermes-agent](https://github.com/NousResearch/hermes-agent)** | ▰▰▰▰▱ 3.5 | Non-technical users looking for a simple, point-and-click web interface like ChatGPT. | [read →](https://mrkeyoor.com/repos/hermes-agent/) |
 | **[skills](https://github.com/anthropics/skills)** | ▰▰▰▰▱ 3.5 | Users of other AI models like OpenAI's GPT series or Google's Gemini, as this is exclusively for the Anthropic Claude ecosystem. | [read →](https://mrkeyoor.com/repos/anthropics-skills/) |
@@ -191,6 +194,7 @@ Scores come from a fixed rubric applied to every project's documentation, issue 
 | **[CLIProxyAPI](https://github.com/router-for-me/CLIProxyAPI)** | ▰▰▰▰▱ 3.5 | Beginners who only need to use a single AI model from its official provider, as the proxy adds an unnecessary layer of… | [read →](https://mrkeyoor.com/repos/cliproxyapi/) |
 | **[free-claude-code](https://github.com/Alishahryar1/free-claude-code)** | ▰▰▰▰▱ 3.5 | Beginners who aren't comfortable with command-line tools or the concept of a local proxy server, even with this project's simple setup. | [read →](https://mrkeyoor.com/repos/free-claude-code/) |
 | **[hyperframes](https://github.com/heygen-com/hyperframes)** | ▰▰▰▰▱ 3.5 | Traditional video editors or animators looking for a graphical user interface (GUI); this is a code-first, command-line tool. | [read →](https://mrkeyoor.com/repos/hyperframes/) |
+| **[openhuman](https://github.com/tinyhumansai/openhuman)** | ▰▰▰▰▱ 3.5 | Anyone needing a stable production assistant today: the README labels OpenHuman early beta and explicitly warns users to expect rough edges. | [read →](https://mrkeyoor.com/repos/openhuman/) |
 | **[500-AI-Agents-Projects](https://github.com/ashishpatel26/500-AI-Agents-Projects)** | ▰▰▰▰▱ 3.5 | Anyone looking for a single, installable library to import into their project. | [read →](https://mrkeyoor.com/repos/500-ai-agents-projects/) |
 | **[DeepTutor](https://github.com/HKUDS/DeepTutor)** | ▰▰▰▰▱ 3.5 | Non-technical users looking for a simple, plug-and-play chatbot like ChatGPT. | [read →](https://mrkeyoor.com/repos/deeptutor/) |
 | **[blender-mcp](https://github.com/MCPBlender/blender-mcp)** | ▰▰▰▰▱ 3.5 | Anyone unwilling to give model output code execution inside Blender: the README says `execute_blender_code` runs arbitrary Python and explicitly tells users to… | [read →](https://mrkeyoor.com/repos/blender-mcp/) |
@@ -211,6 +215,7 @@ Scores come from a fixed rubric applied to every project's documentation, issue 
 | **[voice-pro](https://github.com/abus-aikorea/voice-pro)** | ▰▰▰▱▱ 3.3 | Mac and Linux users, as the project is explicitly Windows-first and its stability on other platforms is unverified. | [read →](https://mrkeyoor.com/repos/voice-pro/) |
 | **[ADR](https://github.com/uber/ADR)** | ▰▰▰▱▱ 3.3 | Small teams or solo developers who are not managing fleets of AI agents. | [read →](https://mrkeyoor.com/repos/adr/) |
 | **[sub2api](https://github.com/Wei-Shaw/sub2api)** | ▰▰▰▱▱ 3 | Anyone who cannot afford to have their primary OpenAI, Anthropic, or Google AI accounts permanently banned, as the project explicitly warns this… | [read →](https://mrkeyoor.com/repos/sub2api/) |
+| **[meetily](https://github.com/Zackriya-Solutions/meetily)** | ▰▰▰▱▱ 3 | Teams expecting the open Community Edition to provide shared self-hosted deployment: the README places team deployment in Meetily Pro, which it says… | [read →](https://mrkeyoor.com/repos/meetily/) |
 | **[claude-task-master](https://github.com/eyaltoledano/claude-task-master)** | ▰▰▰▱▱ 3 | Beginners who are just starting with AI code assistants; the setup and concepts can be overwhelming. | [read →](https://mrkeyoor.com/repos/claude-task-master/) |
 | **[skills](https://github.com/emilkowalski/skills)** | ▰▰▰▱▱ 3 | Developers not using AI or LLM-based agents for coding; the project's value is entirely in guiding these agents. | [read →](https://mrkeyoor.com/repos/skills/) |
 | **[plandex](https://github.com/plandex-ai/plandex)** | ▰▰▰▱▱ 3 | Beginners or developers who strongly prefer a graphical user interface; Plandex is a power-user tool for the terminal. | [read →](https://mrkeyoor.com/repos/plandex/) |
@@ -223,6 +228,7 @@ Scores come from a fixed rubric applied to every project's documentation, issue 
 | **[onlook](https://github.com/onlook-dev/onlook)** | ▰▰▰▱▱ 2.8 | Teams that don't use Next.js and Tailwind CSS. | [read →](https://mrkeyoor.com/repos/onlook/) |
 | **[go-cursor-help](https://github.com/yuaotian/go-cursor-help)** | ▰▰▰▱▱ 2.8 | Anyone in a professional or corporate environment, as using this tool likely violates Cursor's terms of service and company policies. | [read →](https://mrkeyoor.com/repos/go-cursor-help/) |
 | **[GenAI_Agents](https://github.com/NirDiamant/GenAI_Agents)** | ▰▰▰▱▱ 2.8 | Anyone looking for a production-ready library or framework to import into a project. | [read →](https://mrkeyoor.com/repos/genai-agents/) |
+| **[deepwiki-rs](https://github.com/sopaco/deepwiki-rs)** | ▰▰▰▱▱ 2.8 | Teams expecting a cheap, predictable run on a large monorepo: one open report describes spending more than $100 while analyzing 1,697 files… | [read →](https://mrkeyoor.com/repos/deepwiki-rs/) |
 | **[ai-engineering-hub](https://github.com/patchy631/ai-engineering-hub)** | ▰▰▰▱▱ 2.5 | Teams looking for a stable, versioned library or framework to import as a dependency. | [read →](https://mrkeyoor.com/repos/ai-engineering-hub/) |
 | **[OSWorld](https://github.com/xlang-ai/OSWorld)** | ▰▰▰▱▱ 2.5 | Beginners looking for a simple automation tool; this is a complex research framework, not a point-and-click macro recorder. | [read →](https://mrkeyoor.com/repos/osworld/) |
 | **[obsidian-skills](https://github.com/kepano/obsidian-skills)** | ▰▰▱▱▱ 2.3 | Casual Obsidian users looking for a simple, in-app AI writing assistant. | [read →](https://mrkeyoor.com/repos/obsidian-skills/) |
@@ -264,6 +270,7 @@ Scores come from a fixed rubric applied to every project's documentation, issue 
 | **[grok2api](https://github.com/chenyme/grok2api)** | ▰▰▰▰▱ 3.8 | Enterprises with strict compliance or security policies, as this is an unofficial tool that may violate Grok's Terms of Service. | [read →](https://mrkeyoor.com/repos/grok2api/) |
 | **[airllm](https://github.com/lyogavin/airllm)** | ▰▰▰▰▱ 3.5 | Users who need the lowest possible inference latency for real-time applications. | [read →](https://mrkeyoor.com/repos/airllm/) |
 | **[jcode](https://github.com/1jehuang/jcode)** | ▰▰▰▰▱ 3.5 | Developers who strongly prefer a graphical, fully integrated IDE experience like in VS Code or JetBrains. | [read →](https://mrkeyoor.com/repos/jcode/) |
+| **[open_deep_research](https://github.com/langchain-ai/open_deep_research)** | ▰▰▰▰▱ 3.5 | Users who need an offline researcher with no paid accounts: the default path calls OpenAI models and Tavily, while the README's full… | [read →](https://mrkeyoor.com/repos/open-deep-research/) |
 | **[copilot-sdk](https://github.com/github/copilot-sdk)** | ▰▰▰▰▱ 3.5 | Developers without a GitHub Copilot subscription, as it's a requirement for standard use. | [read →](https://mrkeyoor.com/repos/copilot-sdk/) |
 | **[embabel-agent](https://github.com/embabel/embabel-agent)** | ▰▰▰▰▱ 3.5 | Teams outside the JVM and Spring ecosystem. | [read →](https://mrkeyoor.com/repos/embabel-agent/) |
 | **[code-graph-rag](https://github.com/vitali87/code-graph-rag)** | ▰▰▰▰▱ 3.5 | Solo developers working on small, single-language projects where an IDE's built-in tools are sufficient. | [read →](https://mrkeyoor.com/repos/code-graph-rag/) |
@@ -306,6 +313,7 @@ Scores come from a fixed rubric applied to every project's documentation, issue 
 | **[lazydocker](https://github.com/jesseduffield/lazydocker)** | ▰▰▰▰▰ 4.5 | Users who strongly prefer mouse-driven graphical interfaces (GUIs); the keyboard-centric nature can be jarring. | [read →](https://mrkeyoor.com/repos/lazydocker/) |
 | **[dbeaver](https://github.com/dbeaver/dbeaver)** | ▰▰▰▰▰ 4.5 | Users who need to manage NoSQL databases like MongoDB, Cassandra, or Redis with the free version; support for these is reserved for… | [read →](https://mrkeyoor.com/repos/dbeaver/) |
 | **[tmux](https://github.com/tmux/tmux)** | ▰▰▰▰▰ 4.5 | Casual terminal users who only ever need a single shell. | [read →](https://mrkeyoor.com/repos/tmux/) |
+| **[sniffnet](https://github.com/GyulyVGC/sniffnet)** | ▰▰▰▰▰ 4.5 | Incident responders who need exact application-layer identities: open issue #944 says host names currently come from reverse DNS, which often identifies a… | [read →](https://mrkeyoor.com/repos/sniffnet/) |
 | **[swc](https://github.com/swc-project/swc)** | ▰▰▰▰▰ 4.5 | Teams looking to replace TypeScript's correctness checks: SWC's migration guide says it transpiles without type checking and recommends continuing to run `tsc`… | [read →](https://mrkeyoor.com/repos/swc/) |
 | **[mise](https://github.com/jdx/mise)** | ▰▰▰▰▰ 4.5 | Developers who only work in a single language with a stable toolchain and have no need for version switching. | [read →](https://mrkeyoor.com/repos/mise/) |
 | **[opentofu](https://github.com/opentofu/opentofu)** | ▰▰▰▰▰ 4.5 | Teams who rely on exclusive features within HashiCorp's Terraform Cloud or Enterprise offerings. | [read →](https://mrkeyoor.com/repos/opentofu/) |
@@ -317,8 +325,11 @@ Scores come from a fixed rubric applied to every project's documentation, issue 
 | **[hoppscotch](https://github.com/hoppscotch/hoppscotch)** | ▰▰▰▰▱ 4.3 | Organizations that require enterprise-grade, dedicated support contracts and SLAs, as this is a community-supported project. | [read →](https://mrkeyoor.com/repos/hoppscotch/) |
 | **[Pake](https://github.com/tw93/Pake)** | ▰▰▰▰▱ 4.3 | Developers building complex, feature-rich desktop applications that require deep operating system integration beyond what a simple web wrapper can provide. | [read →](https://mrkeyoor.com/repos/pake/) |
 | **[bruno](https://github.com/usebruno/bruno)** | ▰▰▰▰▱ 4.3 | Teams that depend on real-time, smooth cloud synchronization for collaboration and can't operate on a Git-based workflow. | [read →](https://mrkeyoor.com/repos/bruno/) |
+| **[wails](https://github.com/wailsapp/wails)** | ▰▰▰▰▱ 4.3 | JavaScript-only teams that do not want Go in the product: the application backend, bindings, CLI, and build process center on Go. | [read →](https://mrkeyoor.com/repos/wails/) |
+| **[skills](https://github.com/vercel-labs/skills)** | ▰▰▰▰▱ 4.3 | Environments pinned below Node.js 22.20: the current package metadata requires Node 22.20 or newer. | [read →](https://mrkeyoor.com/repos/vercel-labs-skills/) |
 | **[kratos](https://github.com/go-kratos/kratos)** | ▰▰▰▰▱ 4.3 | Complete beginners to Go or microservices. | [read →](https://mrkeyoor.com/repos/kratos/) |
 | **[witr](https://github.com/pranshuparmar/witr)** | ▰▰▰▰▱ 4.3 | Teams investigating processes that already exited: the open record-and-replay request confirms witr only inspects live state and cannot reconstruct a short-lived cron… | [read →](https://mrkeyoor.com/repos/witr/) |
+| **[harper](https://github.com/Automattic/harper)** | ▰▰▰▰▱ 4.3 | Writers who need checking in languages other than English: the README says English is currently the only supported language. | [read →](https://mrkeyoor.com/repos/harper/) |
 | **[ESP32-Bit-Pirate](https://github.com/geo-tp/ESP32-Bit-Pirate)** | ▰▰▰▰▱ 4.3 | Beginners with zero electronics experience; while user-friendly, it assumes some knowledge of protocols like I2C or UART. | [read →](https://mrkeyoor.com/repos/esp32-bit-pirate/) |
 | **[bun](https://github.com/oven-sh/bun)** | ▰▰▰▰▱ 4 | Enterprise projects with strict legal and compliance requirements, as the repository currently lacks a specified open-source license. | [read →](https://mrkeyoor.com/repos/bun/) |
 | **[zed](https://github.com/zed-industries/zed)** | ▰▰▰▰▱ 4 | Users who depend on the vast and mature extension ecosystem of VS Code for their workflow; Zed's extension library is in its… | [read →](https://mrkeyoor.com/repos/zed/) |
@@ -339,10 +350,15 @@ Scores come from a fixed rubric applied to every project's documentation, issue 
 | **[iii](https://github.com/iii-hq/iii)** | ▰▰▰▰▱ 3.5 | Companies planning to sell iii itself as a hosted or managed service: the engine's Elastic License 2.0 forbids giving third parties access… | [read →](https://mrkeyoor.com/repos/iii/) |
 | **[cloud-hypervisor](https://github.com/cloud-hypervisor/cloud-hypervisor)** | ▰▰▰▰▱ 3.5 | Desktop users looking for a VirtualBox-style application; Cloud Hypervisor is a low-level VMM with command-line and API control, not a desktop manager… | [read →](https://mrkeyoor.com/repos/cloud-hypervisor/) |
 | **[gh-stack](https://github.com/github/gh-stack)** | ▰▰▰▰▱ 3.5 | Solo developers or teams that prefer large, single-feature pull requests. | [read →](https://mrkeyoor.com/repos/gh-stack/) |
+| **[kandev](https://github.com/kdlbs/kandev)** | ▰▰▰▰▱ 3.5 | Teams seeking a simple chat assistant for one repository: the README explicitly positions Kandev for power users who want to customize workflows,… | [read →](https://mrkeyoor.com/repos/kandev/) |
+| **[writer-computer](https://github.com/joelbqz/writer-computer)** | ▰▰▰▱▱ 3.3 | Windows, Linux, Intel Mac, or older x86_64 Mac users seeking an official binary: every current release asset is for Apple Silicon macOS,… | [read →](https://mrkeyoor.com/repos/writer-computer/) |
+| **[manim](https://github.com/3b1b/manim)** | ▰▰▰▱▱ 3 | Most first-time Manim users: this repository's own README says Manim Community aims to be more stable, better tested, more responsive to contributions,… | [read →](https://mrkeyoor.com/repos/manim/) |
+| **[Dopamine](https://github.com/opa334/Dopamine)** | ▰▰▰▱▱ 3 | Anyone outside the published chip and iOS combinations: the README says version-support issues will be deleted without a response, so unsupported devices… | [read →](https://mrkeyoor.com/repos/dopamine/) |
 | **[claude-code-security-review](https://github.com/anthropics/claude-code-security-review)** | ▰▰▰▱▱ 3 | Public repositories that automatically run untrusted contributor code: the README explicitly says the action is not hardened against prompt injection and recommends… | [read →](https://mrkeyoor.com/repos/claude-code-security-review/) |
 | **[Impactor](https://github.com/claration/Impactor)** | ▰▰▰▱▱ 3 | Free Apple Developer account users expecting permanent installs: the README says free provisioning is limited to seven days and a limited number… | [read →](https://mrkeyoor.com/repos/impactor/) |
 | **[OpenCADStudio](https://github.com/HakanSeven12/OpenCADStudio)** | ▰▰▰▱▱ 3 | Architects or engineers who cannot independently verify drawing fidelity; v0.9.4 fixed dimensions and text that could render at wildly incorrect scales Production… | [read →](https://mrkeyoor.com/repos/opencadstudio/) |
 | **[Lighthouse](https://github.com/HarbourMasters/Lighthouse)** | ▰▰▰▱▱ 3 | Casual retro gamers who just want to play a variety of N64 games; a general-purpose emulator like Project64 is a much simpler… | [read →](https://mrkeyoor.com/repos/lighthouse/) |
+| **[res-downloader](https://github.com/putyy/res-downloader)** | ▰▰▰▱▱ 2.8 | Corporate or security-sensitive computers where installing a trusted interception certificate and proxying HTTPS traffic is unacceptable: both steps are required by the… | [read →](https://mrkeyoor.com/repos/res-downloader/) |
 
 ## Self-Hosted Apps
 
@@ -370,7 +386,11 @@ Scores come from a fixed rubric applied to every project's documentation, issue 
 | **[logseq](https://github.com/logseq/logseq)** | ▰▰▰▰▱ 4.3 | People who need a simple, traditional note-taker like Apple Notes or Google Keep. | [read →](https://mrkeyoor.com/repos/logseq/) |
 | **[mattermost](https://github.com/mattermost/mattermost)** | ▰▰▰▰▱ 4.3 | Small teams or individuals who lack the time, resources, or desire to manage and maintain a server, database, and related infrastructure. | [read →](https://mrkeyoor.com/repos/mattermost/) |
 | **[sing-box](https://github.com/SagerNet/sing-box)** | ▰▰▰▰▱ 4.3 | People looking for a normal click-to-connect consumer VPN: the core is driven by a large JSON configuration surface, while graphical clients and… | [read →](https://mrkeyoor.com/repos/sing-box/) |
+| **[glance](https://github.com/glanceapp/glance)** | ▰▰▰▰▱ 4.3 | Anyone expecting a live operations wallboard: the README says most information updates only when the page is refreshed, and background requests are… | [read →](https://mrkeyoor.com/repos/glance/) |
 | **[loki](https://github.com/grafana/loki)** | ▰▰▰▰▱ 4.3 | Users who require powerful, full-text search capabilities across all log content. | [read →](https://mrkeyoor.com/repos/loki/) |
+| **[beszel](https://github.com/henrygd/beszel)** | ▰▰▰▰▱ 4.3 | Teams that need service-level monitoring rather than host metrics: alerting for failed systemd services remains an open feature request. | [read →](https://mrkeyoor.com/repos/beszel/) |
+| **[OpenList](https://github.com/OpenListTeam/OpenList)** | ▰▰▰▰▱ 4.3 | Businesses needing an enterprise-grade solution with compliance and audit trails. | [read →](https://mrkeyoor.com/repos/openlist/) |
+| **[anubis](https://github.com/TecharoHQ/anubis)** | ▰▰▰▰▱ 4.3 | Publishers that depend on broad archival, search, RSS, or small-browser access without maintaining allowlists: the README calls Anubis a nuclear response that… | [read →](https://mrkeyoor.com/repos/anubis/) |
 | **[nginx-ui](https://github.com/0xJacky/nginx-ui)** | ▰▰▰▰▱ 4.3 | Power users who rely on niche or highly complex Nginx features that may not be exposed in a graphical UI. | [read →](https://mrkeyoor.com/repos/nginx-ui/) |
 | **[pocket-id](https://github.com/pocket-id/pocket-id)** | ▰▰▰▰▱ 4.3 | Organizations that must support passwords, social login, or several interchangeable authentication factors: Pocket ID is intentionally centered on passkeys, with recovery codes… | [read →](https://mrkeyoor.com/repos/pocket-id/) |
 | **[clash-verge-rev](https://github.com/clash-verge-rev/clash-verge-rev)** | ▰▰▰▰▱ 4 | Anyone expecting a VPN service or free servers: this is a client, and the quick-start guide begins by importing a provider or… | [read →](https://mrkeyoor.com/repos/clash-verge-rev/) |
@@ -382,7 +402,9 @@ Scores come from a fixed rubric applied to every project's documentation, issue 
 | **[authentik](https://github.com/goauthentik/authentik)** | ▰▰▰▰▱ 4 | Users who are completely new to identity management concepts. | [read →](https://mrkeyoor.com/repos/authentik/) |
 | **[listmonk](https://github.com/knadh/listmonk)** | ▰▰▰▰▱ 4 | Non-technical users who need a fully managed, point-and-click solution. | [read →](https://mrkeyoor.com/repos/listmonk/) |
 | **[invidious](https://github.com/iv-org/invidious)** | ▰▰▰▰▱ 4 | Content creators or users who want to actively comment, like, or manage their YouTube channel, as Invidious is a read-only experience. | [read →](https://mrkeyoor.com/repos/invidious/) |
+| **[hysteria](https://github.com/apernet/hysteria)** | ▰▰▰▰▱ 4 | Networks that block or heavily throttle UDP as a whole: the port-hopping guide says changing ports will not help in that case. | [read →](https://mrkeyoor.com/repos/hysteria/) |
 | **[mealie](https://github.com/mealie-recipes/mealie)** | ▰▰▰▰▱ 4 | Users who are uncomfortable with Docker or managing a personal server, as this is the primary way to run Mealie. | [read →](https://mrkeyoor.com/repos/mealie/) |
+| **[wealthfolio](https://github.com/wealthfolio/wealthfolio)** | ▰▰▰▰▱ 4 | Investors who require free automatic brokerage synchronization: read-only connections to 30-plus institutions are part of the paid Wealthfolio Connect subscription. | [read →](https://mrkeyoor.com/repos/wealthfolio/) |
 | **[kaneo](https://github.com/usekaneo/kaneo)** | ▰▰▰▰▱ 4 | Large enterprises that require complex, customizable workflows, granular permission schemes, and detailed audit trails. | [read →](https://mrkeyoor.com/repos/kaneo/) |
 | **[UpSnap](https://github.com/seriousm4x/UpSnap)** | ▰▰▰▰▱ 4 | Anyone planning to publish the dashboard directly to the internet: the README warns against this because shutdown actions can pass custom commands… | [read →](https://mrkeyoor.com/repos/upsnap/) |
 | **[panel](https://github.com/remnawave/panel)** | ▰▰▰▰▱ 4 | Someone seeking a one-container personal proxy: the panel needs Docker Compose, a reverse proxy, PostgreSQL-backed services, and at least one separately installed… | [read →](https://mrkeyoor.com/repos/panel/) |
@@ -394,10 +416,13 @@ Scores come from a fixed rubric applied to every project's documentation, issue 
 | **[outline](https://github.com/outline/outline)** | ▰▰▰▰▱ 3.8 | Non-technical teams or individuals without experience in server administration and database management. | [read →](https://mrkeyoor.com/repos/outline/) |
 | **[dokploy](https://github.com/Dokploy/dokploy)** | ▰▰▰▰▱ 3.8 | Anyone who wants hosting without operations; self-hosting leaves server security, capacity, DNS, backups, and disaster recovery with you Organizations that require every… | [read →](https://mrkeyoor.com/repos/dokploy/) |
 | **[nacos](https://github.com/alibaba/nacos)** | ▰▰▰▰▱ 3.8 | Developers building simple, monolithic applications where the overhead of a service discovery system is unnecessary. | [read →](https://mrkeyoor.com/repos/nacos/) |
+| **[pangolin](https://github.com/fosrl/pangolin)** | ▰▰▰▰▱ 3.8 | Users looking for a consumer VPN service to browse the web privately or bypass geo-restrictions; Pangolin is for accessing your own private… | [read →](https://mrkeyoor.com/repos/pangolin/) |
 | **[openstatus](https://github.com/openstatusHQ/openstatus)** | ▰▰▰▰▱ 3.8 | Large enterprises needing guaranteed SLAs and dedicated support contracts, which a community-driven project may not offer. | [read →](https://mrkeyoor.com/repos/openstatus/) |
 | **[homebox](https://github.com/sysadminsmedia/homebox)** | ▰▰▰▰▱ 3.8 | Organizations that need mature role and account administration: the project has an open epic for improving user management, so it is not… | [read →](https://mrkeyoor.com/repos/homebox/) |
 | **[Olares](https://github.com/beclab/Olares)** | ▰▰▰▰▱ 3.8 | Anyone installing onto a machine with data they cannot afford to lose: issue 2266 reports that an installer confirmation named one disk… | [read →](https://mrkeyoor.com/repos/olares/) |
 | **[cal.diy](https://github.com/calcom/cal.diy)** | ▰▰▰▱▱ 3.3 | Businesses, teams, or organizations. | [read →](https://mrkeyoor.com/repos/cal-diy/) |
+| **[check-if-email-exists](https://github.com/reacherhq/check-if-email-exists)** | ▰▰▰▱▱ 3.3 | Proprietary commercial products expecting permissive open-source terms: the README requires a commercial license unless the application is compatible with AGPL-3.0. | [read →](https://mrkeyoor.com/repos/check-if-email-exists/) |
+| **[JavBoss](https://github.com/Solr159/JavBoss)** | ▰▰▰▱▱ 2.8 | English-only users: there is no English documentation, and open issue #186 reports that the English language selection disappeared after upgrading to 1.9.0. | [read →](https://mrkeyoor.com/repos/javboss/) |
 
 ## Data & Databases
 
@@ -407,6 +432,7 @@ Scores come from a fixed rubric applied to every project's documentation, issue 
 | **[ClickHouse](https://github.com/ClickHouse/ClickHouse)** | ▰▰▰▰▰ 5 | Users who need a general-purpose transactional (OLTP) database for a web application backend; it's not a replacement for PostgreSQL or MySQL. | [read →](https://mrkeyoor.com/repos/clickhouse/) |
 | **[grafana](https://github.com/grafana/grafana)** | ▰▰▰▰▰ 4.8 | Business users who need a simple drag-and-drop BI tool for static reports; Grafana is geared towards live, time-series data. | [read →](https://mrkeyoor.com/repos/grafana/) |
 | **[prometheus](https://github.com/prometheus/prometheus)** | ▰▰▰▰▰ 4.8 | Teams needing a simple, all-in-one monitoring solution with a polished UI out of the box; Prometheus is a backend that's best paired… | [read →](https://mrkeyoor.com/repos/prometheus/) |
+| **[scrapy](https://github.com/scrapy/scrapy)** | ▰▰▰▰▰ 4.8 | One-page extraction scripts where `httpx` or `requests` plus a parser is easier to read and maintain: Scrapy's project, engine, scheduler, middleware, and… | [read →](https://mrkeyoor.com/repos/scrapy/) |
 | **[meilisearch](https://github.com/meilisearch/meilisearch)** | ▰▰▰▰▰ 4.8 | Anyone needing a tool for log aggregation or backend data analysis. | [read →](https://mrkeyoor.com/repos/meilisearch/) |
 | **[duckdb](https://github.com/duckdb/duckdb)** | ▰▰▰▰▰ 4.8 | Users needing a multi-user, transactional database (OLTP) for applications with high write concurrency. | [read →](https://mrkeyoor.com/repos/duckdb/) |
 | **[qdrant](https://github.com/qdrant/qdrant)** | ▰▰▰▰▰ 4.8 | Users looking for a general-purpose, primary database. | [read →](https://mrkeyoor.com/repos/qdrant/) |
@@ -414,14 +440,20 @@ Scores come from a fixed rubric applied to every project's documentation, issue 
 | **[nocodb](https://github.com/nocodb/nocodb)** | ▰▰▰▰▰ 4.5 | Organizations that cannot take on the responsibility of hosting, securing, and maintaining their own software stack. | [read →](https://mrkeyoor.com/repos/nocodb/) |
 | **[metabase](https://github.com/metabase/metabase)** | ▰▰▰▰▰ 4.5 | Organizations with strict policies against AGPL-licensed software who are not prepared to purchase a commercial license. | [read →](https://mrkeyoor.com/repos/metabase/) |
 | **[dbt-core](https://github.com/dbt-labs/dbt-core)** | ▰▰▰▰▰ 4.5 | Teams not using a SQL-based cloud data warehouse; dbt's entire purpose is to orchestrate SQL against a target warehouse. | [read →](https://mrkeyoor.com/repos/dbt-core/) |
+| **[liteparse](https://github.com/run-llama/liteparse)** | ▰▰▰▰▰ 4.5 | Teams expecting accurate reconstruction of every dense table, multi-column page, chart, handwritten note, or difficult scan: the README explicitly recommends LlamaParse for… | [read →](https://mrkeyoor.com/repos/liteparse/) |
 | **[directus](https://github.com/directus/directus)** | ▰▰▰▰▱ 4.3 | Users looking for a simple, all-in-one managed CMS who don't have or want to manage a separate SQL database. | [read →](https://mrkeyoor.com/repos/directus/) |
 | **[typesense](https://github.com/typesense/typesense)** | ▰▰▰▰▱ 4.3 | Companies with a strict policy against GPL-3.0 licensed software due to its copyleft nature. | [read →](https://mrkeyoor.com/repos/typesense/) |
+| **[txtai](https://github.com/neuml/txtai)** | ▰▰▰▰▱ 4.3 | Projects needing a tiny base dependency: the standard install includes Torch, Transformers, FAISS CPU, Hugging Face Hub, and related packages before optional… | [read →](https://mrkeyoor.com/repos/txtai/) |
+| **[datafusion](https://github.com/apache/datafusion)** | ▰▰▰▰▱ 4.3 | Users looking for a complete database server with durable storage, authentication, administration, and a managed network endpoint: the README positions DataFusion as… | [read →](https://mrkeyoor.com/repos/datafusion/) |
 | **[superset](https://github.com/apache/superset)** | ▰▰▰▰▱ 4 | Teams needing a fully managed, zero-ops SaaS solution with dedicated commercial support out of the box. | [read →](https://mrkeyoor.com/repos/superset/) |
 | **[surrealdb](https://github.com/surrealdb/surrealdb)** | ▰▰▰▰▱ 4 | Large enterprises with strict open-source license policies, as SurrealDB uses the Business Source License (BSL), which isn't a traditional OSI-approved license until… | [read →](https://mrkeyoor.com/repos/surrealdb/) |
 | **[chroma](https://github.com/chroma-core/chroma)** | ▰▰▰▰▱ 4 | Teams needing a battle-tested, mature database for mission-critical, petabyte-scale workloads. | [read →](https://mrkeyoor.com/repos/chroma/) |
+| **[cli](https://github.com/brightdata/cli)** | ▰▰▰▰▱ 4 | Teams that require a fully open-source, self-hosted scraping stack: the client is MIT-licensed, but its useful commands call Bright Data's commercial hosted… | [read →](https://mrkeyoor.com/repos/brightdata-cli/) |
 | **[airbyte](https://github.com/airbytehq/airbyte)** | ▰▰▰▰▱ 3.8 | Individuals or teams who only need to sync one or two common data sources; a simpler script or a dedicated integration might… | [read →](https://mrkeyoor.com/repos/airbyte/) |
 | **[XHS-Downloader](https://github.com/JoeanAmier/XHS-Downloader)** | ▰▰▰▰▱ 3.8 | Users who are completely uncomfortable with command-line tools or manually handling browser cookies, as the easiest and most powerful features require this. | [read →](https://mrkeyoor.com/repos/xhs-downloader/) |
+| **[msgvault](https://github.com/kenn-io/msgvault)** | ▰▰▰▰▱ 3.8 | Anyone seeking a set-and-forget primary backup: the README labels MsgVault alpha software and warns that APIs, storage format, and CLI flags may… | [read →](https://mrkeyoor.com/repos/msgvault/) |
 | **[Legendary_OSINT](https://github.com/K2SOsint/Legendary_OSINT)** | ▰▰▰▰▱ 3.5 | Users looking for a single, installable software package; this is a list of links, not a program. | [read →](https://mrkeyoor.com/repos/legendary-osint/) |
+| **[MediaCrawler](https://github.com/NanmiCoder/MediaCrawler)** | ▰▰▰▱▱ 3.3 | Companies planning a commercial data product: the custom Non-Commercial Learning License limits the code to noncommercial learning and research unless the copyright… | [read →](https://mrkeyoor.com/repos/mediacrawler/) |
 | **[pgrust](https://github.com/malisper/pgrust)** | ▰▰▰▱▱ 3.3 | Any production workload or valuable data: the README explicitly says pgrust is not production-ready and still has many bugs. | [read →](https://mrkeyoor.com/repos/pgrust/) |
 | **[ChinaTextbook](https://github.com/TapXWorld/ChinaTextbook)** | ▰▰▰▱▱ 3 | Anyone who cannot read Mandarin, as the entire project and all its contents are in Chinese. | [read →](https://mrkeyoor.com/repos/chinatextbook/) |
 | **[pdf-inspector](https://github.com/firecrawl/pdf-inspector)** | ▰▰▰▱▱ 2.8 | Anyone needing to extract text from scanned documents, photographs, or image-only PDFs. | [read →](https://mrkeyoor.com/repos/pdf-inspector/) |
@@ -450,6 +482,7 @@ Scores come from a fixed rubric applied to every project's documentation, issue 
 | **[svelte](https://github.com/sveltejs/svelte)** | ▰▰▰▰▰ 4.5 | Large enterprise teams that require the vast ecosystem and corporate backing of frameworks like React or Angular. | [read →](https://mrkeyoor.com/repos/svelte/) |
 | **[htmx](https://github.com/bigskysoftware/htmx)** | ▰▰▰▰▰ 4.5 | Developers building highly complex, state-intensive single-page applications (SPAs) like Figma, Google Docs, or a real-time trading platform. | [read →](https://mrkeyoor.com/repos/htmx/) |
 | **[payload](https://github.com/payloadcms/payload)** | ▰▰▰▰▰ 4.5 | Non-technical users who want a no-code, fully managed SaaS solution without touching a command line. | [read →](https://mrkeyoor.com/repos/payload/) |
+| **[medusa](https://github.com/medusajs/medusa)** | ▰▰▰▰▱ 4.3 | Merchants who want a finished hosted shop with themes, checkout, and operations handled for them: the local product is a Node.js backend… | [read →](https://mrkeyoor.com/repos/medusa/) |
 | **[nitro](https://github.com/nitrojs/nitro)** | ▰▰▰▰▱ 4 | Developers building a standalone, complex backend service with no direct frontend integration; a dedicated framework like Express or Fastify would be more… | [read →](https://mrkeyoor.com/repos/nitro/) |
 | **[fanqiang](https://github.com/bannedbook/fanqiang)** | ▰▰▰▱▱ 3.3 | Users who cannot read Chinese, as the entire repository is unusable without it. | [read →](https://mrkeyoor.com/repos/fanqiang/) |
 | **[ladybird](https://github.com/LadybirdBrowser/ladybird)** | ▰▰▰▱▱ 2.5 | Anyone looking for a web browser to use for daily tasks. | [read →](https://mrkeyoor.com/repos/ladybird/) |
@@ -459,10 +492,14 @@ Scores come from a fixed rubric applied to every project's documentation, issue 
 | Project | Score | Skip it if | Review |
 |---|---|---|---|
 | **[n8n](https://github.com/n8n-io/n8n)** | ▰▰▰▰▰ 4.5 | Open-source purists. | [read →](https://mrkeyoor.com/repos/n8n/) |
+| **[crawlee](https://github.com/apify/crawlee)** | ▰▰▰▰▰ 4.5 | Python-first teams that do not want a separate implementation: the README directs them to the distinct `apify/crawlee-python` project. | [read →](https://mrkeyoor.com/repos/crawlee/) |
 | **[temporal](https://github.com/temporalio/temporal)** | ▰▰▰▰▰ 4.5 | Developers building simple, stateless applications like basic CRUD APIs or websites. | [read →](https://mrkeyoor.com/repos/temporal/) |
+| **[paperclip](https://github.com/paperclipai/paperclip)** | ▰▰▰▰▱ 4.3 | Anyone with one agent and a simple task list: the README explicitly says Paperclip is a team product and that a single-agent… | [read →](https://mrkeyoor.com/repos/paperclip/) |
 | **[kestra](https://github.com/kestra-io/kestra)** | ▰▰▰▰▱ 4.3 | Python purists who want to define their entire data pipeline using the full power and expressiveness of a programming language, including complex… | [read →](https://mrkeyoor.com/repos/kestra/) |
 | **[kueue](https://github.com/kubernetes-sigs/kueue)** | ▰▰▰▰▱ 4.3 | Clusters older than Kubernetes 1.34: the v0.19 README says only 1.34 and newer are officially supported and tested. | [read →](https://mrkeyoor.com/repos/kueue/) |
 | **[airflow](https://github.com/apache/airflow)** | ▰▰▰▰▱ 4 | Anyone needing a simple replacement for a few cron jobs. | [read →](https://mrkeyoor.com/repos/airflow/) |
+| **[App-Store-Connect-CLI](https://github.com/rorkai/App-Store-Connect-CLI)** | ▰▰▰▰▱ 4 | Windows developers who require a finished package-manager path: the README says the WinGet package is still awaiting acceptance, so they must use… | [read →](https://mrkeyoor.com/repos/app-store-connect-cli/) |
+| **[gh-aw](https://github.com/github/gh-aw)** | ▰▰▰▰▱ 4 | Teams whose task can be expressed as fixed shell or Actions steps: the documentation says agentic workflows make flexible decisions, which also… | [read →](https://mrkeyoor.com/repos/gh-aw/) |
 | **[actions-runner-controller](https://github.com/actions/actions-runner-controller)** | ▰▰▰▰▱ 3.5 | Small teams without an existing Kubernetes platform: the official quickstart requires a cluster and Helm 3 before ARC itself is installed. | [read →](https://mrkeyoor.com/repos/actions-runner-controller/) |
 | **[huginn](https://github.com/huginn/huginn)** | ▰▰▰▱▱ 3.3 | Non-technical users looking for a simple, point-and-click automation solution. | [read →](https://mrkeyoor.com/repos/huginn/) |
 | **[activepieces](https://github.com/activepieces/activepieces)** | ▰▰▰▱▱ 3.3 | Organizations requiring a 100% free and open-source (FOSS) solution without commercial restrictions, as Activepieces operates on an open-core model with enterprise features… | [read →](https://mrkeyoor.com/repos/activepieces/) |

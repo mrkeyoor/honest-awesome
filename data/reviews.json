@@ -1,8 +1,8 @@
 {
- "generated": "2026-08-10",
+ "generated": "2026-08-11",
  "source": "https://mrkeyoor.com/repos/",
  "license": "CC-BY-4.0",
- "count": 414,
+ "count": 451,
  "reviews": [
   {
    "repo": "thedotmack/claude-mem",
@@ -98,7 +98,7 @@
    "repo": "cypress-io/cypress",
    "name": "cypress",
    "category": "dev-tools",
-   "stars": 50937,
+   "stars": 50941,
    "language": "TypeScript",
    "scores": {
     "setupEase": 5,
@@ -242,7 +242,7 @@
    "repo": "pallets/flask",
    "name": "flask",
    "category": "web",
-   "stars": 72177,
+   "stars": 72166,
    "language": "Python",
    "scores": {
     "setupEase": 5,
@@ -440,7 +440,7 @@
    "repo": "thedaviddias/Front-End-Checklist",
    "name": "Front-End-Checklist",
    "category": "ai-tools",
-   "stars": 73464,
+   "stars": 73487,
    "language": "MDX",
    "scores": {
     "setupEase": 5,
@@ -458,7 +458,7 @@
    "repo": "dair-ai/Prompt-Engineering-Guide",
    "name": "Prompt-Engineering-Guide",
    "category": "ai-tools",
-   "stars": 77344,
+   "stars": 77406,
    "language": "MDX",
    "scores": {
     "setupEase": 5,
@@ -579,6 +579,24 @@
    "skip_if": "Casual users who are happy with the free web interface of a single service like ChatGPT or Claude and don't need multi-provider support.",
    "review_url": "https://mrkeyoor.com/repos/aaif-goose-goose/",
    "reviewed_at": "2026-08-02T18:20:00.406Z"
+  },
+  {
+   "repo": "scrapy/scrapy",
+   "name": "scrapy",
+   "category": "data",
+   "stars": 63792,
+   "language": "Python",
+   "scores": {
+    "setupEase": 4,
+    "docs": 5,
+    "community": 5,
+    "maturity": 5
+   },
+   "overall": 4.8,
+   "verdict": "Scrapy remains the default recommendation for serious Python crawling because it has the architecture, documentation, extension points, and maintenance history that long-running spiders eventually need.",
+   "skip_if": "One-page extraction scripts where `httpx` or `requests` plus a parser is easier to read and maintain: Scrapy's project, engine, scheduler, middleware, and pipeline structure would be needless weight.",
+   "review_url": "https://mrkeyoor.com/repos/scrapy/",
+   "reviewed_at": "2026-08-10T12:31:42.145Z"
   },
   {
    "repo": "prometheus/prometheus",
@@ -710,7 +728,7 @@
    "repo": "google/guava",
    "name": "guava",
    "category": "dev-tools",
-   "stars": 51788,
+   "stars": 51900,
    "language": "Java",
    "scores": {
     "setupEase": 5,
@@ -926,7 +944,7 @@
    "repo": "gethomepage/homepage",
    "name": "homepage",
    "category": "self-hosted",
-   "stars": 31908,
+   "stars": 31941,
    "language": "JavaScript",
    "scores": {
     "setupEase": 4,
@@ -962,7 +980,7 @@
    "repo": "denoland/deno",
    "name": "deno",
    "category": "web",
-   "stars": 108198,
+   "stars": 108218,
    "language": "Rust",
    "scores": {
     "setupEase": 5,
@@ -1070,7 +1088,7 @@
    "repo": "modelcontextprotocol/python-sdk",
    "name": "python-sdk",
    "category": "ai-tools",
-   "stars": 23930,
+   "stars": 23970,
    "language": "Python",
    "scores": {
     "setupEase": 5,
@@ -1124,7 +1142,7 @@
    "repo": "Andyyyy64/whichllm",
    "name": "whichllm",
    "category": "ai-tools",
-   "stars": 6168,
+   "stars": 6205,
    "language": "Python",
    "scores": {
     "setupEase": 5,
@@ -1142,7 +1160,7 @@
    "repo": "Hmbown/CodeWhale",
    "name": "CodeWhale",
    "category": "ai-tools",
-   "stars": 40550,
+   "stars": 40656,
    "language": "Rust",
    "scores": {
     "setupEase": 4,
@@ -1178,7 +1196,7 @@
    "repo": "Imbad0202/academic-research-skills",
    "name": "academic-research-skills",
    "category": "ai-tools",
-   "stars": 41335,
+   "stars": 41765,
    "language": "Python",
    "scores": {
     "setupEase": 4,
@@ -1409,6 +1427,24 @@
    "reviewed_at": "2026-08-01T21:42:12.867Z"
   },
   {
+   "repo": "apify/crawlee",
+   "name": "crawlee",
+   "category": "automation",
+   "stars": 25338,
+   "language": "TypeScript",
+   "scores": {
+    "setupEase": 4,
+    "docs": 5,
+    "community": 5,
+    "maturity": 4
+   },
+   "overall": 4.5,
+   "verdict": "Crawlee is the best first look for a Node.js team building more than a throwaway scraper.",
+   "skip_if": "Python-first teams that do not want a separate implementation: the README directs them to the distinct `apify/crawlee-python` project.",
+   "review_url": "https://mrkeyoor.com/repos/crawlee/",
+   "reviewed_at": "2026-08-10T14:13:36.310Z"
+  },
+  {
    "repo": "temporalio/temporal",
    "name": "temporal",
    "category": "automation",
@@ -1443,6 +1479,24 @@
    "skip_if": "Open-source purists.",
    "review_url": "https://mrkeyoor.com/repos/n8n/",
    "reviewed_at": "2026-08-01T17:07:48.137Z"
+  },
+  {
+   "repo": "run-llama/liteparse",
+   "name": "liteparse",
+   "category": "data",
+   "stars": 12029,
+   "language": "Rust",
+   "scores": {
+    "setupEase": 4,
+    "docs": 5,
+    "community": 5,
+    "maturity": 4
+   },
+   "overall": 4.5,
+   "verdict": "LiteParse is an excellent first stage for local document pipelines because it is easy to install, broad across runtimes, and honest about when heuristic parsing stops being enough.",
+   "skip_if": "Teams expecting accurate reconstruction of every dense table, multi-column page, chart, handwritten note, or difficult scan: the README explicitly recommends LlamaParse for those cases.",
+   "review_url": "https://mrkeyoor.com/repos/liteparse/",
+   "reviewed_at": "2026-08-10T14:18:50.014Z"
   },
   {
    "repo": "nocodb/nocodb",
@@ -1515,6 +1569,24 @@
    "skip_if": "Teams committed to a NoSQL or document-based database model, as Supabase is fundamentally built on and for PostgreSQL.",
    "review_url": "https://mrkeyoor.com/repos/supabase/",
    "reviewed_at": "2026-08-02T02:16:27.960Z"
+  },
+  {
+   "repo": "GyulyVGC/sniffnet",
+   "name": "sniffnet",
+   "category": "dev-tools",
+   "stars": 40476,
+   "language": "Rust",
+   "scores": {
+    "setupEase": 4,
+    "docs": 5,
+    "community": 5,
+    "maturity": 4
+   },
+   "overall": 4.5,
+   "verdict": "Sniffnet is the network monitor to try first when Wireshark is more instrument than you need.",
+   "skip_if": "Incident responders who need exact application-layer identities: open issue #944 says host names currently come from reverse DNS, which often identifies a CDN provider instead of the original TLS service.",
+   "review_url": "https://mrkeyoor.com/repos/sniffnet/",
+   "reviewed_at": "2026-08-10T16:13:39.430Z"
   },
   {
    "repo": "anchore/grype",
@@ -1826,7 +1898,7 @@
    "repo": "laurent22/joplin",
    "name": "joplin",
    "category": "self-hosted",
-   "stars": 55862,
+   "stars": 55904,
    "language": "TypeScript",
    "scores": {
     "setupEase": 4,
@@ -1862,7 +1934,7 @@
    "repo": "firefly-iii/firefly-iii",
    "name": "firefly-iii",
    "category": "self-hosted",
-   "stars": 24260,
+   "stars": 24281,
    "language": "PHP",
    "scores": {
     "setupEase": 4,
@@ -2132,7 +2204,7 @@
    "repo": "gptme/gptme",
    "name": "gptme",
    "category": "ai-tools",
-   "stars": 4378,
+   "stars": 4381,
    "language": "Python",
    "scores": {
     "setupEase": 4,
@@ -2186,7 +2258,7 @@
    "repo": "TheR1D/shell_gpt",
    "name": "shell_gpt",
    "category": "ai-tools",
-   "stars": 12234,
+   "stars": 12235,
    "language": "Python",
    "scores": {
     "setupEase": 5,
@@ -2222,7 +2294,7 @@
    "repo": "mem0ai/mem0",
    "name": "mem0",
    "category": "ai-tools",
-   "stars": 62811,
+   "stars": 62976,
    "language": "Python",
    "scores": {
     "setupEase": 5,
@@ -2258,7 +2330,7 @@
    "repo": "Yeachan-Heo/oh-my-claudecode",
    "name": "oh-my-claudecode",
    "category": "ai-tools",
-   "stars": 38429,
+   "stars": 38478,
    "language": "TypeScript",
    "scores": {
     "setupEase": 4,
@@ -2312,7 +2384,7 @@
    "repo": "rtk-ai/rtk",
    "name": "rtk",
    "category": "ai-tools",
-   "stars": 75242,
+   "stars": 75523,
    "language": "Rust",
    "scores": {
     "setupEase": 5,
@@ -2348,7 +2420,7 @@
    "repo": "addyosmani/agent-skills",
    "name": "agent-skills",
    "category": "ai-tools",
-   "stars": 84260,
+   "stars": 85848,
    "language": "JavaScript",
    "scores": {
     "setupEase": 4,
@@ -2849,6 +2921,24 @@
    "reviewed_at": "2026-08-01T20:32:47.619Z"
   },
   {
+   "repo": "paperclipai/paperclip",
+   "name": "paperclip",
+   "category": "automation",
+   "stars": 76547,
+   "language": "TypeScript",
+   "scores": {
+    "setupEase": 4,
+    "docs": 5,
+    "community": 5,
+    "maturity": 3
+   },
+   "overall": 4.3,
+   "verdict": "Paperclip is compelling once a collection of agents has become an organization problem rather than a prompting problem.",
+   "skip_if": "Anyone with one agent and a simple task list: the README explicitly says Paperclip is a team product and that a single-agent user probably does not need it.",
+   "review_url": "https://mrkeyoor.com/repos/paperclip/",
+   "reviewed_at": "2026-08-10T12:27:55.131Z"
+  },
+  {
    "repo": "kubernetes-sigs/kueue",
    "name": "kueue",
    "category": "automation",
@@ -2885,6 +2975,42 @@
    "reviewed_at": "2026-08-01T19:00:22.478Z"
   },
   {
+   "repo": "apache/datafusion",
+   "name": "datafusion",
+   "category": "data",
+   "stars": 9120,
+   "language": "Rust",
+   "scores": {
+    "setupEase": 3,
+    "docs": 5,
+    "community": 5,
+    "maturity": 4
+   },
+   "overall": 4.3,
+   "verdict": "DataFusion is the strongest open starting point for a Rust team that genuinely needs to build a query-powered system rather than install one.",
+   "skip_if": "Users looking for a complete database server with durable storage, authentication, administration, and a managed network endpoint: the README positions DataFusion as a library for building such systems.",
+   "review_url": "https://mrkeyoor.com/repos/datafusion/",
+   "reviewed_at": "2026-08-10T14:21:12.770Z"
+  },
+  {
+   "repo": "neuml/txtai",
+   "name": "txtai",
+   "category": "data",
+   "stars": 12846,
+   "language": "Python",
+   "scores": {
+    "setupEase": 4,
+    "docs": 5,
+    "community": 4,
+    "maturity": 4
+   },
+   "overall": 4.3,
+   "verdict": "txtai is one of the best batteries-included choices for a Python team that wants search, RAG, and smaller model pipelines to live together.",
+   "skip_if": "Projects needing a tiny base dependency: the standard install includes Torch, Transformers, FAISS CPU, Hugging Face Hub, and related packages before optional features are added.",
+   "review_url": "https://mrkeyoor.com/repos/txtai/",
+   "reviewed_at": "2026-08-10T12:33:26.676Z"
+  },
+  {
    "repo": "directus/directus",
    "name": "directus",
    "category": "data",
@@ -2919,6 +3045,60 @@
    "skip_if": "Companies with a strict policy against GPL-3.0 licensed software due to its copyleft nature.",
    "review_url": "https://mrkeyoor.com/repos/typesense/",
    "reviewed_at": "2026-08-02T02:22:56.336Z"
+  },
+  {
+   "repo": "wailsapp/wails",
+   "name": "wails",
+   "category": "dev-tools",
+   "stars": 35765,
+   "language": "Go",
+   "scores": {
+    "setupEase": 4,
+    "docs": 4,
+    "community": 5,
+    "maturity": 4
+   },
+   "overall": 4.3,
+   "verdict": "Wails is the most natural first choice for a Go team that wants a refined desktop UI and already trusts web frontend technology.",
+   "skip_if": "JavaScript-only teams that do not want Go in the product: the application backend, bindings, CLI, and build process center on Go.",
+   "review_url": "https://mrkeyoor.com/repos/wails/",
+   "reviewed_at": "2026-08-10T16:17:51.670Z"
+  },
+  {
+   "repo": "Automattic/harper",
+   "name": "harper",
+   "category": "dev-tools",
+   "stars": 14337,
+   "language": "Rust",
+   "scores": {
+    "setupEase": 4,
+    "docs": 4,
+    "community": 5,
+    "maturity": 4
+   },
+   "overall": 4.3,
+   "verdict": "Harper is the best first choice for English writers and developers who put local processing ahead of generative rewriting.",
+   "skip_if": "Writers who need checking in languages other than English: the README says English is currently the only supported language.",
+   "review_url": "https://mrkeyoor.com/repos/harper/",
+   "reviewed_at": "2026-08-10T14:21:37.382Z"
+  },
+  {
+   "repo": "vercel-labs/skills",
+   "name": "skills",
+   "category": "dev-tools",
+   "stars": 28597,
+   "language": "TypeScript",
+   "scores": {
+    "setupEase": 4,
+    "docs": 5,
+    "community": 5,
+    "maturity": 3
+   },
+   "overall": 4.3,
+   "verdict": "`skills` is the best default we found for people who genuinely use several coding agents, and its project-scoped workflow is much better than maintaining copied folders by hand.",
+   "skip_if": "Environments pinned below Node.js 22.20: the current package metadata requires Node 22.20 or newer.",
+   "review_url": "https://mrkeyoor.com/repos/vercel-labs-skills/",
+   "reviewed_at": "2026-08-10T12:36:39.769Z"
   },
   {
    "repo": "pranshuparmar/witr",
@@ -2960,7 +3140,7 @@
    "repo": "donnemartin/system-design-primer",
    "name": "system-design-primer",
    "category": "dev-tools",
-   "stars": 362370,
+   "stars": 363022,
    "language": "Python",
    "scores": {
     "setupEase": 5,
@@ -3122,7 +3302,7 @@
    "repo": "mangiucugna/json_repair",
    "name": "json_repair",
    "category": "llm-tools",
-   "stars": 5065,
+   "stars": 5066,
    "language": "Python",
    "scores": {
     "setupEase": 5,
@@ -3207,6 +3387,78 @@
    "skip_if": "Beginners just learning about LLMs who don't need to serve models at scale; Hugging Face's `transformers` library is simpler for basic, single-user tasks.",
    "review_url": "https://mrkeyoor.com/repos/vllm/",
    "reviewed_at": "2026-08-01T19:05:26.985Z"
+  },
+  {
+   "repo": "OpenListTeam/OpenList",
+   "name": "OpenList",
+   "category": "self-hosted",
+   "stars": 24026,
+   "language": "Go",
+   "scores": {
+    "setupEase": 5,
+    "docs": 4,
+    "community": 4,
+    "maturity": 4
+   },
+   "overall": 4.3,
+   "verdict": "OpenList is a powerhouse for anyone drowning in a sea of cloud storage accounts.",
+   "skip_if": "Businesses needing an enterprise-grade solution with compliance and audit trails.",
+   "review_url": "https://mrkeyoor.com/repos/openlist/",
+   "reviewed_at": "2026-08-11T04:30:48.098Z"
+  },
+  {
+   "repo": "TecharoHQ/anubis",
+   "name": "anubis",
+   "category": "self-hosted",
+   "stars": 21293,
+   "language": "Go",
+   "scores": {
+    "setupEase": 3,
+    "docs": 5,
+    "community": 5,
+    "maturity": 4
+   },
+   "overall": 4.3,
+   "verdict": "Anubis is a strong self-hosted answer to crawler load when a managed CDN is unacceptable and occasional visitor friction is an acceptable price.",
+   "skip_if": "Publishers that depend on broad archival, search, RSS, or small-browser access without maintaining allowlists: the README calls Anubis a nuclear response that can block smaller scrapers and inhibit good bots such as the Internet Archive.",
+   "review_url": "https://mrkeyoor.com/repos/anubis/",
+   "reviewed_at": "2026-08-10T16:18:20.629Z"
+  },
+  {
+   "repo": "glanceapp/glance",
+   "name": "glance",
+   "category": "self-hosted",
+   "stars": 36288,
+   "language": "Go",
+   "scores": {
+    "setupEase": 4,
+    "docs": 5,
+    "community": 4,
+    "maturity": 4
+   },
+   "overall": 4.3,
+   "verdict": "Glance is the best fit for a self-hoster who wants a polished information page without adopting a full portal platform.",
+   "skip_if": "Anyone expecting a live operations wallboard: the README says most information updates only when the page is refreshed, and background requests are not made periodically.",
+   "review_url": "https://mrkeyoor.com/repos/glance/",
+   "reviewed_at": "2026-08-10T16:13:34.187Z"
+  },
+  {
+   "repo": "henrygd/beszel",
+   "name": "beszel",
+   "category": "self-hosted",
+   "stars": 24180,
+   "language": "Go",
+   "scores": {
+    "setupEase": 4,
+    "docs": 5,
+    "community": 4,
+    "maturity": 4
+   },
+   "overall": 4.3,
+   "verdict": "Beszel is the monitoring tool I would try first for a homelab or small fleet when host and container visibility matter more than unlimited customization.",
+   "skip_if": "Teams that need service-level monitoring rather than host metrics: alerting for failed systemd services remains an open feature request.",
+   "review_url": "https://mrkeyoor.com/repos/beszel/",
+   "reviewed_at": "2026-08-10T16:13:16.356Z"
   },
   {
    "repo": "grafana/loki",
@@ -3338,7 +3590,7 @@
    "repo": "usememos/memos",
    "name": "memos",
    "category": "self-hosted",
-   "stars": 62105,
+   "stars": 62157,
    "language": "Go",
    "scores": {
     "setupEase": 5,
@@ -3369,6 +3621,42 @@
    "skip_if": "Small teams or individuals who lack the time, resources, or desire to manage and maintain a server, database, and related infrastructure.",
    "review_url": "https://mrkeyoor.com/repos/mattermost/",
    "reviewed_at": "2026-08-01T23:54:45.870Z"
+  },
+  {
+   "repo": "medusajs/medusa",
+   "name": "medusa",
+   "category": "web",
+   "stars": 35701,
+   "language": "TypeScript",
+   "scores": {
+    "setupEase": 3,
+    "docs": 5,
+    "community": 5,
+    "maturity": 4
+   },
+   "overall": 4.3,
+   "verdict": "Medusa is a strong default for TypeScript teams that need commerce primitives without accepting the boundaries of a hosted storefront builder.",
+   "skip_if": "Merchants who want a finished hosted shop with themes, checkout, and operations handled for them: the local product is a Node.js backend plus admin, and the storefront is a separate optional application.",
+   "review_url": "https://mrkeyoor.com/repos/medusa/",
+   "reviewed_at": "2026-08-10T14:13:32.296Z"
+  },
+  {
+   "repo": "screenpipe/screenpipe",
+   "name": "screenpipe",
+   "category": "ai-tools",
+   "stars": 20886,
+   "language": "Rust",
+   "scores": {
+    "setupEase": 4,
+    "docs": 4,
+    "community": 5,
+    "maturity": 3
+   },
+   "overall": 4,
+   "verdict": "Screenpipe is unusually capable if searchable work memory is valuable enough to justify continuous surveillance of your own computer.",
+   "skip_if": "Companies expecting normal open-source rights: the current license allows only seven days of organizational evaluation and requires payment for commercial use, integration, hosting, or distribution.",
+   "review_url": "https://mrkeyoor.com/repos/screenpipe/",
+   "reviewed_at": "2026-08-10T14:24:21.605Z"
   },
   {
    "repo": "AgriciDaniel/claude-seo",
@@ -3410,7 +3698,7 @@
    "repo": "modelcontextprotocol/typescript-sdk",
    "name": "typescript-sdk",
    "category": "ai-tools",
-   "stars": 13098,
+   "stars": 13124,
    "language": "TypeScript",
    "scores": {
     "setupEase": 4,
@@ -3590,7 +3878,7 @@
    "repo": "musistudio/claude-code-router",
    "name": "claude-code-router",
    "category": "ai-tools",
-   "stars": 36500,
+   "stars": 36557,
    "language": "TypeScript",
    "scores": {
     "setupEase": 5,
@@ -4019,6 +4307,42 @@
    "reviewed_at": "2026-08-01T20:38:40.700Z"
   },
   {
+   "repo": "github/gh-aw",
+   "name": "gh-aw",
+   "category": "automation",
+   "stars": 4901,
+   "language": "Go",
+   "scores": {
+    "setupEase": 3,
+    "docs": 5,
+    "community": 5,
+    "maturity": 3
+   },
+   "overall": 4,
+   "verdict": "`gh-aw` is the most interesting option for teams that want agent automation to look and behave like governed GitHub Actions, not an opaque external bot.",
+   "skip_if": "Teams whose task can be expressed as fixed shell or Actions steps: the documentation says agentic workflows make flexible decisions, which also introduces model cost and nondeterministic output that ordinary Actions avoid.",
+   "review_url": "https://mrkeyoor.com/repos/gh-aw/",
+   "reviewed_at": "2026-08-10T16:15:59.439Z"
+  },
+  {
+   "repo": "rorkai/App-Store-Connect-CLI",
+   "name": "App-Store-Connect-CLI",
+   "category": "automation",
+   "stars": 5711,
+   "language": "Go",
+   "scores": {
+    "setupEase": 4,
+    "docs": 5,
+    "community": 4,
+    "maturity": 3
+   },
+   "overall": 4,
+   "verdict": "App Store Connect CLI is the best focused option to trial if fastlane feels too broad and you want Apple release operations exposed as predictable shell commands.",
+   "skip_if": "Windows developers who require a finished package-manager path: the README says the WinGet package is still awaiting acceptance, so they must use signed release binaries for now.",
+   "review_url": "https://mrkeyoor.com/repos/app-store-connect-cli/",
+   "reviewed_at": "2026-08-10T12:26:55.320Z"
+  },
+  {
    "repo": "apache/airflow",
    "name": "airflow",
    "category": "automation",
@@ -4035,6 +4359,24 @@
    "skip_if": "Anyone needing a simple replacement for a few cron jobs.",
    "review_url": "https://mrkeyoor.com/repos/airflow/",
    "reviewed_at": "2026-08-01T19:02:17.616Z"
+  },
+  {
+   "repo": "brightdata/cli",
+   "name": "cli",
+   "category": "data",
+   "stars": 3717,
+   "language": "TypeScript",
+   "scores": {
+    "setupEase": 4,
+    "docs": 5,
+    "community": 4,
+    "maturity": 3
+   },
+   "overall": 4,
+   "verdict": "Bright Data CLI is a polished front door to a broad hosted web-data platform, especially for shell scripts and agent workflows.",
+   "skip_if": "Teams that require a fully open-source, self-hosted scraping stack: the client is MIT-licensed, but its useful commands call Bright Data's commercial hosted services.",
+   "review_url": "https://mrkeyoor.com/repos/brightdata-cli/",
+   "reviewed_at": "2026-08-10T14:14:11.450Z"
   },
   {
    "repo": "apache/superset",
@@ -4184,7 +4526,7 @@
    "repo": "webpack/webpack",
    "name": "webpack",
    "category": "dev-tools",
-   "stars": 65988,
+   "stars": 65987,
    "language": "JavaScript",
    "scores": {
     "setupEase": 2,
@@ -4469,6 +4811,42 @@
    "reviewed_at": "2026-08-01T19:04:39.350Z"
   },
   {
+   "repo": "apernet/hysteria",
+   "name": "hysteria",
+   "category": "self-hosted",
+   "stars": 22289,
+   "language": "Go",
+   "scores": {
+    "setupEase": 3,
+    "docs": 5,
+    "community": 4,
+    "maturity": 4
+   },
+   "overall": 4,
+   "verdict": "Hysteria is an excellent specialist proxy when the path is lossy, UDP is usable, and you can operate both ends carefully.",
+   "skip_if": "Networks that block or heavily throttle UDP as a whole: the port-hopping guide says changing ports will not help in that case.",
+   "review_url": "https://mrkeyoor.com/repos/hysteria/",
+   "reviewed_at": "2026-08-10T16:20:50.503Z"
+  },
+  {
+   "repo": "wealthfolio/wealthfolio",
+   "name": "wealthfolio",
+   "category": "self-hosted",
+   "stars": 8599,
+   "language": "Rust",
+   "scores": {
+    "setupEase": 4,
+    "docs": 4,
+    "community": 5,
+    "maturity": 3
+   },
+   "overall": 4,
+   "verdict": "Wealthfolio is one of the most appealing private portfolio trackers for people prepared to verify their data and calculations.",
+   "skip_if": "Investors who require free automatic brokerage synchronization: read-only connections to 30-plus institutions are part of the paid Wealthfolio Connect subscription.",
+   "review_url": "https://mrkeyoor.com/repos/wealthfolio/",
+   "reviewed_at": "2026-08-10T14:20:08.401Z"
+  },
+  {
    "repo": "fatedier/frp",
    "name": "frp",
    "category": "self-hosted",
@@ -4580,7 +4958,7 @@
    "repo": "goauthentik/authentik",
    "name": "authentik",
    "category": "self-hosted",
-   "stars": 23729,
+   "stars": 24524,
    "language": "Python",
    "scores": {
     "setupEase": 3,
@@ -4757,6 +5135,42 @@
    "reviewed_at": "2026-08-10T04:31:47.238Z"
   },
   {
+   "repo": "dyad-sh/dyad",
+   "name": "dyad",
+   "category": "ai-tools",
+   "stars": 21197,
+   "language": "TypeScript",
+   "scores": {
+    "setupEase": 4,
+    "docs": 4,
+    "community": 4,
+    "maturity": 3
+   },
+   "overall": 3.8,
+   "verdict": "Dyad is the most convincing choice in this category for builders who want AI assistance without surrendering the project directory to a hosted workspace.",
+   "skip_if": "Linux users seeking a supported packaged desktop experience: the README advertises easy operation on Mac and Windows, not Linux.",
+   "review_url": "https://mrkeyoor.com/repos/dyad/",
+   "reviewed_at": "2026-08-10T12:35:12.894Z"
+  },
+  {
+   "repo": "confident-ai/deepteam",
+   "name": "deepteam",
+   "category": "ai-tools",
+   "stars": 2422,
+   "language": "Python",
+   "scores": {
+    "setupEase": 4,
+    "docs": 4,
+    "community": 4,
+    "maturity": 3
+   },
+   "overall": 3.8,
+   "verdict": "DeepTeam is a strong first red-team framework for Python AI applications because it connects broad attack coverage to a very small integration surface.",
+   "skip_if": "Teams that require deterministic pass or fail gates without human review: attacks are generated at runtime and vulnerabilities are scored by language-model judges.",
+   "review_url": "https://mrkeyoor.com/repos/deepteam/",
+   "reviewed_at": "2026-08-10T12:32:29.898Z"
+  },
+  {
    "repo": "MervinPraison/PraisonAI",
    "name": "PraisonAI",
    "category": "ai-tools",
@@ -4850,7 +5264,7 @@
    "repo": "google/skills",
    "name": "skills",
    "category": "ai-tools",
-   "stars": 16501,
+   "stars": 17654,
    "language": "Python",
    "scores": {
     "setupEase": 4,
@@ -4976,7 +5390,7 @@
    "repo": "livekit/agents",
    "name": "agents",
    "category": "ai-tools",
-   "stars": 12748,
+   "stars": 12906,
    "language": "Python",
    "scores": {
     "setupEase": 3,
@@ -5030,7 +5444,7 @@
    "repo": "can1357/oh-my-pi",
    "name": "oh-my-pi",
    "category": "ai-tools",
-   "stars": 22912,
+   "stars": 23679,
    "language": "TypeScript",
    "scores": {
     "setupEase": 5,
@@ -5459,6 +5873,24 @@
    "reviewed_at": "2026-08-01T20:31:22.690Z"
   },
   {
+   "repo": "kenn-io/msgvault",
+   "name": "msgvault",
+   "category": "data",
+   "stars": 1994,
+   "language": "Go",
+   "scores": {
+    "setupEase": 3,
+    "docs": 5,
+    "community": 4,
+    "maturity": 3
+   },
+   "overall": 3.8,
+   "verdict": "MsgVault is the most convincing option here for a technical person who wants one locally controlled memory of email, chat, meetings, and files.",
+   "skip_if": "Anyone seeking a set-and-forget primary backup: the README labels MsgVault alpha software and warns that APIs, storage format, and CLI flags may change without notice.",
+   "review_url": "https://mrkeyoor.com/repos/msgvault/",
+   "reviewed_at": "2026-08-10T16:21:06.915Z"
+  },
+  {
    "repo": "JoeanAmier/XHS-Downloader",
    "name": "XHS-Downloader",
    "category": "data",
@@ -5657,6 +6089,24 @@
    "reviewed_at": "2026-08-01T19:06:50.562Z"
   },
   {
+   "repo": "fosrl/pangolin",
+   "name": "pangolin",
+   "category": "self-hosted",
+   "stars": 22201,
+   "language": "TypeScript",
+   "scores": {
+    "setupEase": 3,
+    "docs": 4,
+    "community": 4,
+    "maturity": 4
+   },
+   "overall": 3.8,
+   "verdict": "Pangolin is a powerful and ambitious platform that successfully merges the convenience of a reverse proxy with the network-level access of a modern VPN.",
+   "skip_if": "Users looking for a consumer VPN service to browse the web privately or bypass geo-restrictions; Pangolin is for accessing your own private networks.",
+   "review_url": "https://mrkeyoor.com/repos/pangolin/",
+   "reviewed_at": "2026-08-11T04:31:34.629Z"
+  },
+  {
    "repo": "MHSanaei/3x-ui",
    "name": "3x-ui",
    "category": "self-hosted",
@@ -5819,6 +6269,24 @@
    "reviewed_at": "2026-08-01T22:56:45.484Z"
   },
   {
+   "repo": "tinyhumansai/openhuman",
+   "name": "openhuman",
+   "category": "ai-tools",
+   "stars": 36171,
+   "language": "Rust",
+   "scores": {
+    "setupEase": 3,
+    "docs": 4,
+    "community": 5,
+    "maturity": 2
+   },
+   "overall": 3.5,
+   "verdict": "OpenHuman is one of the most ambitious personal-agent projects available, but its breadth currently outruns its reliability.",
+   "skip_if": "Anyone needing a stable production assistant today: the README labels OpenHuman early beta and explicitly warns users to expect rough edges.",
+   "review_url": "https://mrkeyoor.com/repos/openhuman/",
+   "reviewed_at": "2026-08-10T14:26:03.933Z"
+  },
+  {
    "repo": "MCPBlender/blender-mcp",
    "name": "blender-mcp",
    "category": "ai-tools",
@@ -5948,7 +6416,7 @@
    "repo": "HKUDS/DeepTutor",
    "name": "DeepTutor",
    "category": "ai-tools",
-   "stars": 33122,
+   "stars": 34041,
    "language": "Python",
    "scores": {
     "setupEase": 3,
@@ -5966,7 +6434,7 @@
    "repo": "ashishpatel26/500-AI-Agents-Projects",
    "name": "500-AI-Agents-Projects",
    "category": "ai-tools",
-   "stars": 36023,
+   "stars": 36163,
    "language": "Python",
    "scores": {
     "setupEase": 5,
@@ -6020,7 +6488,7 @@
    "repo": "code-yeongyu/oh-my-openagent",
    "name": "oh-my-openagent",
    "category": "ai-tools",
-   "stars": 67489,
+   "stars": 67651,
    "language": "TypeScript",
    "scores": {
     "setupEase": 3,
@@ -6038,7 +6506,7 @@
    "repo": "ChatGPTNextWeb/NextChat",
    "name": "NextChat",
    "category": "ai-tools",
-   "stars": 88592,
+   "stars": 88606,
    "language": "TypeScript",
    "scores": {
     "setupEase": 5,
@@ -6323,6 +6791,24 @@
    "reviewed_at": "2026-08-07T17:56:50.730Z"
   },
   {
+   "repo": "kdlbs/kandev",
+   "name": "kandev",
+   "category": "dev-tools",
+   "stars": 571,
+   "language": "Go",
+   "scores": {
+    "setupEase": 3,
+    "docs": 4,
+    "community": 4,
+    "maturity": 3
+   },
+   "overall": 3.5,
+   "verdict": "Kandev is one of the most ambitious open interfaces for developers who have outgrown running coding agents in scattered terminals.",
+   "skip_if": "Teams seeking a simple chat assistant for one repository: the README explicitly positions Kandev for power users who want to customize workflows, profiles, runtimes, prompts, and review gates.",
+   "review_url": "https://mrkeyoor.com/repos/kandev/",
+   "reviewed_at": "2026-08-10T16:17:24.704Z"
+  },
+  {
    "repo": "iii-hq/iii",
    "name": "iii",
    "category": "dev-tools",
@@ -6375,6 +6861,24 @@
    "skip_if": "Solo developers or teams that prefer large, single-feature pull requests.",
    "review_url": "https://mrkeyoor.com/repos/gh-stack/",
    "reviewed_at": "2026-08-02T19:22:14.410Z"
+  },
+  {
+   "repo": "langchain-ai/open_deep_research",
+   "name": "open_deep_research",
+   "category": "llm-tools",
+   "stars": 12585,
+   "language": "Python",
+   "scores": {
+    "setupEase": 3,
+    "docs": 4,
+    "community": 4,
+    "maturity": 3
+   },
+   "overall": 3.5,
+   "verdict": "Open Deep Research is an excellent piece of executable architecture for teams committed to LangGraph, and its provider flexibility and published evaluation path make it more useful than a toy demo.",
+   "skip_if": "Users who need an offline researcher with no paid accounts: the default path calls OpenAI models and Tavily, while the README's full 100-task evaluation can cost about $20 to $100 depending on model choice.",
+   "review_url": "https://mrkeyoor.com/repos/open-deep-research/",
+   "reviewed_at": "2026-08-10T12:31:07.558Z"
   },
   {
    "repo": "vitali87/code-graph-rag",
@@ -6470,7 +6974,7 @@
    "repo": "TauricResearch/TradingAgents",
    "name": "TradingAgents",
    "category": "ai-tools",
-   "stars": 96194,
+   "stars": 97319,
    "language": "Python",
    "scores": {
     "setupEase": 3,
@@ -6542,7 +7046,7 @@
    "repo": "VectifyAI/PageIndex",
    "name": "PageIndex",
    "category": "ai-tools",
-   "stars": 35069,
+   "stars": 35125,
    "language": "Python",
    "scores": {
     "setupEase": 4,
@@ -6578,7 +7082,7 @@
    "repo": "calesthio/OpenMontage",
    "name": "OpenMontage",
    "category": "ai-tools",
-   "stars": 46060,
+   "stars": 46829,
    "language": "Python",
    "scores": {
     "setupEase": 3,
@@ -6683,6 +7187,24 @@
    "reviewed_at": "2026-08-01T17:26:46.471Z"
   },
   {
+   "repo": "NanmiCoder/MediaCrawler",
+   "name": "MediaCrawler",
+   "category": "data",
+   "stars": 61112,
+   "language": "Python",
+   "scores": {
+    "setupEase": 3,
+    "docs": 3,
+    "community": 4,
+    "maturity": 3
+   },
+   "overall": 3.3,
+   "verdict": "MediaCrawler is an unusually useful learning reference and a fast route to supervised, noncommercial research across Chinese social platforms.",
+   "skip_if": "Companies planning a commercial data product: the custom Non-Commercial Learning License limits the code to noncommercial learning and research unless the copyright owner gives written consent.",
+   "review_url": "https://mrkeyoor.com/repos/mediacrawler/",
+   "reviewed_at": "2026-08-10T12:27:14.677Z"
+  },
+  {
    "repo": "malisper/pgrust",
    "name": "pgrust",
    "category": "data",
@@ -6699,6 +7221,24 @@
    "skip_if": "Any production workload or valuable data: the README explicitly says pgrust is not production-ready and still has many bugs.",
    "review_url": "https://mrkeyoor.com/repos/pgrust/",
    "reviewed_at": "2026-08-08T18:35:27.402Z"
+  },
+  {
+   "repo": "joelbqz/writer-computer",
+   "name": "writer-computer",
+   "category": "dev-tools",
+   "stars": 1275,
+   "language": "TypeScript",
+   "scores": {
+    "setupEase": 4,
+    "docs": 3,
+    "community": 3,
+    "maturity": 3
+   },
+   "overall": 3.3,
+   "verdict": "Writer is easy to recommend to an Apple Silicon Mac owner who wants Markdown to feel like a writing app without surrendering plain files.",
+   "skip_if": "Windows, Linux, Intel Mac, or older x86_64 Mac users seeking an official binary: every current release asset is for Apple Silicon macOS, and the release guide explicitly excludes other targets.",
+   "review_url": "https://mrkeyoor.com/repos/writer-computer/",
+   "reviewed_at": "2026-08-10T12:35:51.431Z"
   },
   {
    "repo": "antirez/ds4",
@@ -6737,10 +7277,28 @@
    "reviewed_at": "2026-08-01T21:48:25.354Z"
   },
   {
+   "repo": "reacherhq/check-if-email-exists",
+   "name": "check-if-email-exists",
+   "category": "self-hosted",
+   "stars": 9434,
+   "language": "Rust",
+   "scores": {
+    "setupEase": 3,
+    "docs": 4,
+    "community": 3,
+    "maturity": 3
+   },
+   "overall": 3.3,
+   "verdict": "check-if-email-exists is a serious open-source option when you understand that mailbox verification is probabilistic and operationally awkward.",
+   "skip_if": "Proprietary commercial products expecting permissive open-source terms: the README requires a commercial license unless the application is compatible with AGPL-3.0.",
+   "review_url": "https://mrkeyoor.com/repos/check-if-email-exists/",
+   "reviewed_at": "2026-08-10T14:17:54.611Z"
+  },
+  {
    "repo": "calcom/cal.com",
    "name": "cal.diy",
    "category": "self-hosted",
-   "stars": 47343,
+   "stars": 47409,
    "language": "TypeScript",
    "scores": {
     "setupEase": 4,
@@ -6773,6 +7331,24 @@
    "reviewed_at": "2026-08-08T15:51:34.483Z"
   },
   {
+   "repo": "Zackriya-Solutions/meetily",
+   "name": "meetily",
+   "category": "ai-tools",
+   "stars": 28861,
+   "language": "Rust",
+   "scores": {
+    "setupEase": 3,
+    "docs": 4,
+    "community": 3,
+    "maturity": 2
+   },
+   "overall": 3,
+   "verdict": "Meetily is worth trying for an individual who wants local meeting transcription and has a supported desktop, especially because the free code is inspectable and the packaged start is approachable.",
+   "skip_if": "Teams expecting the open Community Edition to provide shared self-hosted deployment: the README places team deployment in Meetily Pro, which it says uses a different codebase.",
+   "review_url": "https://mrkeyoor.com/repos/meetily/",
+   "reviewed_at": "2026-08-10T14:16:51.757Z"
+  },
+  {
    "repo": "semantica-agi/semantica",
    "name": "semantica",
    "category": "ai-tools",
@@ -6794,7 +7370,7 @@
    "repo": "eyaltoledano/claude-task-master",
    "name": "claude-task-master",
    "category": "ai-tools",
-   "stars": 27948,
+   "stars": 27969,
    "language": "JavaScript",
    "scores": {
     "setupEase": 3,
@@ -6812,7 +7388,7 @@
    "repo": "fengshao1227/ccg-workflow",
    "name": "ccg-workflow",
    "category": "ai-tools",
-   "stars": 5807,
+   "stars": 5808,
    "language": "Go",
    "scores": {
     "setupEase": 4,
@@ -6830,7 +7406,7 @@
    "repo": "plandex-ai/plandex",
    "name": "plandex",
    "category": "ai-tools",
-   "stars": 15575,
+   "stars": 15581,
    "language": "Go",
    "scores": {
     "setupEase": 3,
@@ -6953,6 +7529,42 @@
    "reviewed_at": "2026-08-07T04:30:51.739Z"
   },
   {
+   "repo": "3b1b/manim",
+   "name": "manim",
+   "category": "dev-tools",
+   "stars": 89868,
+   "language": "Python",
+   "scores": {
+    "setupEase": 2,
+    "docs": 3,
+    "community": 4,
+    "maturity": 3
+   },
+   "overall": 3,
+   "verdict": "ManimGL is the right choice when you want the engine and interactive habits closest to current 3Blue1Brown production.",
+   "skip_if": "Most first-time Manim users: this repository's own README says Manim Community aims to be more stable, better tested, more responsive to contributions, and friendlier to start with.",
+   "review_url": "https://mrkeyoor.com/repos/manim/",
+   "reviewed_at": "2026-08-10T12:29:49.064Z"
+  },
+  {
+   "repo": "opa334/Dopamine",
+   "name": "Dopamine",
+   "category": "dev-tools",
+   "stars": 6047,
+   "language": "C",
+   "scores": {
+    "setupEase": 2,
+    "docs": 3,
+    "community": 4,
+    "maturity": 3
+   },
+   "overall": 3,
+   "verdict": "Dopamine is the leading option to try when its exact hardware and iOS matrix matches your device and you want a modern rootless jailbreak.",
+   "skip_if": "Anyone outside the published chip and iOS combinations: the README says version-support issues will be deleted without a response, so unsupported devices are not an experimental target.",
+   "review_url": "https://mrkeyoor.com/repos/dopamine/",
+   "reviewed_at": "2026-08-10T12:29:08.239Z"
+  },
+  {
    "repo": "claration/Impactor",
    "name": "Impactor",
    "category": "dev-tools",
@@ -7061,6 +7673,24 @@
    "reviewed_at": "2026-08-01T21:49:11.436Z"
   },
   {
+   "repo": "sopaco/deepwiki-rs",
+   "name": "deepwiki-rs",
+   "category": "ai-tools",
+   "stars": 1667,
+   "language": "Rust",
+   "scores": {
+    "setupEase": 3,
+    "docs": 3,
+    "community": 3,
+    "maturity": 2
+   },
+   "overall": 2.8,
+   "verdict": "Litho is worth a controlled trial when you need orientation material from a codebase and will treat the result as a draft.",
+   "skip_if": "Teams expecting a cheap, predictable run on a large monorepo: one open report describes spending more than $100 while analyzing 1,697 files before a 504 stopped generation.",
+   "review_url": "https://mrkeyoor.com/repos/deepwiki-rs/",
+   "reviewed_at": "2026-08-10T14:16:39.371Z"
+  },
+  {
    "repo": "yuaotian/go-cursor-help",
    "name": "go-cursor-help",
    "category": "ai-tools",
@@ -7082,7 +7712,7 @@
    "repo": "onlook-dev/onlook",
    "name": "onlook",
    "category": "ai-tools",
-   "stars": 26439,
+   "stars": 26457,
    "language": "TypeScript",
    "scores": {
     "setupEase": 3,
@@ -7100,7 +7730,7 @@
    "repo": "x1xhlol/system-prompts-and-models-of-ai-tools",
    "name": "system-prompts-and-models-of-ai-tools",
    "category": "ai-tools",
-   "stars": 142657,
+   "stars": 142711,
    "language": "",
    "scores": {
     "setupEase": 5,
@@ -7167,6 +7797,24 @@
    "skip_if": "Anyone needing to extract text from scanned documents, photographs, or image-only PDFs.",
    "review_url": "https://mrkeyoor.com/repos/pdf-inspector/",
    "reviewed_at": "2026-08-03T14:30:58.100Z"
+  },
+  {
+   "repo": "putyy/res-downloader",
+   "name": "res-downloader",
+   "category": "dev-tools",
+   "stars": 19069,
+   "language": "Go",
+   "scores": {
+    "setupEase": 3,
+    "docs": 3,
+    "community": 3,
+    "maturity": 2
+   },
+   "overall": 2.8,
+   "verdict": "res-downloader solves a genuinely awkward problem for people pulling media from Chinese desktop and mobile ecosystems, and its visual filtering is friendlier than a raw proxy log.",
+   "skip_if": "Corporate or security-sensitive computers where installing a trusted interception certificate and proxying HTTPS traffic is unacceptable: both steps are required by the README.",
+   "review_url": "https://mrkeyoor.com/repos/res-downloader/",
+   "reviewed_at": "2026-08-10T16:15:36.846Z"
   },
   {
    "repo": "cloudflare/computer",
@@ -7239,6 +7887,24 @@
    "skip_if": "Anyone starting a new project.",
    "review_url": "https://mrkeyoor.com/repos/autogen/",
    "reviewed_at": "2026-08-01T21:46:56.986Z"
+  },
+  {
+   "repo": "Solr159/JavBoss",
+   "name": "JavBoss",
+   "category": "self-hosted",
+   "stars": 413,
+   "language": "Go",
+   "scores": {
+    "setupEase": 4,
+    "docs": 2,
+    "community": 3,
+    "maturity": 2
+   },
+   "overall": 2.8,
+   "verdict": "JavBoss is a promising specialist library for Chinese-speaking collectors, with a notably cohesive path from filename recognition to metadata, filtering, screenshots, and playback.",
+   "skip_if": "English-only users: there is no English documentation, and open issue #186 reports that the English language selection disappeared after upgrading to 1.9.0.",
+   "review_url": "https://mrkeyoor.com/repos/javboss/",
+   "reviewed_at": "2026-08-10T16:21:48.291Z"
   },
   {
    "repo": "xlang-ai/OSWorld",
@@ -7406,7 +8072,7 @@
    "repo": "daytonaio/daytona",
    "name": "daytona",
    "category": "ai-tools",
-   "stars": 72027,
+   "stars": 72025,
    "language": "",
    "scores": {
     "setupEase": 2,
