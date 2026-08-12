@@ -1,8 +1,8 @@
 {
- "generated": "2026-08-11",
+ "generated": "2026-08-12",
  "source": "https://mrkeyoor.com/repos/",
  "license": "CC-BY-4.0",
- "count": 451,
+ "count": 494,
  "reviews": [
   {
    "repo": "thedotmack/claude-mem",
@@ -206,7 +206,7 @@
    "repo": "paperless-ngx/paperless-ngx",
    "name": "paperless-ngx",
    "category": "self-hosted",
-   "stars": 44086,
+   "stars": 44186,
    "language": "Python",
    "scores": {
     "setupEase": 5,
@@ -224,7 +224,7 @@
    "repo": "angular/angular",
    "name": "angular",
    "category": "web",
-   "stars": 100954,
+   "stars": 100984,
    "language": "TypeScript",
    "scores": {
     "setupEase": 5,
@@ -260,7 +260,7 @@
    "repo": "fastapi/fastapi",
    "name": "fastapi",
    "category": "web",
-   "stars": 101409,
+   "stars": 101510,
    "language": "Python",
    "scores": {
     "setupEase": 5,
@@ -278,7 +278,7 @@
    "repo": "rails/rails",
    "name": "rails",
    "category": "web",
-   "stars": 58684,
+   "stars": 58686,
    "language": "Ruby",
    "scores": {
     "setupEase": 5,
@@ -296,7 +296,7 @@
    "repo": "laravel/laravel",
    "name": "laravel",
    "category": "web",
-   "stars": 84779,
+   "stars": 84795,
    "language": "Blade",
    "scores": {
     "setupEase": 5,
@@ -314,7 +314,7 @@
    "repo": "nestjs/nest",
    "name": "nest",
    "category": "web",
-   "stars": 76368,
+   "stars": 76365,
    "language": "TypeScript",
    "scores": {
     "setupEase": 5,
@@ -332,7 +332,7 @@
    "repo": "vitejs/vite",
    "name": "vite",
    "category": "web",
-   "stars": 82261,
+   "stars": 82312,
    "language": "TypeScript",
    "scores": {
     "setupEase": 5,
@@ -350,7 +350,7 @@
    "repo": "nuxt/nuxt",
    "name": "nuxt",
    "category": "web",
-   "stars": 60739,
+   "stars": 60751,
    "language": "TypeScript",
    "scores": {
     "setupEase": 5,
@@ -386,7 +386,7 @@
    "repo": "facebook/react",
    "name": "react",
    "category": "web",
-   "stars": 247126,
+   "stars": 247173,
    "language": "JavaScript",
    "scores": {
     "setupEase": 5,
@@ -404,7 +404,7 @@
    "repo": "vercel/next.js",
    "name": "next.js",
    "category": "web",
-   "stars": 141694,
+   "stars": 141732,
    "language": "JavaScript",
    "scores": {
     "setupEase": 5,
@@ -689,6 +689,78 @@
    "reviewed_at": "2026-08-02T02:18:45.728Z"
   },
   {
+   "repo": "anchore/syft",
+   "name": "syft",
+   "category": "dev-tools",
+   "stars": 9383,
+   "language": "Go",
+   "scores": {
+    "setupEase": 5,
+    "docs": 5,
+    "community": 5,
+    "maturity": 4
+   },
+   "overall": 4.8,
+   "verdict": "Syft is the easiest serious default for producing an SBOM from a built container, especially when format choice and ecosystem coverage matter.",
+   "skip_if": "Teams expecting vulnerability findings from the same command: Syft creates inventories, while the README directs users to Grype for vulnerability scanning.",
+   "review_url": "https://mrkeyoor.com/repos/syft/",
+   "reviewed_at": "2026-08-11T18:20:17.692Z"
+  },
+  {
+   "repo": "aquasecurity/trivy",
+   "name": "trivy",
+   "category": "dev-tools",
+   "stars": 37362,
+   "language": "Go",
+   "scores": {
+    "setupEase": 4,
+    "docs": 5,
+    "community": 5,
+    "maturity": 5
+   },
+   "overall": 4.8,
+   "verdict": "Trivy is the best default security scanner for teams that want broad, useful coverage before assembling a suite of specialist products.",
+   "skip_if": "Teams looking for dynamic application testing or deep source-code data-flow analysis: Trivy's documented scanners inspect packages, configuration, secrets, licenses, and software inventories, not a running application's request behavior.",
+   "review_url": "https://mrkeyoor.com/repos/trivy/",
+   "reviewed_at": "2026-08-11T16:18:49.787Z"
+  },
+  {
+   "repo": "jaywcjlove/awesome-mac",
+   "name": "awesome-mac",
+   "category": "dev-tools",
+   "stars": 110510,
+   "language": "Swift",
+   "scores": {
+    "setupEase": 5,
+    "docs": 4,
+    "community": 5,
+    "maturity": 5
+   },
+   "overall": 4.8,
+   "verdict": "Awesome Mac is the best first tab to open when you know the kind of Mac app you need but not its name.",
+   "skip_if": "Anyone wanting only open-source software: the README deliberately mixes open-source, freeware, App Store, and paid commercial entries, using icons to distinguish some of them.",
+   "review_url": "https://mrkeyoor.com/repos/awesome-mac/",
+   "reviewed_at": "2026-08-11T12:14:32.313Z"
+  },
+  {
+   "repo": "nvm-sh/nvm",
+   "name": "nvm",
+   "category": "dev-tools",
+   "stars": 94495,
+   "language": "Shell",
+   "scores": {
+    "setupEase": 4,
+    "docs": 5,
+    "community": 5,
+    "maturity": 5
+   },
+   "overall": 4.8,
+   "verdict": "nvm remains the safest default for developers who want the most familiar Node version manager on a POSIX shell.",
+   "skip_if": "Native Windows users who do not work inside WSL, Git Bash, or Cygwin: the README says ordinary Windows is unsupported and points to separate alternatives.",
+   "review_url": "https://mrkeyoor.com/repos/nvm/",
+   "reviewed_at": "2026-08-11T12:12:23.466Z"
+  },
+  {
    "repo": "avelino/awesome-go",
    "name": "awesome-go",
    "category": "dev-tools",
@@ -905,6 +977,24 @@
    "reviewed_at": "2026-08-02T01:05:28.500Z"
   },
   {
+   "repo": "nats-io/nats-server",
+   "name": "nats-server",
+   "category": "self-hosted",
+   "stars": 20459,
+   "language": "Go",
+   "scores": {
+    "setupEase": 4,
+    "docs": 5,
+    "community": 5,
+    "maturity": 5
+   },
+   "overall": 4.8,
+   "verdict": "NATS is the messaging system we would start with for a new service mesh or edge network when low operational weight and flexible communication patterns matter.",
+   "skip_if": "Applications that need offline subscribers to receive every message but intend to use only Core NATS: Core delivery is explicitly best-effort and at-most-once, so persistence requires JetStream.",
+   "review_url": "https://mrkeyoor.com/repos/nats-server/",
+   "reviewed_at": "2026-08-11T16:21:33.639Z"
+  },
+  {
    "repo": "netdata/netdata",
    "name": "netdata",
    "category": "self-hosted",
@@ -962,7 +1052,7 @@
    "repo": "django/django",
    "name": "django",
    "category": "web",
-   "stars": 88393,
+   "stars": 88406,
    "language": "Python",
    "scores": {
     "setupEase": 4,
@@ -998,7 +1088,7 @@
    "repo": "shadcn-ui/ui",
    "name": "ui",
    "category": "web",
-   "stars": 120819,
+   "stars": 121111,
    "language": "TypeScript",
    "scores": {
     "setupEase": 5,
@@ -1016,7 +1106,7 @@
    "repo": "tailwindlabs/tailwindcss",
    "name": "tailwindcss",
    "category": "web",
-   "stars": 97131,
+   "stars": 97202,
    "language": "TypeScript",
    "scores": {
     "setupEase": 4,
@@ -1034,7 +1124,7 @@
    "repo": "withastro/astro",
    "name": "astro",
    "category": "web",
-   "stars": 61644,
+   "stars": 61698,
    "language": "TypeScript",
    "scores": {
     "setupEase": 5,
@@ -1571,6 +1661,42 @@
    "reviewed_at": "2026-08-02T02:16:27.960Z"
   },
   {
+   "repo": "XIU2/CloudflareSpeedTest",
+   "name": "CloudflareSpeedTest",
+   "category": "dev-tools",
+   "stars": 28449,
+   "language": "Go",
+   "scores": {
+    "setupEase": 5,
+    "docs": 4,
+    "community": 4,
+    "maturity": 5
+   },
+   "overall": 4.5,
+   "verdict": "CloudflareSpeedTest is a sharp, effective, single-purpose tool that does its job exceptionally well.",
+   "skip_if": "Non-technical users who are uncomfortable with the command line or don't know how to use an IP address once they find it.",
+   "review_url": "https://mrkeyoor.com/repos/cloudflarespeedtest/",
+   "reviewed_at": "2026-08-12T04:30:52.945Z"
+  },
+  {
+   "repo": "getsops/sops",
+   "name": "sops",
+   "category": "dev-tools",
+   "stars": 22770,
+   "language": "Go",
+   "scores": {
+    "setupEase": 4,
+    "docs": 4,
+    "community": 5,
+    "maturity": 5
+   },
+   "overall": 4.5,
+   "verdict": "SOPS is the best default for teams that deliberately want secrets in Git, encrypted but still structurally reviewable.",
+   "skip_if": "Teams that need dynamic credentials, leases, or a central runtime secret API: SOPS encrypts files and manages their wrapping keys, but it is not a Vault-style secret service.",
+   "review_url": "https://mrkeyoor.com/repos/sops/",
+   "reviewed_at": "2026-08-11T18:20:10.324Z"
+  },
+  {
    "repo": "GyulyVGC/sniffnet",
    "name": "sniffnet",
    "category": "dev-tools",
@@ -1787,6 +1913,24 @@
    "reviewed_at": "2026-08-02T01:11:48.150Z"
   },
   {
+   "repo": "earendil-works/pi",
+   "name": "pi",
+   "category": "llm-tools",
+   "stars": 87709,
+   "language": "TypeScript",
+   "scores": {
+    "setupEase": 4,
+    "docs": 5,
+    "community": 5,
+    "maturity": 4
+   },
+   "overall": 4.5,
+   "verdict": "Pi is an excellent choice for developers who see a coding agent as a programmable workbench rather than a finished appliance.",
+   "skip_if": "Anyone who requires built-in command approval or filesystem, network, process, and credential restrictions: the README explicitly says Pi runs with the launching user's permissions and has no built-in permission system.",
+   "review_url": "https://mrkeyoor.com/repos/pi/",
+   "reviewed_at": "2026-08-11T12:23:19.192Z"
+  },
+  {
    "repo": "containers/kubernetes-mcp-server",
    "name": "kubernetes-mcp-server",
    "category": "llm-tools",
@@ -1857,6 +2001,60 @@
    "skip_if": "Users with older or low-spec computers.",
    "review_url": "https://mrkeyoor.com/repos/ollama/",
    "reviewed_at": "2026-08-01T19:03:55.144Z"
+  },
+  {
+   "repo": "rancher/rancher",
+   "name": "rancher",
+   "category": "self-hosted",
+   "stars": 25847,
+   "language": "Go",
+   "scores": {
+    "setupEase": 3,
+    "docs": 5,
+    "community": 5,
+    "maturity": 5
+   },
+   "overall": 4.5,
+   "verdict": "Rancher remains an excellent default shortlist choice for serious multi-cluster Kubernetes operations, especially when a team values a central console and integrated lifecycle controls.",
+   "skip_if": "A small team with one straightforward cluster and good command-line practices: Rancher adds another privileged management plane, lifecycle, and failure domain.",
+   "review_url": "https://mrkeyoor.com/repos/rancher/",
+   "reviewed_at": "2026-08-11T18:15:48.537Z"
+  },
+  {
+   "repo": "netbirdio/netbird",
+   "name": "netbird",
+   "category": "self-hosted",
+   "stars": 28278,
+   "language": "Go",
+   "scores": {
+    "setupEase": 4,
+    "docs": 5,
+    "community": 5,
+    "maturity": 4
+   },
+   "overall": 4.5,
+   "verdict": "NetBird is one of the best open-source choices for teams that want Tailscale-like convenience without surrendering the option to run the control plane.",
+   "skip_if": "Organizations that require every server component under a permissive license: the README says the management, signal, and relay directories use AGPLv3 while the rest uses BSD-3-Clause.",
+   "review_url": "https://mrkeyoor.com/repos/netbird/",
+   "reviewed_at": "2026-08-11T16:17:52.251Z"
+  },
+  {
+   "repo": "sourcebot-dev/sourcebot",
+   "name": "sourcebot",
+   "category": "self-hosted",
+   "stars": 3828,
+   "language": "TypeScript",
+   "scores": {
+    "setupEase": 4,
+    "docs": 5,
+    "community": 5,
+    "maturity": 4
+   },
+   "overall": 4.5,
+   "verdict": "Sourcebot is an excellent first trial for teams whose code is fragmented across hosts and whose current search tools waste time.",
+   "skip_if": "Companies that require a permissive open-source license or want to sell a competing hosted service: most code uses FSL-1.1-ALv2, which restricts competing use until that version converts to Apache 2.0 after two years.",
+   "review_url": "https://mrkeyoor.com/repos/sourcebot/",
+   "reviewed_at": "2026-08-11T12:21:34.067Z"
   },
   {
    "repo": "dani-garcia/vaultwarden",
@@ -1952,7 +2150,7 @@
    "repo": "navidrome/navidrome",
    "name": "navidrome",
    "category": "self-hosted",
-   "stars": 22760,
+   "stars": 22829,
    "language": "Go",
    "scores": {
     "setupEase": 5,
@@ -1970,7 +2168,7 @@
    "repo": "chatwoot/chatwoot",
    "name": "chatwoot",
    "category": "self-hosted",
-   "stars": 35607,
+   "stars": 35733,
    "language": "Ruby",
    "scores": {
     "setupEase": 4,
@@ -1988,7 +2186,7 @@
    "repo": "photoprism/photoprism",
    "name": "photoprism",
    "category": "self-hosted",
-   "stars": 40047,
+   "stars": 40060,
    "language": "Go",
    "scores": {
     "setupEase": 4,
@@ -2006,7 +2204,7 @@
    "repo": "portainer/portainer",
    "name": "portainer",
    "category": "self-hosted",
-   "stars": 38186,
+   "stars": 38221,
    "language": "TypeScript",
    "scores": {
     "setupEase": 5,
@@ -2024,7 +2222,7 @@
    "repo": "louislam/uptime-kuma",
    "name": "uptime-kuma",
    "category": "self-hosted",
-   "stars": 89975,
+   "stars": 90088,
    "language": "JavaScript",
    "scores": {
     "setupEase": 5,
@@ -2042,7 +2240,7 @@
    "repo": "home-assistant/core",
    "name": "core",
    "category": "self-hosted",
-   "stars": 89801,
+   "stars": 89879,
    "language": "Python",
    "scores": {
     "setupEase": 3,
@@ -2060,7 +2258,7 @@
    "repo": "immich-app/immich",
    "name": "immich",
    "category": "self-hosted",
-   "stars": 109973,
+   "stars": 110245,
    "language": "TypeScript",
    "scores": {
     "setupEase": 4,
@@ -2075,10 +2273,28 @@
    "reviewed_at": "2026-08-01T22:48:25.521Z"
   },
   {
+   "repo": "TanStack/router",
+   "name": "router",
+   "category": "web",
+   "stars": 14923,
+   "language": "TypeScript",
+   "scores": {
+    "setupEase": 4,
+    "docs": 5,
+    "community": 5,
+    "maturity": 4
+   },
+   "overall": 4.5,
+   "verdict": "TanStack Router is the best fit for a TypeScript-heavy React or Solid application where URLs carry meaningful state and refactors are frequent.",
+   "skip_if": "Angular, Vue, React Native, or other framework teams: the quick start says only React with ReactDOM and Solid are currently compatible.",
+   "review_url": "https://mrkeyoor.com/repos/router/",
+   "reviewed_at": "2026-08-11T14:13:25.388Z"
+  },
+  {
    "repo": "bigskysoftware/htmx",
    "name": "htmx",
    "category": "web",
-   "stars": 48912,
+   "stars": 48930,
    "language": "JavaScript",
    "scores": {
     "setupEase": 5,
@@ -2096,7 +2312,7 @@
    "repo": "sveltejs/svelte",
    "name": "svelte",
    "category": "web",
-   "stars": 87934,
+   "stars": 87949,
    "language": "JavaScript",
    "scores": {
     "setupEase": 5,
@@ -2921,6 +3137,24 @@
    "reviewed_at": "2026-08-01T20:32:47.619Z"
   },
   {
+   "repo": "vercel-labs/agent-browser",
+   "name": "agent-browser",
+   "category": "automation",
+   "stars": 40442,
+   "language": "Rust",
+   "scores": {
+    "setupEase": 4,
+    "docs": 5,
+    "community": 5,
+    "maturity": 3
+   },
+   "overall": 4.3,
+   "verdict": "agent-browser is an unusually capable fit for coding agents because its snapshot, reference, session, skill, and MCP designs all address real tool-use friction.",
+   "skip_if": "Security-conscious teams that run browser commands inside untrusted repositories without reviewing local configuration: an open report for version 0.34.0 shows that auto-discovered `agent-browser.json` values can select executables or launch plugins without a workspace approval prompt.",
+   "review_url": "https://mrkeyoor.com/repos/agent-browser/",
+   "reviewed_at": "2026-08-11T16:13:04.587Z"
+  },
+  {
    "repo": "paperclipai/paperclip",
    "name": "paperclip",
    "category": "automation",
@@ -2973,6 +3207,24 @@
    "skip_if": "Python purists who want to define their entire data pipeline using the full power and expressiveness of a programming language, including complex logic, classes, and native libraries.",
    "review_url": "https://mrkeyoor.com/repos/kestra/",
    "reviewed_at": "2026-08-01T19:00:22.478Z"
+  },
+  {
+   "repo": "grafana/tempo",
+   "name": "tempo",
+   "category": "data",
+   "stars": 5432,
+   "language": "Go",
+   "scores": {
+    "setupEase": 3,
+    "docs": 5,
+    "community": 5,
+    "maturity": 4
+   },
+   "overall": 4.3,
+   "verdict": "Tempo is a strong tracing backend for organizations already committed to OpenTelemetry and Grafana, especially when cheap object storage and high ingest volume outweigh the appeal of an all-in-one product.",
+   "skip_if": "Teams looking for a complete tracing product in one binary: Tempo is the backend, while visualization comes through Grafana and useful data still depends on instrumentation or collectors.",
+   "review_url": "https://mrkeyoor.com/repos/tempo/",
+   "reviewed_at": "2026-08-11T16:20:56.849Z"
   },
   {
    "repo": "apache/datafusion",
@@ -3045,6 +3297,78 @@
    "skip_if": "Companies with a strict policy against GPL-3.0 licensed software due to its copyleft nature.",
    "review_url": "https://mrkeyoor.com/repos/typesense/",
    "reviewed_at": "2026-08-02T02:22:56.336Z"
+  },
+  {
+   "repo": "jtroo/kanata",
+   "name": "kanata",
+   "category": "dev-tools",
+   "stars": 7741,
+   "language": "Rust",
+   "scores": {
+    "setupEase": 3,
+    "docs": 5,
+    "community": 5,
+    "maturity": 4
+   },
+   "overall": 4.3,
+   "verdict": "Kanata is the best first choice for advanced, software-based keyboard customization that must span more than one desktop operating system.",
+   "skip_if": "Managed-device users who cannot grant input permissions or install drivers: Linux access normally needs root or device rules, while macOS needs a Karabiner driver plus privacy permissions.",
+   "review_url": "https://mrkeyoor.com/repos/kanata/",
+   "reviewed_at": "2026-08-11T16:15:22.479Z"
+  },
+  {
+   "repo": "tree-sitter/tree-sitter",
+   "name": "tree-sitter",
+   "category": "dev-tools",
+   "stars": 26615,
+   "language": "Rust",
+   "scores": {
+    "setupEase": 3,
+    "docs": 5,
+    "community": 5,
+    "maturity": 4
+   },
+   "overall": 4.3,
+   "verdict": "Tree-sitter is the default shortlist choice for editor-grade syntax parsing, with an unusually broad grammar ecosystem and a tiny embeddable runtime.",
+   "skip_if": "Teams that need a full compiler front end with semantic analysis, types, and code generation: Tree-sitter produces concrete syntax trees, not a complete language toolchain.",
+   "review_url": "https://mrkeyoor.com/repos/tree-sitter/",
+   "reviewed_at": "2026-08-11T16:13:21.769Z"
+  },
+  {
+   "repo": "cachix/devenv",
+   "name": "devenv",
+   "category": "dev-tools",
+   "stars": 7266,
+   "language": "Rust",
+   "scores": {
+    "setupEase": 3,
+    "docs": 5,
+    "community": 5,
+    "maturity": 4
+   },
+   "overall": 4.3,
+   "verdict": "devenv is the Nix development-environment tool I would try first for a team that has outgrown hand-maintained setup scripts.",
+   "skip_if": "Native Windows teams that will not standardize on WSL2: the installation guide lists Windows support through WSL2, not a normal Windows shell.",
+   "review_url": "https://mrkeyoor.com/repos/devenv/",
+   "reviewed_at": "2026-08-11T14:22:22.637Z"
+  },
+  {
+   "repo": "alacritty/alacritty",
+   "name": "alacritty",
+   "category": "dev-tools",
+   "stars": 65330,
+   "language": "Rust",
+   "scores": {
+    "setupEase": 4,
+    "docs": 4,
+    "community": 5,
+    "maturity": 4
+   },
+   "overall": 4.3,
+   "verdict": "Alacritty remains an excellent terminal for people who agree with its boundaries.",
+   "skip_if": "Anyone expecting tabs, split panes, or a GUI settings editor inside the terminal: the README says these are intentionally left to other applications.",
+   "review_url": "https://mrkeyoor.com/repos/alacritty/",
+   "reviewed_at": "2026-08-11T14:20:40.683Z"
   },
   {
    "repo": "wailsapp/wails",
@@ -3389,6 +3713,24 @@
    "reviewed_at": "2026-08-01T19:05:26.985Z"
   },
   {
+   "repo": "lfnovo/open-notebook",
+   "name": "open-notebook",
+   "category": "self-hosted",
+   "stars": 36714,
+   "language": "TypeScript",
+   "scores": {
+    "setupEase": 3,
+    "docs": 5,
+    "community": 5,
+    "maturity": 4
+   },
+   "overall": 4.3,
+   "verdict": "Open Notebook is the strongest self-hosted NotebookLM alternative to try when provider freedom, podcasts, API access, and data location matter.",
+   "skip_if": "Organizations needing built-in multi-user security: the security guide says authentication is one shared password with no user management, session timeout, rate limiting, or audit log.",
+   "review_url": "https://mrkeyoor.com/repos/open-notebook/",
+   "reviewed_at": "2026-08-11T12:19:19.556Z"
+  },
+  {
    "repo": "OpenListTeam/OpenList",
    "name": "OpenList",
    "category": "self-hosted",
@@ -3572,7 +3914,7 @@
    "repo": "logseq/logseq",
    "name": "logseq",
    "category": "self-hosted",
-   "stars": 44340,
+   "stars": 44403,
    "language": "Clojure",
    "scores": {
     "setupEase": 5,
@@ -3608,7 +3950,7 @@
    "repo": "mattermost/mattermost",
    "name": "mattermost",
    "category": "self-hosted",
-   "stars": 38711,
+   "stars": 38729,
    "language": "TypeScript",
    "scores": {
     "setupEase": 3,
@@ -3639,6 +3981,24 @@
    "skip_if": "Merchants who want a finished hosted shop with themes, checkout, and operations handled for them: the local product is a Node.js backend plus admin, and the storefront is a separate optional application.",
    "review_url": "https://mrkeyoor.com/repos/medusa/",
    "reviewed_at": "2026-08-10T14:13:32.296Z"
+  },
+  {
+   "repo": "cathrynlavery/diagram-design",
+   "name": "diagram-design",
+   "category": "ai-tools",
+   "stars": 7001,
+   "language": "HTML",
+   "scores": {
+    "setupEase": 4,
+    "docs": 5,
+    "community": 4,
+    "maturity": 3
+   },
+   "overall": 4,
+   "verdict": "Diagram Design is an unusually tasteful starting point for Claude Code users who need publication-ready visuals and dislike the usual rounded-box output.",
+   "skip_if": "Teams that need a visual drag-and-drop editor: the project generates and edits HTML plus inline SVG, and explicitly says there is no Figma workflow.",
+   "review_url": "https://mrkeyoor.com/repos/diagram-design/",
+   "reviewed_at": "2026-08-11T16:13:12.546Z"
   },
   {
    "repo": "screenpipe/screenpipe",
@@ -4307,6 +4667,24 @@
    "reviewed_at": "2026-08-01T20:38:40.700Z"
   },
   {
+   "repo": "multica-ai/multica",
+   "name": "multica",
+   "category": "automation",
+   "stars": 45440,
+   "language": "Go",
+   "scores": {
+    "setupEase": 3,
+    "docs": 5,
+    "community": 5,
+    "maturity": 3
+   },
+   "overall": 4,
+   "verdict": "Multica is the most convincing open-source answer to coding-agent sprawl for a team that already pays for and operates several agent CLIs.",
+   "skip_if": "Anyone expecting Multica to sandbox coding agents: its security guide says tasks normally receive the daemon user's full filesystem, credentials, and network access, with Codex using danger-full-access and Claude Code bypassing permissions.",
+   "review_url": "https://mrkeyoor.com/repos/multica/",
+   "reviewed_at": "2026-08-11T16:21:15.884Z"
+  },
+  {
    "repo": "github/gh-aw",
    "name": "gh-aw",
    "category": "automation",
@@ -4433,6 +4811,24 @@
    "reviewed_at": "2026-08-02T02:18:00.532Z"
   },
   {
+   "repo": "microsoft/typescript-go",
+   "name": "typescript-go",
+   "category": "dev-tools",
+   "stars": 26187,
+   "language": "Go",
+   "scores": {
+    "setupEase": 4,
+    "docs": 4,
+    "community": 5,
+    "maturity": 3
+   },
+   "overall": 4,
+   "verdict": "TypeScript 7 is the most important compiler trial for serious TypeScript teams because it is the official successor, not a compatibility clone.",
+   "skip_if": "Tool authors who depend on the existing compiler API or TS Server plugins: the README marks the API not ready, and the proposed replacement uses an IPC API that is still under development.",
+   "review_url": "https://mrkeyoor.com/repos/typescript-go/",
+   "reviewed_at": "2026-08-11T18:12:49.077Z"
+  },
+  {
    "repo": "drawdb-io/drawdb",
    "name": "drawdb",
    "category": "dev-tools",
@@ -4544,7 +4940,7 @@
    "repo": "jnsahaj/lumen",
    "name": "lumen",
    "category": "dev-tools",
-   "stars": 2695,
+   "stars": 2719,
    "language": "Rust",
    "scores": {
     "setupEase": 5,
@@ -4562,7 +4958,7 @@
    "repo": "gitleaks/gitleaks",
    "name": "gitleaks",
    "category": "dev-tools",
-   "stars": 28537,
+   "stars": 28619,
    "language": "Go",
    "scores": {
     "setupEase": 5,
@@ -4647,6 +5043,24 @@
    "skip_if": "Users who depend on the vast and mature extension ecosystem of VS Code for their workflow; Zed's extension library is in its infancy.",
    "review_url": "https://mrkeyoor.com/repos/zed/",
    "reviewed_at": "2026-08-02T00:05:49.810Z"
+  },
+  {
+   "repo": "Tencent/WeKnora",
+   "name": "WeKnora",
+   "category": "llm-tools",
+   "stars": 19693,
+   "language": "Go",
+   "scores": {
+    "setupEase": 3,
+    "docs": 5,
+    "community": 5,
+    "maturity": 3
+   },
+   "overall": 4,
+   "verdict": "WeKnora is one of the more ambitious self-hosted choices for an organization that wants document search, agents, and managed knowledge in one product.",
+   "skip_if": "Small teams wanting a lightweight chat-with-a-folder tool: the default Compose deployment runs the UI, application, document reader, PostgreSQL, and Redis, with more services needed for optional features.",
+   "review_url": "https://mrkeyoor.com/repos/weknora/",
+   "reviewed_at": "2026-08-11T18:13:06.977Z"
   },
   {
    "repo": "stanfordnlp/dspy",
@@ -5012,7 +5426,7 @@
    "repo": "mealie-recipes/mealie",
    "name": "mealie",
    "category": "self-hosted",
-   "stars": 12938,
+   "stars": 12957,
    "language": "Python",
    "scores": {
     "setupEase": 4,
@@ -5066,7 +5480,7 @@
    "repo": "usekaneo/kaneo",
    "name": "kaneo",
    "category": "self-hosted",
-   "stars": 7688,
+   "stars": 8121,
    "language": "TypeScript",
    "scores": {
     "setupEase": 5,
@@ -5084,7 +5498,7 @@
    "repo": "jellyfin/jellyfin",
    "name": "jellyfin",
    "category": "self-hosted",
-   "stars": 55540,
+   "stars": 55675,
    "language": "C#",
    "scores": {
     "setupEase": 3,
@@ -5102,7 +5516,7 @@
    "repo": "nextcloud/server",
    "name": "server",
    "category": "self-hosted",
-   "stars": 36363,
+   "stars": 36396,
    "language": "PHP",
    "scores": {
     "setupEase": 2,
@@ -5133,6 +5547,42 @@
    "skip_if": "Developers building a standalone, complex backend service with no direct frontend integration; a dedicated framework like Express or Fastify would be more suitable.",
    "review_url": "https://mrkeyoor.com/repos/nitro/",
    "reviewed_at": "2026-08-10T04:31:47.238Z"
+  },
+  {
+   "repo": "cjpais/Handy",
+   "name": "Handy",
+   "category": "ai-tools",
+   "stars": 29312,
+   "language": "Rust",
+   "scores": {
+    "setupEase": 3,
+    "docs": 4,
+    "community": 5,
+    "maturity": 3
+   },
+   "overall": 3.8,
+   "verdict": "Handy is the local dictation app to try first if privacy, price, and hackability matter more than uniform platform polish.",
+   "skip_if": "Linux users who expect identical behavior across every desktop: the README calls Wayland support limited, requires external typing tools, disables the overlay by default, and documents compositor-specific workarounds.",
+   "review_url": "https://mrkeyoor.com/repos/handy/",
+   "reviewed_at": "2026-08-11T16:15:13.461Z"
+  },
+  {
+   "repo": "JimLiu/baoyu-skills",
+   "name": "baoyu-skills",
+   "category": "ai-tools",
+   "stars": 24871,
+   "language": "TypeScript",
+   "scores": {
+    "setupEase": 3,
+    "docs": 5,
+    "community": 4,
+    "maturity": 3
+   },
+   "overall": 3.8,
+   "verdict": "Baoyu Skills is an unusually capable pick for an agent-assisted publishing desk, especially if WeChat, visual explainers, or multilingual articles are part of the job.",
+   "skip_if": "Users who want a small, single-purpose plugin: the README warns that installing all 20-plus skills adds context overhead and recommends selecting only what is needed.",
+   "review_url": "https://mrkeyoor.com/repos/baoyu-skills/",
+   "reviewed_at": "2026-08-11T14:14:40.975Z"
   },
   {
    "repo": "dyad-sh/dyad",
@@ -5873,6 +6323,24 @@
    "reviewed_at": "2026-08-01T20:31:22.690Z"
   },
   {
+   "repo": "eigent-ai/eigent",
+   "name": "eigent",
+   "category": "automation",
+   "stars": 14945,
+   "language": "TypeScript",
+   "scores": {
+    "setupEase": 3,
+    "docs": 4,
+    "community": 5,
+    "maturity": 3
+   },
+   "overall": 3.8,
+   "verdict": "Eigent is worth trying if you want a polished desktop shell around model-flexible agents and accept that the product is still changing quickly.",
+   "skip_if": "Nontechnical users expecting the README's zero-setup claim to apply to self-hosting: the local guide requires Docker, Python 3.12, Node 18 through 22, environment files, PostgreSQL, and separate frontend startup.",
+   "review_url": "https://mrkeyoor.com/repos/eigent/",
+   "reviewed_at": "2026-08-11T14:13:43.660Z"
+  },
+  {
    "repo": "kenn-io/msgvault",
    "name": "msgvault",
    "category": "data",
@@ -5925,6 +6393,42 @@
    "skip_if": "Individuals or teams who only need to sync one or two common data sources; a simpler script or a dedicated integration might be less overhead.",
    "review_url": "https://mrkeyoor.com/repos/airbyte/",
    "reviewed_at": "2026-08-02T04:30:35.839Z"
+  },
+  {
+   "repo": "paritytech/polkadot-sdk",
+   "name": "polkadot-sdk",
+   "category": "dev-tools",
+   "stars": 2793,
+   "language": "Rust",
+   "scores": {
+    "setupEase": 2,
+    "docs": 4,
+    "community": 5,
+    "maturity": 4
+   },
+   "overall": 3.8,
+   "verdict": "Polkadot SDK is the right default when a custom Polkadot-connected chain is the product, not an implementation detail.",
+   "skip_if": "Application teams that can meet their needs with a smart contract on an existing chain: Polkadot SDK makes them own a runtime, nodes, releases, upgrades, and network operations.",
+   "review_url": "https://mrkeyoor.com/repos/polkadot-sdk/",
+   "reviewed_at": "2026-08-11T14:24:45.940Z"
+  },
+  {
+   "repo": "superradcompany/microsandbox",
+   "name": "microsandbox",
+   "category": "dev-tools",
+   "stars": 7272,
+   "language": "Rust",
+   "scores": {
+    "setupEase": 4,
+    "docs": 4,
+    "community": 4,
+    "maturity": 3
+   },
+   "overall": 3.8,
+   "verdict": "Microsandbox is one of the most approachable ways to put generated or user code behind a microVM boundary on a developer machine.",
+   "skip_if": "Teams that require a production-stable compatibility promise: the README labels Microsandbox beta software and explicitly warns about breaking changes, missing features, and rough edges.",
+   "review_url": "https://mrkeyoor.com/repos/microsandbox/",
+   "reviewed_at": "2026-08-11T14:19:00.526Z"
   },
   {
    "repo": "Universal-Commerce-Protocol/ucp",
@@ -6089,6 +6593,42 @@
    "reviewed_at": "2026-08-01T19:06:50.562Z"
   },
   {
+   "repo": "safing/portmaster",
+   "name": "portmaster",
+   "category": "self-hosted",
+   "stars": 13519,
+   "language": "Go",
+   "scores": {
+    "setupEase": 3,
+    "docs": 4,
+    "community": 4,
+    "maturity": 4
+   },
+   "overall": 3.8,
+   "verdict": "Portmaster is the best first trial for Windows or Linux users who want understandable per-app filtering and encrypted DNS in one local product.",
+   "skip_if": "macOS users: the README defines Portmaster as a Windows and Linux desktop suite, with no supported macOS application.",
+   "review_url": "https://mrkeyoor.com/repos/portmaster/",
+   "reviewed_at": "2026-08-11T18:16:30.356Z"
+  },
+  {
+   "repo": "garrytan/gbrain",
+   "name": "gbrain",
+   "category": "self-hosted",
+   "stars": 28231,
+   "language": "TypeScript",
+   "scores": {
+    "setupEase": 3,
+    "docs": 4,
+    "community": 5,
+    "maturity": 3
+   },
+   "overall": 3.8,
+   "verdict": "GBrain is the most complete open-source agent-memory system to consider when plain vector search has become the bottleneck.",
+   "skip_if": "People who only need quick search over a small notes folder: GBrain brings Bun, a database, embeddings, schema packs, synchronization, provider configuration, and more than a hundred MCP operations.",
+   "review_url": "https://mrkeyoor.com/repos/gbrain/",
+   "reviewed_at": "2026-08-11T12:28:31.371Z"
+  },
+  {
    "repo": "fosrl/pangolin",
    "name": "pangolin",
    "category": "self-hosted",
@@ -6236,7 +6776,7 @@
    "repo": "outline/outline",
    "name": "outline",
    "category": "self-hosted",
-   "stars": 40037,
+   "stars": 40084,
    "language": "TypeScript",
    "scores": {
     "setupEase": 2,
@@ -6254,7 +6794,7 @@
    "repo": "twentyhq/twenty",
    "name": "twenty",
    "category": "self-hosted",
-   "stars": 54505,
+   "stars": 54772,
    "language": "TypeScript",
    "scores": {
     "setupEase": 4,
@@ -6773,6 +7313,24 @@
    "reviewed_at": "2026-08-08T19:10:31.384Z"
   },
   {
+   "repo": "cocoindex-io/cocoindex",
+   "name": "cocoindex",
+   "category": "data",
+   "stars": 11261,
+   "language": "Rust",
+   "scores": {
+    "setupEase": 3,
+    "docs": 4,
+    "community": 4,
+    "maturity": 3
+   },
+   "overall": 3.5,
+   "verdict": "CocoIndex is a strong choice when recomputing an AI index is already slow, costly, or hard to reason about.",
+   "skip_if": "Event producers that need to push individual row insertions, updates, or deletions into the engine: open issue #20 says the current source model supports pull rather than that push API.",
+   "review_url": "https://mrkeyoor.com/repos/cocoindex/",
+   "reviewed_at": "2026-08-11T14:20:17.221Z"
+  },
+  {
    "repo": "K2SOsint/Legendary_OSINT",
    "name": "Legendary_OSINT",
    "category": "data",
@@ -6861,6 +7419,24 @@
    "skip_if": "Solo developers or teams that prefer large, single-feature pull requests.",
    "review_url": "https://mrkeyoor.com/repos/gh-stack/",
    "reviewed_at": "2026-08-02T19:22:14.410Z"
+  },
+  {
+   "repo": "AgriciDaniel/claude-obsidian",
+   "name": "claude-obsidian",
+   "category": "llm-tools",
+   "stars": 10758,
+   "language": "Python",
+   "scores": {
+    "setupEase": 2,
+    "docs": 5,
+    "community": 4,
+    "maturity": 3
+   },
+   "overall": 3.5,
+   "verdict": "claude-obsidian is unusually thoughtful about the dangerous part of AI note-taking: letting a model rewrite a long-lived personal archive.",
+   "skip_if": "Native Windows users who need the agent to modify a vault without WSL: version 2.1.0 supports native read-only work but deliberately refuses writes outside WSL.",
+   "review_url": "https://mrkeyoor.com/repos/claude-obsidian/",
+   "reviewed_at": "2026-08-11T12:16:06.670Z"
   },
   {
    "repo": "langchain-ai/open_deep_research",
@@ -6969,6 +7545,60 @@
    "skip_if": "Developers without a GitHub Copilot subscription, as it's a requirement for standard use.",
    "review_url": "https://mrkeyoor.com/repos/copilot-sdk/",
    "reviewed_at": "2026-08-01T21:40:39.178Z"
+  },
+  {
+   "repo": "krillinai/KrillinAI",
+   "name": "KrillinAI",
+   "category": "ai-tools",
+   "stars": 10960,
+   "language": "Go",
+   "scores": {
+    "setupEase": 3,
+    "docs": 3,
+    "community": 4,
+    "maturity": 3
+   },
+   "overall": 3.3,
+   "verdict": "KrillinAI is an ambitious and genuinely useful all-in-one option for creators who otherwise juggle downloaders, Whisper, translation APIs, TTS, and FFmpeg.",
+   "skip_if": "Fully offline voice-cloning workflows: the README says voice cloning requires Alibaba Cloud as the TTS provider, including cloud credentials and object storage configuration.",
+   "review_url": "https://mrkeyoor.com/repos/krillinai/",
+   "reviewed_at": "2026-08-11T16:18:07.465Z"
+  },
+  {
+   "repo": "ZSeven-W/openpencil",
+   "name": "openpencil",
+   "category": "ai-tools",
+   "stars": 4773,
+   "language": "Rust",
+   "scores": {
+    "setupEase": 3,
+    "docs": 4,
+    "community": 4,
+    "maturity": 2
+   },
+   "overall": 3.3,
+   "verdict": "OpenPencil is one of the more interesting open-source attempts to join vector design, code, and agents in one tool.",
+   "skip_if": "Production design teams that require a stable release channel: every published version through v0.8.3 is marked prerelease, and GitHub has no non-prerelease latest release.",
+   "review_url": "https://mrkeyoor.com/repos/openpencil/",
+   "reviewed_at": "2026-08-11T14:16:58.787Z"
+  },
+  {
+   "repo": "NVlabs/GR00T-WholeBodyControl",
+   "name": "GR00T-WholeBodyControl",
+   "category": "ai-tools",
+   "stars": 3240,
+   "language": "Python",
+   "scores": {
+    "setupEase": 2,
+    "docs": 4,
+    "community": 4,
+    "maturity": 3
+   },
+   "overall": 3.3,
+   "verdict": "GR00T Whole-Body Control is one of the most useful public starting points for a well-funded Unitree G1 lab because it connects motion data, training, simulation, teleoperation, and deployment.",
+   "skip_if": "Teams using a humanoid other than Unitree G1: the model card lists three released G1 checkpoints, while H2 and R1 support remain user requests.",
+   "review_url": "https://mrkeyoor.com/repos/gr00t-wholebodycontrol/",
+   "reviewed_at": "2026-08-11T12:14:51.563Z"
   },
   {
    "repo": "TauricResearch/TradingAgents",
@@ -7187,6 +7817,24 @@
    "reviewed_at": "2026-08-01T17:26:46.471Z"
   },
   {
+   "repo": "AWeirdDev/flights",
+   "name": "flights",
+   "category": "data",
+   "stars": 1860,
+   "language": "Python",
+   "scores": {
+    "setupEase": 4,
+    "docs": 4,
+    "community": 3,
+    "maturity": 2
+   },
+   "overall": 3.3,
+   "verdict": "fast-flights is a clever, convenient starting point for personal tools and prototypes, especially when a few typed lines of Python are more valuable than contractual reliability.",
+   "skip_if": "Booking, expense, or customer-facing systems that require complete and dependable itineraries: issue #97 documents missing self-transfer results and price differences, while issue #101 reports expected results not being parsed.",
+   "review_url": "https://mrkeyoor.com/repos/flights/",
+   "reviewed_at": "2026-08-11T12:14:14.067Z"
+  },
+  {
    "repo": "NanmiCoder/MediaCrawler",
    "name": "MediaCrawler",
    "category": "data",
@@ -7221,6 +7869,24 @@
    "skip_if": "Any production workload or valuable data: the README explicitly says pgrust is not production-ready and still has many bugs.",
    "review_url": "https://mrkeyoor.com/repos/pgrust/",
    "reviewed_at": "2026-08-08T18:35:27.402Z"
+  },
+  {
+   "repo": "coreybutler/nvm-windows",
+   "name": "nvm-windows",
+   "category": "dev-tools",
+   "stars": 47288,
+   "language": "Go",
+   "scores": {
+    "setupEase": 3,
+    "docs": 4,
+    "community": 3,
+    "maturity": 3
+   },
+   "overall": 3.3,
+   "verdict": "NVM for Windows still does its core job well on conventional x64 Windows machines, especially when you need a familiar manual switcher and can start from a clean Node setup.",
+   "skip_if": "Developers without administrator access: the README says normal install and use usually require an elevated PowerShell or Command Prompt because switching changes a symlink.",
+   "review_url": "https://mrkeyoor.com/repos/nvm-windows/",
+   "reviewed_at": "2026-08-11T16:15:29.865Z"
   },
   {
    "repo": "joelbqz/writer-computer",
@@ -7275,6 +7941,24 @@
    "skip_if": "Beginners looking for a simple, one-click AI coding assistant; the setup and concept of backends can be complex.",
    "review_url": "https://mrkeyoor.com/repos/openhands/",
    "reviewed_at": "2026-08-01T21:48:25.354Z"
+  },
+  {
+   "repo": "Fredolx/open-tv",
+   "name": "open-tv",
+   "category": "self-hosted",
+   "stars": 3953,
+   "language": "Rust",
+   "scores": {
+    "setupEase": 4,
+    "docs": 3,
+    "community": 3,
+    "maturity": 3
+   },
+   "overall": 3.3,
+   "verdict": "Fred TV is an appealing IPTV client for people who already trust their provider and want speed, recording, and a clean remote-controlled interface without running a full media center.",
+   "skip_if": "Anyone expecting channels or subscriptions to be included: the README only imports a source you provide, so Fred TV is a player rather than a content service.",
+   "review_url": "https://mrkeyoor.com/repos/open-tv/",
+   "reviewed_at": "2026-08-11T14:23:39.910Z"
   },
   {
    "repo": "reacherhq/check-if-email-exists",
@@ -7511,10 +8195,28 @@
    "reviewed_at": "2026-08-01T19:01:36.456Z"
   },
   {
+   "repo": "LLMQuant/quant-mind",
+   "name": "quant-mind",
+   "category": "data",
+   "stars": 2489,
+   "language": "Python",
+   "scores": {
+    "setupEase": 3,
+    "docs": 4,
+    "community": 3,
+    "maturity": 2
+   },
+   "overall": 3,
+   "verdict": "QuantMind is worth studying if your immediate job is turning papers or PR Newswire into inspectable financial knowledge, especially with an agent editing the pipeline.",
+   "skip_if": "Teams that need SEC filings or prediction-market ingestion today: the README lists both as directions that have not shipped.",
+   "review_url": "https://mrkeyoor.com/repos/quant-mind/",
+   "reviewed_at": "2026-08-11T12:12:35.379Z"
+  },
+  {
    "repo": "TapXWorld/ChinaTextbook",
    "name": "ChinaTextbook",
    "category": "data",
-   "stars": 77723,
+   "stars": 79000,
    "language": "Roff",
    "scores": {
     "setupEase": 4,
@@ -7637,6 +8339,42 @@
    "reviewed_at": "2026-08-02T14:57:21.294Z"
   },
   {
+   "repo": "corsairdev/corsair",
+   "name": "corsair",
+   "category": "llm-tools",
+   "stars": 8928,
+   "language": "TypeScript",
+   "scores": {
+    "setupEase": 2,
+    "docs": 4,
+    "community": 4,
+    "maturity": 2
+   },
+   "overall": 3,
+   "verdict": "Corsair has the right central idea: an agent should receive narrow tools and governed actions, not a bag of reusable credentials.",
+   "skip_if": "Teams seeking a zero-infrastructure connector: the quick start requires a database, four tables, a key-encryption key, Hub credentials, and an application route.",
+   "review_url": "https://mrkeyoor.com/repos/corsair/",
+   "reviewed_at": "2026-08-11T14:25:24.078Z"
+  },
+  {
+   "repo": "cactus-compute/needle",
+   "name": "needle",
+   "category": "llm-tools",
+   "stars": 3744,
+   "language": "Python",
+   "scores": {
+    "setupEase": 3,
+    "docs": 4,
+    "community": 3,
+    "maturity": 2
+   },
+   "overall": 3,
+   "verdict": "Needle is one of the most interesting options for a narrow class of offline agents where memory use matters more than broad language ability.",
+   "skip_if": "Teams looking for a general chat assistant: the README says Needle solves tasks as function calls, returns an empty call for unsupported requests, and has no free-text fallback for off-topic input.",
+   "review_url": "https://mrkeyoor.com/repos/needle/",
+   "reviewed_at": "2026-08-11T12:19:32.737Z"
+  },
+  {
    "repo": "continuedev/continue",
    "name": "continue",
    "category": "llm-tools",
@@ -7671,6 +8409,24 @@
    "skip_if": "Beginners seeking a simple, plug-and-play AI chat assistant.",
    "review_url": "https://mrkeyoor.com/repos/cline/",
    "reviewed_at": "2026-08-01T21:49:11.436Z"
+  },
+  {
+   "repo": "macro-inc/macro",
+   "name": "macro",
+   "category": "self-hosted",
+   "stars": 1070,
+   "language": "Rust",
+   "scores": {
+    "setupEase": 2,
+    "docs": 4,
+    "community": 3,
+    "maturity": 3
+   },
+   "overall": 3,
+   "verdict": "Macro is one of the more coherent attempts to make a team's work legible to both people and agents, and its bidirectional links are a better foundation than another set of shallow integrations.",
+   "skip_if": "Outlook or custom IMAP and SMTP teams: the getting-started guide says Macro currently syncs Gmail and Google Workspace, while other mail support is only planned.",
+   "review_url": "https://mrkeyoor.com/repos/macro/",
+   "reviewed_at": "2026-08-11T14:17:31.013Z"
   },
   {
    "repo": "sopaco/deepwiki-rs",
@@ -7784,7 +8540,7 @@
    "repo": "firecrawl/pdf-inspector",
    "name": "pdf-inspector",
    "category": "data",
-   "stars": 13352,
+   "stars": 14767,
    "language": "Rust",
    "scores": {
     "setupEase": 3,
@@ -7838,7 +8594,7 @@
    "repo": "NomaDamas/k-skill",
    "name": "k-skill",
    "category": "llm-tools",
-   "stars": 7046,
+   "stars": 7132,
    "language": "JavaScript",
    "scores": {
     "setupEase": 4,
@@ -7905,6 +8661,24 @@
    "skip_if": "English-only users: there is no English documentation, and open issue #186 reports that the English language selection disappeared after upgrading to 1.9.0.",
    "review_url": "https://mrkeyoor.com/repos/javboss/",
    "reviewed_at": "2026-08-10T16:21:48.291Z"
+  },
+  {
+   "repo": "anthropics/cwc-workshops",
+   "name": "cwc-workshops",
+   "category": "ai-tools",
+   "stars": 1973,
+   "language": "TypeScript",
+   "scores": {
+    "setupEase": 3,
+    "docs": 4,
+    "community": 1,
+    "maturity": 2
+   },
+   "overall": 2.5,
+   "verdict": "Use cwc-workshops as a pattern library and guided lab, especially if you already have Managed Agents access and want to see several platform features connected end to end.",
+   "skip_if": "Teams seeking a maintained production starter: the root README and individual workshops explicitly say they are not maintained and do not accept contributions.",
+   "review_url": "https://mrkeyoor.com/repos/cwc-workshops/",
+   "reviewed_at": "2026-08-11T12:17:15.492Z"
   },
   {
    "repo": "xlang-ai/OSWorld",
@@ -8000,7 +8774,7 @@
    "repo": "LadybirdBrowser/ladybird",
    "name": "ladybird",
    "category": "web",
-   "stars": 64894,
+   "stars": 65423,
    "language": "C++",
    "scores": {
     "setupEase": 2,
