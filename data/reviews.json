@@ -1,8 +1,8 @@
 {
- "generated": "2026-09-10",
+ "generated": "2026-09-11",
  "source": "https://mrkeyoor.com/repos/",
  "license": "CC-BY-4.0",
- "count": 1819,
+ "count": 1890,
  "reviews": [
   {
    "repo": "ClickHouse/ClickHouse",
@@ -21,6 +21,24 @@
    "skip_if": "Users who need a general-purpose transactional (OLTP) database for a web application backend; it's not a replacement for PostgreSQL or MySQL.",
    "review_url": "https://mrkeyoor.com/repos/clickhouse/",
    "reviewed_at": "2026-08-02T02:19:27.912Z"
+  },
+  {
+   "repo": "markdown-it/markdown-it",
+   "name": "markdown-it",
+   "category": "dev-tools",
+   "stars": 21892,
+   "language": "TypeScript",
+   "scores": {
+    "setupEase": 5,
+    "docs": 5,
+    "community": 5,
+    "maturity": 5
+   },
+   "overall": 5,
+   "verdict": "Our markdown-it run installed 402 packages in 20 seconds, built in 13 seconds, and passed all 307 tests in 23 seconds, with 0 audit findings.",
+   "skip_if": "Applications that need asynchronous work inside parser rules: the architecture documentation says parsing runs synchronously.",
+   "review_url": "https://mrkeyoor.com/repos/markdown-it/",
+   "reviewed_at": "2026-09-11T05:12:53.275Z"
   },
   {
    "repo": "tokio-rs/tokio",
@@ -93,24 +111,6 @@
    "skip_if": "Teams that want a switch for every house-style preference: Prettier's option set is frozen, and requests to preserve input line breaks are explicitly out of scope.",
    "review_url": "https://mrkeyoor.com/repos/prettier/",
    "reviewed_at": "2026-08-31T14:40:39.608Z"
-  },
-  {
-   "repo": "ajeetdsouza/zoxide",
-   "name": "zoxide",
-   "category": "dev-tools",
-   "stars": 39279,
-   "language": "Rust",
-   "scores": {
-    "setupEase": 5,
-    "docs": 5,
-    "community": 5,
-    "maturity": 5
-   },
-   "overall": 5,
-   "verdict": "Our zoxide run installed 59 packages in 15 seconds, built in 26 seconds, and passed all 32 tests in 27 seconds.",
-   "skip_if": "Administrators who cannot modify shell startup files: the README requires shell initialization after installing the binary.",
-   "review_url": "https://mrkeyoor.com/repos/zoxide/",
-   "reviewed_at": "2026-09-08T12:17:31.843Z"
   },
   {
    "repo": "go-task/task",
@@ -527,6 +527,24 @@
    "reviewed_at": "2026-08-25T20:06:17.564Z"
   },
   {
+   "repo": "EbookFoundation/free-programming-books",
+   "name": "free-programming-books",
+   "category": "data",
+   "stars": 396473,
+   "language": "Python",
+   "scores": {
+    "setupEase": 5,
+    "docs": 4,
+    "community": 5,
+    "maturity": 5
+   },
+   "overall": 4.8,
+   "verdict": "Our free-programming-books install finished in 16 seconds with 35 packages, the build passed in 5 seconds, and pip-audit found 0 known vulnerabilities, so trying its maintenance tooling is low risk.",
+   "skip_if": "Learners who need one ordered syllabus with milestones: the README groups links by language, subject, and format, but it does not prescribe a course sequence.",
+   "review_url": "https://mrkeyoor.com/repos/free-programming-books/",
+   "reviewed_at": "2026-09-11T05:05:46.013Z"
+  },
+  {
    "repo": "hagezi/dns-blocklists",
    "name": "dns-blocklists",
    "category": "data",
@@ -633,6 +651,24 @@
    "skip_if": "Applications that need several processes writing the same database file: the concurrency guide limits read-write access to one process.",
    "review_url": "https://mrkeyoor.com/repos/duckdb/",
    "reviewed_at": "2026-08-27T03:46:22.543Z"
+  },
+  {
+   "repo": "PHPMailer/PHPMailer",
+   "name": "PHPMailer",
+   "category": "dev-tools",
+   "stars": 22297,
+   "language": "PHP",
+   "scores": {
+    "setupEase": 4,
+    "docs": 5,
+    "community": 5,
+    "maturity": 5
+   },
+   "overall": 4.8,
+   "verdict": "Our 2026-09-10 sandbox run could not install, build, or test PHPMailer because the runner had no supported PHP ecosystem and the repository had no Dockerfile.",
+   "skip_if": "Teams wanting a hosted transactional email service, because PHPMailer is a client library, not delivery infrastructure Framework users already well served by Symfony Mailer or their framework's mail abstraction Projects that cannot accept LGPL-2.1 licensing obligations Anyone expecting email deliverability,…",
+   "review_url": "https://mrkeyoor.com/repos/phpmailer/",
+   "reviewed_at": "2026-09-11T00:33:00.779Z"
   },
   {
    "repo": "twpayne/chezmoi",
@@ -939,6 +975,24 @@
    "skip_if": "Teams needing a full multi-node scheduler, because Compose is not Kubernetes or Nomad Docker Swarm users expecting every modern Compose feature, because the README warns that Swarm lacks newer syntax enhancements People who want zero container knowledge, because images, volumes,…",
    "review_url": "https://mrkeyoor.com/repos/compose/",
    "reviewed_at": "2026-08-27T16:34:07.476Z"
+  },
+  {
+   "repo": "ajeetdsouza/zoxide",
+   "name": "zoxide",
+   "category": "dev-tools",
+   "stars": 39355,
+   "language": "Rust",
+   "scores": {
+    "setupEase": 4,
+    "docs": 5,
+    "community": 5,
+    "maturity": 5
+   },
+   "overall": 4.8,
+   "verdict": "Our zoxide run installed 59 packages in 15 seconds, built in 26 seconds, and passed all 32 tests, making it an easy recommendation for developers who repeatedly cross large directory trees.",
+   "skip_if": "Users who need fixed bookmark names to resolve to one immutable path: zoxide ranks matches by frequency and recency, and issue 1270 shows a child directory outranking the intended parent.",
+   "review_url": "https://mrkeyoor.com/repos/zoxide/",
+   "reviewed_at": "2026-09-10T16:18:08.111Z"
   },
   {
    "repo": "tldr-pages/tldr",
@@ -1589,6 +1643,24 @@
    "reviewed_at": "2026-09-09T07:25:32.368Z"
   },
   {
+   "repo": "twbs/bootstrap",
+   "name": "bootstrap",
+   "category": "web",
+   "stars": 174758,
+   "language": "MDX",
+   "scores": {
+    "setupEase": 4,
+    "docs": 5,
+    "community": 5,
+    "maturity": 5
+   },
+   "overall": 4.8,
+   "verdict": "Our Bootstrap checkout installed 1,230 packages in 36 seconds and reported 0 known vulnerabilities, but its 25-second test run stopped because no supported browser was installed.",
+   "skip_if": "Projects that must support Internet Explorer: the browser guide says to use Bootstrap v4 for that requirement.",
+   "review_url": "https://mrkeyoor.com/repos/bootstrap/",
+   "reviewed_at": "2026-09-10T12:30:20.125Z"
+  },
+  {
    "repo": "solidjs/solid",
    "name": "solid",
    "category": "web",
@@ -1821,6 +1893,42 @@
    "skip_if": "Teams requiring the checked-out upstream suite to pass in a plain 3-CPU container: our command ended with 36 failed tests and connection refusals on port 5173.",
    "review_url": "https://mrkeyoor.com/repos/vite/",
    "reviewed_at": "2026-08-27T02:46:43.484Z"
+  },
+  {
+   "repo": "keras-team/keras",
+   "name": "keras",
+   "category": "ai-tools",
+   "stars": 64317,
+   "language": "Python",
+   "scores": {
+    "setupEase": 3,
+    "docs": 5,
+    "community": 5,
+    "maturity": 5
+   },
+   "overall": 4.5,
+   "verdict": "Our Keras install occupied 4,167 MB, and its test suite was still at 1% when our 900-second limit expired, so adopting it means accepting a large development environment and slow full validation.",
+   "skip_if": "Native Windows teams unwilling to use WSL2: the README lists Linux and macOS compatibility and recommends WSL2 for Windows.",
+   "review_url": "https://mrkeyoor.com/repos/keras/",
+   "reviewed_at": "2026-09-11T05:08:34.255Z"
+  },
+  {
+   "repo": "opencv/opencv",
+   "name": "opencv",
+   "category": "ai-tools",
+   "stars": 90786,
+   "language": "C++",
+   "scores": {
+    "setupEase": 3,
+    "docs": 5,
+    "community": 5,
+    "maturity": 5
+   },
+   "overall": 4.5,
+   "verdict": "Our 5-second build covered OpenCV's `docs_sphinx/` project rather than the C++ library, and pip-audit found 9 known vulnerabilities in that 71-package environment.",
+   "skip_if": "Buyers who want our lab result to prove the native library: the measured Python project was `docs_sphinx/`, and no OpenCV C++ build or test target ran.",
+   "review_url": "https://mrkeyoor.com/repos/opencv/",
+   "reviewed_at": "2026-09-10T12:30:13.937Z"
   },
   {
    "repo": "gradio-app/gradio",
@@ -2633,10 +2741,46 @@
    "reviewed_at": "2026-08-27T03:46:33.684Z"
   },
   {
+   "repo": "elixir-lang/elixir",
+   "name": "elixir",
+   "category": "dev-tools",
+   "stars": 26630,
+   "language": "Elixir",
+   "scores": {
+    "setupEase": 3,
+    "docs": 5,
+    "community": 5,
+    "maturity": 5
+   },
+   "overall": 4.5,
+   "verdict": "Our lab did not run Elixir commit 1d15942 because the harness does not support the Elixir ecosystem and the repository supplies no Dockerfile.",
+   "skip_if": "Teams requiring compile-time static types across the application: Elixir is a dynamic language, and issue 15882 shows false-positive warnings in the developing type checker.",
+   "review_url": "https://mrkeyoor.com/repos/elixir/",
+   "reviewed_at": "2026-09-10T16:32:36.133Z"
+  },
+  {
+   "repo": "ast-grep/ast-grep",
+   "name": "ast-grep",
+   "category": "dev-tools",
+   "stars": 15836,
+   "language": "Rust",
+   "scores": {
+    "setupEase": 4,
+    "docs": 5,
+    "community": 5,
+    "maturity": 4
+   },
+   "overall": 4.5,
+   "verdict": "Our ast-grep install took 271 seconds, but its build finished in 4 seconds and pip-audit found 0 known vulnerabilities.",
+   "skip_if": "Refactors that require types, symbol resolution, imports, or cross-file reference knowledge: open issue 2413 says version 0.45.3 has no structured semantic layer for those facts.",
+   "review_url": "https://mrkeyoor.com/repos/ast-grep/",
+   "reviewed_at": "2026-09-10T16:22:53.870Z"
+  },
+  {
    "repo": "d2lang/d2",
    "name": "d2",
    "category": "dev-tools",
-   "stars": 25353,
+   "stars": 25354,
    "language": "Go",
    "scores": {
     "setupEase": 4,
@@ -2654,7 +2798,7 @@
    "repo": "typst/typst",
    "name": "typst",
    "category": "dev-tools",
-   "stars": 55932,
+   "stars": 55936,
    "language": "Rust",
    "scores": {
     "setupEase": 4,
@@ -3929,6 +4073,24 @@
    "reviewed_at": "2026-08-25T20:02:06.043Z"
   },
   {
+   "repo": "bitwarden/server",
+   "name": "server",
+   "category": "self-hosted",
+   "stars": 20109,
+   "language": "C#",
+   "scores": {
+    "setupEase": 3,
+    "docs": 5,
+    "community": 5,
+    "maturity": 5
+   },
+   "overall": 4.5,
+   "verdict": "Bitwarden Admin installed 168 npm packages in 16 seconds and built in 17 seconds with 0 audit findings in our sandbox, but that result covers only `src/Admin` and there was no test target.",
+   "skip_if": "Home users who cannot spare the standard Linux minimum of 2 GB RAM and 12 GB storage or operate separate HTTP and HTTPS ports; Bitwarden Lite is the smaller official route.",
+   "review_url": "https://mrkeyoor.com/repos/bitwarden-server/",
+   "reviewed_at": "2026-09-10T16:31:50.539Z"
+  },
+  {
    "repo": "apache/skywalking",
    "name": "skywalking",
    "category": "self-hosted",
@@ -4379,10 +4541,28 @@
    "reviewed_at": "2026-08-26T05:25:17.412Z"
   },
   {
+   "repo": "videojs/video.js",
+   "name": "video.js",
+   "category": "web",
+   "stars": 39878,
+   "language": "JavaScript",
+   "scores": {
+    "setupEase": 4,
+    "docs": 4,
+    "community": 5,
+    "maturity": 5
+   },
+   "overall": 4.5,
+   "verdict": "Our build completed in 60 seconds, but the full test command hit the 900-second cap without completing.",
+   "skip_if": "Teams needing a tiny HLS-only playback engine rather than a full player UI Projects that require the entire upstream test suite to finish in a plain headless container without extra investigation Teams unwilling to manage a large development dependency tree…",
+   "review_url": "https://mrkeyoor.com/repos/video-js/",
+   "reviewed_at": "2026-09-11T04:33:07.923Z"
+  },
+  {
    "repo": "gofiber/fiber",
    "name": "fiber",
    "category": "web",
-   "stars": 40136,
+   "stars": 40138,
    "language": "Go",
    "scores": {
     "setupEase": 5,
@@ -5441,6 +5621,24 @@
    "reviewed_at": "2026-08-27T04:57:33.000Z"
   },
   {
+   "repo": "openclaw/gogcli",
+   "name": "gogcli",
+   "category": "automation",
+   "stars": 8392,
+   "language": "Go",
+   "scores": {
+    "setupEase": 3,
+    "docs": 5,
+    "community": 5,
+    "maturity": 4
+   },
+   "overall": 4.3,
+   "verdict": "Our gogcli run installed 139 packages, built successfully, and passed all 84 tests, so the code is a credible base for Google Workspace automation.",
+   "skip_if": "Users who expect a simple Google sign-in without Cloud Console work: the quickstart requires a Google Cloud project, enabled APIs, a consent screen, and a Desktop OAuth client.",
+   "review_url": "https://mrkeyoor.com/repos/gogcli/",
+   "reviewed_at": "2026-09-10T16:30:17.647Z"
+  },
+  {
    "repo": "fastlane/fastlane",
    "name": "fastlane",
    "category": "automation",
@@ -5925,6 +6123,24 @@
    "skip_if": "Buyers who require an OSI-approved open-source license: n8n uses its Sustainable Use License and a separate enterprise license.",
    "review_url": "https://mrkeyoor.com/repos/n8n/",
    "reviewed_at": "2026-09-09T05:05:34.312Z"
+  },
+  {
+   "repo": "jivoi/awesome-osint",
+   "name": "awesome-osint",
+   "category": "data",
+   "stars": 29255,
+   "language": "",
+   "scores": {
+    "setupEase": 4,
+    "docs": 4,
+    "community": 5,
+    "maturity": 4
+   },
+   "overall": 4.3,
+   "verdict": "We could not run it because the repository has no supported language ecosystem and no Dockerfile.",
+   "skip_if": "Anyone expecting an installable OSINT application or automated investigation pipeline Teams that need every linked service to be independently tested, risk-rated, or legally approved Users who need a dataset, API, search interface, or reproducible query history Organizations that require clearly…",
+   "review_url": "https://mrkeyoor.com/repos/awesome-osint/",
+   "reviewed_at": "2026-09-10T12:35:10.637Z"
   },
   {
    "repo": "matplotlib/matplotlib",
@@ -6591,6 +6807,132 @@
    "skip_if": "Teams that need the supplied lab run to prove the Redis server itself builds and passes tests: our harness only exercised `utils/req-res-validator`.",
    "review_url": "https://mrkeyoor.com/repos/redis/",
    "reviewed_at": "2026-08-27T03:44:39.820Z"
+  },
+  {
+   "repo": "DarkFlippers/unleashed-firmware",
+   "name": "unleashed-firmware",
+   "category": "dev-tools",
+   "stars": 22202,
+   "language": "C",
+   "scores": {
+    "setupEase": 4,
+    "docs": 4,
+    "community": 5,
+    "maturity": 4
+   },
+   "overall": 4.3,
+   "verdict": "Our Unleashed checkout occupied 199.7 MB, and pytest found 0 tests in `lib/nanopb`, so the 3-second nested build is not evidence that the firmware passed its test suite.",
+   "skip_if": "Anyone without a Flipper Zero: this is device firmware, not a desktop radio toolkit or emulator.",
+   "review_url": "https://mrkeyoor.com/repos/unleashed-firmware/",
+   "reviewed_at": "2026-09-10T16:32:24.276Z"
+  },
+  {
+   "repo": "projectdiscovery/katana",
+   "name": "katana",
+   "category": "dev-tools",
+   "stars": 17449,
+   "language": "Go",
+   "scores": {
+    "setupEase": 4,
+    "docs": 4,
+    "community": 5,
+    "maturity": 4
+   },
+   "overall": 4.3,
+   "verdict": "Our Katana run installed 357 packages, built in 111 seconds, and passed all 46 Go tests, so it is a credible default crawler for security automation.",
+   "skip_if": "Library users who require cancellation to stop every headless crawl: issue 1756 reports that a crawl blocked in a CDP call can outlive its cancelled context.",
+   "review_url": "https://mrkeyoor.com/repos/katana/",
+   "reviewed_at": "2026-09-10T16:17:51.481Z"
+  },
+  {
+   "repo": "skylot/jadx",
+   "name": "jadx",
+   "category": "dev-tools",
+   "stars": 50398,
+   "language": "Java",
+   "scores": {
+    "setupEase": 4,
+    "docs": 4,
+    "community": 5,
+    "maturity": 4
+   },
+   "overall": 4.3,
+   "verdict": "Our JADX run completed its 149-second install, 96-second build, and 224-second test step without failure, making v1.5.6 an easy recommendation for first-pass Android code inspection.",
+   "skip_if": "Anyone who needs exact source recovery: the README warns that JADX cannot decompile 100% of code and that errors should be expected.",
+   "review_url": "https://mrkeyoor.com/repos/jadx/",
+   "reviewed_at": "2026-09-10T12:31:42.669Z"
+  },
+  {
+   "repo": "desktop/desktop",
+   "name": "desktop",
+   "category": "dev-tools",
+   "stars": 21835,
+   "language": "TypeScript",
+   "scores": {
+    "setupEase": 4,
+    "docs": 4,
+    "community": 5,
+    "maturity": 4
+   },
+   "overall": 4.3,
+   "verdict": "Our GitHub Desktop install pulled 1,123 packages and occupied 1,232 MB, then its 124-second test run failed with only repeated `test failed` lines in the supplied tail.",
+   "skip_if": "Linux users who require official packages and support: the README directs them to the community-maintained `shiftkey/desktop` fork.",
+   "review_url": "https://mrkeyoor.com/repos/desktop-desktop/",
+   "reviewed_at": "2026-09-10T12:25:57.193Z"
+  },
+  {
+   "repo": "ManimCommunity/manim",
+   "name": "manim",
+   "category": "dev-tools",
+   "stars": 40757,
+   "language": "Python",
+   "scores": {
+    "setupEase": 3,
+    "docs": 5,
+    "community": 5,
+    "maturity": 4
+   },
+   "overall": 4.3,
+   "verdict": "Our Manim install and 9-second build passed, but its tests stopped after 8 seconds because Python could not import `cairo`.",
+   "skip_if": "Creators who want a point-and-click timeline: the README's basic workflow is a Python `Scene` class rendered from the command line.",
+   "review_url": "https://mrkeyoor.com/repos/manimcommunity-manim/",
+   "reviewed_at": "2026-09-10T12:24:45.492Z"
+  },
+  {
+   "repo": "LazyVim/LazyVim",
+   "name": "LazyVim",
+   "category": "dev-tools",
+   "stars": 27434,
+   "language": "Lua",
+   "scores": {
+    "setupEase": 3,
+    "docs": 5,
+    "community": 5,
+    "maturity": 4
+   },
+   "overall": 4.3,
+   "verdict": "Our sandbox could not execute commit 9997009 because the harness supports no Lua ecosystem and the repository has no Dockerfile, so we have no install or test result to offset the documentation.",
+   "skip_if": "Anyone staying on Neovim below 0.11.2: LazyVim now exits with an error on older versions.",
+   "review_url": "https://mrkeyoor.com/repos/lazyvim/",
+   "reviewed_at": "2026-09-10T12:21:40.172Z"
+  },
+  {
+   "repo": "TheAlgorithms/Java",
+   "name": "Java",
+   "category": "dev-tools",
+   "stars": 66238,
+   "language": "Java",
+   "scores": {
+    "setupEase": 5,
+    "docs": 3,
+    "community": 5,
+    "maturity": 4
+   },
+   "overall": 4.3,
+   "verdict": "Our Java run passed all 29,285 tests in 121 seconds, making TheAlgorithms/Java a strong code-reading resource for learners who want examples they can execute.",
+   "skip_if": "Production teams seeking drop-in replacements for Java collections or utilities: the README warns that these educational implementations may be less efficient than the standard library.",
+   "review_url": "https://mrkeyoor.com/repos/java/",
+   "reviewed_at": "2026-09-10T12:15:15.254Z"
   },
   {
    "repo": "samber/lo",
@@ -7943,6 +8285,24 @@
    "reviewed_at": "2026-08-01T22:49:06.907Z"
   },
   {
+   "repo": "linshenkx/prompt-optimizer",
+   "name": "prompt-optimizer",
+   "category": "llm-tools",
+   "stars": 34455,
+   "language": "TypeScript",
+   "scores": {
+    "setupEase": 4,
+    "docs": 4,
+    "community": 5,
+    "maturity": 4
+   },
+   "overall": 4.3,
+   "verdict": "Our build finished in 54 seconds, but the test suite ended with 1 failure after 1,204 tests passed.",
+   "skip_if": "Teams requiring a clean test run before adoption, because our checkout had 1 failing test Buyers who need an unambiguous machine-detected license without inspecting the LICENSE file Organizations seeking a centralized server-side observability and approval platform Beginners expecting a tiny…",
+   "review_url": "https://mrkeyoor.com/repos/prompt-optimizer/",
+   "reviewed_at": "2026-09-10T20:38:10.062Z"
+  },
+  {
    "repo": "nowork-studio/notfair-plugin",
    "name": "notfair-plugin",
    "category": "llm-tools",
@@ -8229,6 +8589,60 @@
    "skip_if": "Teams that need a source build to stay pure Go: the development guide requires CMake 3.24 or newer, a C/C++ compiler, and native CGO payloads.",
    "review_url": "https://mrkeyoor.com/repos/ollama/",
    "reviewed_at": "2026-08-27T03:41:01.779Z"
+  },
+  {
+   "repo": "mastodon/mastodon",
+   "name": "mastodon",
+   "category": "self-hosted",
+   "stars": 50297,
+   "language": "Ruby",
+   "scores": {
+    "setupEase": 2,
+    "docs": 5,
+    "community": 5,
+    "maturity": 5
+   },
+   "overall": 4.3,
+   "verdict": "Our Mastodon checkout installed 1,317 Yarn packages and used 748 MB before a server was running, though all 4,053 Vitest tests passed.",
+   "skip_if": "A hobbyist seeking a single-process personal server: the README requires Ruby, PostgreSQL, Redis, Node.js, and FFmpeg, while the install guide adds Nginx and 3 application services.",
+   "review_url": "https://mrkeyoor.com/repos/mastodon/",
+   "reviewed_at": "2026-09-10T12:35:51.677Z"
+  },
+  {
+   "repo": "docmost/docmost",
+   "name": "docmost",
+   "category": "self-hosted",
+   "stars": 21629,
+   "language": "TypeScript",
+   "scores": {
+    "setupEase": 4,
+    "docs": 4,
+    "community": 5,
+    "maturity": 4
+   },
+   "overall": 4.3,
+   "verdict": "Our Docmost run installed 1,942 packages, occupied 1,306 MB, and built in 42 seconds, but the checkout offered no test target.",
+   "skip_if": "Small installations that insist on one binary or SQLite: the recommended Compose file runs Docmost, PostgreSQL, and Redis as separate services.",
+   "review_url": "https://mrkeyoor.com/repos/docmost/",
+   "reviewed_at": "2026-09-10T12:25:45.153Z"
+  },
+  {
+   "repo": "hwdsl2/setup-ipsec-vpn",
+   "name": "setup-ipsec-vpn",
+   "category": "self-hosted",
+   "stars": 28454,
+   "language": "Shell",
+   "scores": {
+    "setupEase": 3,
+    "docs": 5,
+    "community": 5,
+    "maturity": 4
+   },
+   "overall": 4.3,
+   "verdict": "The installer needs root access and reachable UDP ports 500 and 4500, so it belongs on a dedicated server you can rebuild.",
+   "skip_if": "Shared or valuable servers with hand-maintained firewall rules: the installer runs as root and rewrites packages, IPsec settings, firewall state, `sysctl.conf`, and `rc.local`.",
+   "review_url": "https://mrkeyoor.com/repos/setup-ipsec-vpn/",
+   "reviewed_at": "2026-09-10T05:22:47.612Z"
   },
   {
    "repo": "bitcoin/bitcoin",
@@ -9167,6 +9581,42 @@
    "reviewed_at": "2026-08-26T23:33:30.641Z"
   },
   {
+   "repo": "GoogleChrome/lighthouse",
+   "name": "lighthouse",
+   "category": "web",
+   "stars": 30758,
+   "language": "JavaScript",
+   "scores": {
+    "setupEase": 3,
+    "docs": 5,
+    "community": 5,
+    "maturity": 4
+   },
+   "overall": 4.3,
+   "verdict": "Our Lighthouse checkout installed 1,036 packages in 95 seconds and occupied 586 MB, then its tests failed after 4 seconds when Node could not open `dist/report/flow.js`.",
+   "skip_if": "Teams that need real-user performance data: the README describes Lighthouse as a local lab run, and its variability guide warns that page, network, hardware, and browser conditions move results.",
+   "review_url": "https://mrkeyoor.com/repos/googlechrome-lighthouse/",
+   "reviewed_at": "2026-09-11T05:10:16.598Z"
+  },
+  {
+   "repo": "Anarios/return-youtube-dislike",
+   "name": "return-youtube-dislike",
+   "category": "web",
+   "stars": 13765,
+   "language": "JavaScript",
+   "scores": {
+    "setupEase": 4,
+    "docs": 4,
+    "community": 5,
+    "maturity": 4
+   },
+   "overall": 4.3,
+   "verdict": "Our Return YouTube Dislike run passed 1,389 of 1,390 tests, but npm audit still found 19 vulnerabilities, so the extension is useful for viewers and a cautious choice for source integrators.",
+   "skip_if": "Anyone who needs YouTube's exact hidden count: the FAQ says current values are estimates and may stay cached for 2 to 3 days.",
+   "review_url": "https://mrkeyoor.com/repos/return-youtube-dislike/",
+   "reviewed_at": "2026-09-10T14:29:49.253Z"
+  },
+  {
    "repo": "valyala/fasthttp",
    "name": "fasthttp",
    "category": "web",
@@ -9615,6 +10065,78 @@
    "skip_if": "Products that must support Internet Explorer 11: the official FAQ says Vue 3 requires browsers with native ES2016 support.",
    "review_url": "https://mrkeyoor.com/repos/vuejs-core/",
    "reviewed_at": "2026-08-27T02:46:19.650Z"
+  },
+  {
+   "repo": "ggml-org/whisper.cpp",
+   "name": "whisper.cpp",
+   "category": "ai-tools",
+   "stars": 53590,
+   "language": "C++",
+   "scores": {
+    "setupEase": 3,
+    "docs": 4,
+    "community": 5,
+    "maturity": 4
+   },
+   "overall": 4,
+   "verdict": "Our build succeeded in 20 seconds, but all 7 Go test targets failed to build in the supplied sandbox run.",
+   "skip_if": "People wanting a polished hosted transcription service with accounts, storage, and support included Beginners who expect every audio format to work directly in the command-line example Go teams that require a clean test run in a fresh Debian container today…",
+   "review_url": "https://mrkeyoor.com/repos/whisper-cpp/",
+   "reviewed_at": "2026-09-11T00:36:10.400Z"
+  },
+  {
+   "repo": "jnMetaCode/agency-agents-zh",
+   "name": "agency-agents-zh",
+   "category": "ai-tools",
+   "stars": 20550,
+   "language": "Shell",
+   "scores": {
+    "setupEase": 4,
+    "docs": 4,
+    "community": 5,
+    "maturity": 3
+   },
+   "overall": 4,
+   "verdict": "Our install finished in 4 seconds with 0 packages added.",
+   "skip_if": "Teams expecting an autonomous multi-agent runtime, because this repository is mainly role content Buyers who require English-first local documentation, because the maintained edition is Chinese Regulated teams seeking tested policy enforcement or guaranteed output quality Developers who want a conventional…",
+   "review_url": "https://mrkeyoor.com/repos/agency-agents-zh/",
+   "reviewed_at": "2026-09-10T16:35:01.975Z"
+  },
+  {
+   "repo": "huggingface/speech-to-speech",
+   "name": "speech-to-speech",
+   "category": "ai-tools",
+   "stars": 13142,
+   "language": "Python",
+   "scores": {
+    "setupEase": 3,
+    "docs": 5,
+    "community": 5,
+    "maturity": 3
+   },
+   "overall": 4,
+   "verdict": "Our speech-to-speech run produced 43 collection/setup errors and only 6 passing tests, even though installation and build both succeeded, so version 1.0.0 did not clear a basic source-checkout gate in our sandbox.",
+   "skip_if": "Teams that require a clean test gate before evaluation: our run ended with 5 failures and 43 collection/setup errors, mostly showing that `speech_to_speech` could not be imported.",
+   "review_url": "https://mrkeyoor.com/repos/speech-to-speech/",
+   "reviewed_at": "2026-09-10T14:36:43.089Z"
+  },
+  {
+   "repo": "Dao-AILab/flash-attention",
+   "name": "flash-attention",
+   "category": "ai-tools",
+   "stars": 24877,
+   "language": "Python",
+   "scores": {
+    "setupEase": 2,
+    "docs": 5,
+    "community": 5,
+    "maturity": 4
+   },
+   "overall": 4,
+   "verdict": "Our FlashAttention checkout installed and built in 30 seconds, but pytest then stopped with 122 collection or setup errors and no executed test result.",
+   "skip_if": "CPU-only applications: the README requires a CUDA or ROCm toolkit and documents GPU-specific kernels.",
+   "review_url": "https://mrkeyoor.com/repos/flash-attention/",
+   "reviewed_at": "2026-09-10T12:24:06.218Z"
   },
   {
    "repo": "huggingface/pytorch-image-models",
@@ -10823,6 +11345,24 @@
    "reviewed_at": "2026-08-27T02:45:19.483Z"
   },
   {
+   "repo": "jiji262/douyin-downloader",
+   "name": "douyin-downloader",
+   "category": "automation",
+   "stars": 9893,
+   "language": "Python",
+   "scores": {
+    "setupEase": 4,
+    "docs": 4,
+    "community": 4,
+    "maturity": 4
+   },
+   "overall": 4,
+   "verdict": "Our Douyin Downloader run passed 649 tests in 134 seconds and pip-audit found 0 known vulnerabilities, making the Python CLI a credible choice for a permitted personal archive.",
+   "skip_if": "Anyone expecting unattended access to every profile mode: the README says browser fallback is fully validated only for posts, while likes, mixes, and music rely on API pagination.",
+   "review_url": "https://mrkeyoor.com/repos/douyin-downloader/",
+   "reviewed_at": "2026-09-10T14:23:51.770Z"
+  },
+  {
    "repo": "obsproject/obs-studio",
    "name": "obs-studio",
    "category": "automation",
@@ -11181,6 +11721,42 @@
    "skip_if": "Python-only teams: this repository is the Node.js implementation, while the README points to a separate Crawlee for Python project.",
    "review_url": "https://mrkeyoor.com/repos/crawlee/",
    "reviewed_at": "2026-08-26T17:47:11.047Z"
+  },
+  {
+   "repo": "apache/rocketmq",
+   "name": "rocketmq",
+   "category": "data",
+   "stars": 22588,
+   "language": "Java",
+   "scores": {
+    "setupEase": 3,
+    "docs": 4,
+    "community": 5,
+    "maturity": 4
+   },
+   "overall": 4,
+   "verdict": "Our RocketMQ run installed in 72 seconds and built in 212 seconds, then 3 of 322 tests ended in setup or collection errors.",
+   "skip_if": "Teams requiring a clean JVM 21 test gate from the checked-out commit: our 322-test run ended with 3 collection or setup errors.",
+   "review_url": "https://mrkeyoor.com/repos/rocketmq/",
+   "reviewed_at": "2026-09-11T05:15:12.746Z"
+  },
+  {
+   "repo": "DataTalksClub/data-engineering-zoomcamp",
+   "name": "data-engineering-zoomcamp",
+   "category": "data",
+   "stars": 45409,
+   "language": "Jupyter Notebook",
+   "scores": {
+    "setupEase": 3,
+    "docs": 4,
+    "community": 5,
+    "maturity": 4
+   },
+   "overall": 4,
+   "verdict": "Our targeted Zoomcamp run installed 34 packages in 21 seconds, built in 4 seconds, and found no test target in `03-data-warehouse/extras/`.",
+   "skip_if": "Learners looking for live classes: the README says the lectures are pre-recorded, even during the live cohort.",
+   "review_url": "https://mrkeyoor.com/repos/data-engineering-zoomcamp/",
+   "reviewed_at": "2026-09-10T05:20:01.047Z"
   },
   {
    "repo": "academic/awesome-datascience",
@@ -11867,10 +12443,100 @@
    "reviewed_at": "2026-08-27T03:44:25.896Z"
   },
   {
+   "repo": "netty/netty",
+   "name": "netty",
+   "category": "dev-tools",
+   "stars": 35047,
+   "language": "Java",
+   "scores": {
+    "setupEase": 2,
+    "docs": 4,
+    "community": 5,
+    "maturity": 5
+   },
+   "overall": 4,
+   "verdict": "Our build failed after 112 seconds, while 6,941 tests passed before setup errors stopped a clean test result.",
+   "skip_if": "Teams that only need a conventional HTTP application framework, because Netty operates at a lower level Beginners looking for a one-command sample service with minimal networking concepts Projects that require a clean build in a generic unprivileged container without investigating…",
+   "review_url": "https://mrkeyoor.com/repos/netty/",
+   "reviewed_at": "2026-09-10T20:33:45.141Z"
+  },
+  {
+   "repo": "rapid7/metasploit-framework",
+   "name": "metasploit-framework",
+   "category": "dev-tools",
+   "stars": 38975,
+   "language": "Ruby",
+   "scores": {
+    "setupEase": 3,
+    "docs": 4,
+    "community": 5,
+    "maturity": 4
+   },
+   "overall": 4,
+   "verdict": "Our Metasploit checkout used 201.6 MB before dependencies, and its nested npm project added 330 MB with 3 known vulnerabilities, so adopting the source tree means owning a large, mixed dependency surface.",
+   "skip_if": "Teams that only need host discovery or service enumeration: Metasploit's source tree and module workflow are far more machinery than a scanner-only job requires.",
+   "review_url": "https://mrkeyoor.com/repos/metasploit-framework/",
+   "reviewed_at": "2026-09-10T16:26:51.508Z"
+  },
+  {
+   "repo": "akitaonrails/ai-usagebar",
+   "name": "ai-usagebar",
+   "category": "dev-tools",
+   "stars": 455,
+   "language": "Rust",
+   "scores": {
+    "setupEase": 4,
+    "docs": 5,
+    "community": 3,
+    "maturity": 4
+   },
+   "overall": 4,
+   "verdict": "Our AI Usage Bar run installed 255 packages, built successfully, and passed all 3,124 tests, which makes it an easy recommendation for developers juggling several AI plans on one machine.",
+   "skip_if": "Security teams that forbid another program from reading existing CLI OAuth files, keychains, or local app databases: several built-in providers depend on exactly that access.",
+   "review_url": "https://mrkeyoor.com/repos/ai-usagebar/",
+   "reviewed_at": "2026-09-10T16:18:15.725Z"
+  },
+  {
+   "repo": "blender/blender",
+   "name": "blender",
+   "category": "dev-tools",
+   "stars": 20222,
+   "language": "C++",
+   "scores": {
+    "setupEase": 1,
+    "docs": 5,
+    "community": 5,
+    "maturity": 5
+   },
+   "overall": 4,
+   "verdict": "Our Blender build failed after 8 seconds, and all 122 pytest failures shown in the 12-second run were blocked by the missing `bpy` module, so this checkout is unsuitable for a casual Python-style source install.",
+   "skip_if": "Artists who only want to model or animate: this mirror is development source, while blender.org provides ready-to-run application builds.",
+   "review_url": "https://mrkeyoor.com/repos/blender/",
+   "reviewed_at": "2026-09-10T12:26:48.956Z"
+  },
+  {
+   "repo": "dotnet/maui",
+   "name": "maui",
+   "category": "dev-tools",
+   "stars": 23321,
+   "language": "C#",
+   "scores": {
+    "setupEase": 2,
+    "docs": 5,
+    "community": 5,
+    "maturity": 4
+   },
+   "overall": 4,
+   "verdict": "Our lab did not run `dotnet/maui`: the harness had no supported C# ecosystem and commit b96aa03 supplied no Dockerfile.",
+   "skip_if": "Teams building a Linux desktop application: the supported target list covers Android, iOS, Mac Catalyst, and Windows, with Linux development limited to Android.",
+   "review_url": "https://mrkeyoor.com/repos/maui/",
+   "reviewed_at": "2026-09-10T12:26:20.960Z"
+  },
+  {
    "repo": "peass-ng/PEASS-ng",
    "name": "PEASS-ng",
    "category": "dev-tools",
-   "stars": 20492,
+   "stars": 20494,
    "language": "C#",
    "scores": {
     "setupEase": 4,
@@ -13865,6 +14531,24 @@
    "reviewed_at": "2026-08-24T05:04:02.969Z"
   },
   {
+   "repo": "Evil0ctal/Douyin_TikTok_Download_API",
+   "name": "Douyin_TikTok_Download_API",
+   "category": "self-hosted",
+   "stars": 20064,
+   "language": "Python",
+   "scores": {
+    "setupEase": 3,
+    "docs": 5,
+    "community": 5,
+    "maturity": 3
+   },
+   "overall": 4,
+   "verdict": "Our run installed 98 packages and built in 9 seconds, but pytest still ended with 7 failures and 19 errors because the required 32-character secret was missing.",
+   "skip_if": "People who only want to save a few public videos: v5 brings PostgreSQL, TimescaleDB, Redis, workers, and optional browser and downloader services.",
+   "review_url": "https://mrkeyoor.com/repos/douyin-tiktok-download-api/",
+   "reviewed_at": "2026-09-11T05:14:50.020Z"
+  },
+  {
    "repo": "chaitin/SafeLine",
    "name": "SafeLine",
    "category": "self-hosted",
@@ -14765,6 +15449,42 @@
    "reviewed_at": "2026-08-01T22:50:29.802Z"
   },
   {
+   "repo": "plausible/analytics",
+   "name": "analytics",
+   "category": "web",
+   "stars": 29002,
+   "language": "Elixir",
+   "scores": {
+    "setupEase": 2,
+    "docs": 5,
+    "community": 5,
+    "maturity": 4
+   },
+   "overall": 4,
+   "verdict": "Our Plausible end-to-end run installed 117 packages in 11 seconds, then tests failed after 8 seconds with `TypeError: Invalid URL`.",
+   "skip_if": "Community Edition users who need marketing funnels, ecommerce revenue goals, SSO, or the sites API: the README reserves those features for Plausible Cloud.",
+   "review_url": "https://mrkeyoor.com/repos/analytics/",
+   "reviewed_at": "2026-09-10T12:22:16.568Z"
+  },
+  {
+   "repo": "nolimits4web/swiper",
+   "name": "swiper",
+   "category": "web",
+   "stars": 41902,
+   "language": "TypeScript",
+   "scores": {
+    "setupEase": 3,
+    "docs": 4,
+    "community": 5,
+    "maturity": 4
+   },
+   "overall": 4,
+   "verdict": "Our Swiper source run built in 22 seconds, but its test command stopped after 9 seconds on one `BACKERS.md` formatting issue, so the checked-out commit was buildable but not release-clean in our sandbox.",
+   "skip_if": "Products that must support old or unusual browser platforms: the README explicitly limits Swiper to modern apps and says it is not compatible with every platform.",
+   "review_url": "https://mrkeyoor.com/repos/swiper/",
+   "reviewed_at": "2026-09-10T12:21:44.959Z"
+  },
+  {
    "repo": "react-hook-form/react-hook-form",
    "name": "react-hook-form",
    "category": "web",
@@ -15123,6 +15843,24 @@
    "skip_if": "Teams requiring exact Node.js behavior without a compatibility test phase: issue 40535 shows Bun 1.4.0 returning a relative path where Node v24.15.0 returns an absolute path for one `node:fs` case.",
    "review_url": "https://mrkeyoor.com/repos/bun/",
    "reviewed_at": "2026-08-26T12:39:26.636Z"
+  },
+  {
+   "repo": "google-deepmind/alphagenome",
+   "name": "alphagenome",
+   "category": "ai-tools",
+   "stars": 2075,
+   "language": "Python",
+   "scores": {
+    "setupEase": 3,
+    "docs": 5,
+    "community": 4,
+    "maturity": 3
+   },
+   "overall": 3.8,
+   "verdict": "Our AlphaGenome client run passed 17,218 of 17,232 tests, but 12 failed and 2 hit setup or collection errors, so the SDK deserves a trial with local regression checks rather than blind adoption.",
+   "skip_if": "Clinical, diagnostic, or other professional decision systems: the README says predictions are for theoretical modelling and research and must not guide clinical decisions.",
+   "review_url": "https://mrkeyoor.com/repos/alphagenome/",
+   "reviewed_at": "2026-09-10T14:28:51.046Z"
   },
   {
    "repo": "open-gsd/gsd-core",
@@ -17123,6 +17861,24 @@
    "reviewed_at": "2026-08-26T11:56:51.289Z"
   },
   {
+   "repo": "microsoft/Ontology-Playground",
+   "name": "Ontology-Playground",
+   "category": "data",
+   "stars": 2640,
+   "language": "TypeScript",
+   "scores": {
+    "setupEase": 4,
+    "docs": 5,
+    "community": 3,
+    "maturity": 3
+   },
+   "overall": 3.8,
+   "verdict": "Our Ontology Playground run installed 314 packages in 19 seconds and passed all 397 tests, but npm audit found 11 known vulnerabilities, including 6 high-severity findings.",
+   "skip_if": "Ontologists who require standard OWL or SHACL semantics across other tools: issue 79 documents custom annotations, serialization-dependent ordering, and nonstandard relationship attributes.",
+   "review_url": "https://mrkeyoor.com/repos/ontology-playground/",
+   "reviewed_at": "2026-09-10T14:33:22.844Z"
+  },
+  {
    "repo": "quickwit-oss/quickwit",
    "name": "quickwit",
    "category": "data",
@@ -17571,6 +18327,78 @@
    "skip_if": "Teams seeking a small self-hosted database appliance: the official Compose stack includes Postgres, Auth, Realtime, Storage, Studio, Envoy, an edge runtime, logging, a pooler, and more.",
    "review_url": "https://mrkeyoor.com/repos/supabase/",
    "reviewed_at": "2026-08-27T02:40:50.896Z"
+  },
+  {
+   "repo": "golang-migrate/migrate",
+   "name": "migrate",
+   "category": "dev-tools",
+   "stars": 18906,
+   "language": "Go",
+   "scores": {
+    "setupEase": 3,
+    "docs": 4,
+    "community": 4,
+    "maturity": 4
+   },
+   "overall": 3.8,
+   "verdict": "Our golang-migrate run installed 457 packages in 68 seconds and built in 174 seconds, but 18 of 68 Go package results failed.",
+   "skip_if": "Teams that want a tool to inspect a desired schema and generate safe changes: migrate executes the migration files you write and does little checking of their contents.",
+   "review_url": "https://mrkeyoor.com/repos/migrate/",
+   "reviewed_at": "2026-09-10T16:25:16.467Z"
+  },
+  {
+   "repo": "persiyanov/herdr-reviewr",
+   "name": "herdr-reviewr",
+   "category": "dev-tools",
+   "stars": 657,
+   "language": "Rust",
+   "scores": {
+    "setupEase": 3,
+    "docs": 5,
+    "community": 4,
+    "maturity": 3
+   },
+   "overall": 3.8,
+   "verdict": "Our herdr-reviewr run built in 181 seconds, but 46 of 1,330 tests failed, so source adopters should require a clean run on their own Herdr setup.",
+   "skip_if": "Windows users who need a released native build: the README supports macOS and Linux, while Windows support remains an open pull request.",
+   "review_url": "https://mrkeyoor.com/repos/herdr-reviewr/",
+   "reviewed_at": "2026-09-10T16:19:01.192Z"
+  },
+  {
+   "repo": "jakubkrehel/skills",
+   "name": "skills",
+   "category": "dev-tools",
+   "stars": 6077,
+   "language": "Markdown",
+   "scores": {
+    "setupEase": 4,
+    "docs": 4,
+    "community": 4,
+    "maturity": 3
+   },
+   "overall": 3.8,
+   "verdict": "Our sandbox could not execute commit 267330e because it is a Markdown skill collection with no supported ecosystem or Dockerfile, so adoption rests on reviewing the instructions and testing them in your own agent.",
+   "skip_if": "Teams seeking a runnable linter or test suite: the repository contains Markdown instructions, and our sandbox found no supported ecosystem or Dockerfile.",
+   "review_url": "https://mrkeyoor.com/repos/jakubkrehel-skills/",
+   "reviewed_at": "2026-09-10T12:17:09.266Z"
+  },
+  {
+   "repo": "neoclide/coc.nvim",
+   "name": "coc.nvim",
+   "category": "dev-tools",
+   "stars": 25164,
+   "language": "TypeScript",
+   "scores": {
+    "setupEase": 3,
+    "docs": 3,
+    "community": 5,
+    "maturity": 4
+   },
+   "overall": 3.8,
+   "verdict": "Our install finished in 15 seconds and the build in 6 seconds, but the test run still exited 1.",
+   "skip_if": "Neovim users who specifically want to build around its native LSP client Minimalist setups that avoid Node.js and extension ecosystems Anyone who requires the repository test suite to pass unchanged in a fresh container today",
+   "review_url": "https://mrkeyoor.com/repos/coc-nvim/",
+   "reviewed_at": "2026-09-10T08:34:33.646Z"
   },
   {
    "repo": "gofr-dev/gofr",
@@ -18039,6 +18867,24 @@
    "skip_if": "Teams that want a deterministic source rewriter: the project gives an agent instructions, while issue 9 asks it to use Go 1.26's `go fix` before model-led edits.",
    "review_url": "https://mrkeyoor.com/repos/go-modern-guidelines/",
    "reviewed_at": "2026-08-27T12:19:58.486Z"
+  },
+  {
+   "repo": "themartiano/try-omarchy",
+   "name": "try-omarchy",
+   "category": "dev-tools",
+   "stars": 1859,
+   "language": "Swift",
+   "scores": {
+    "setupEase": 3,
+    "docs": 5,
+    "community": 4,
+    "maturity": 3
+   },
+   "overall": 3.8,
+   "verdict": "Try Omarchy installed in 32 seconds and built in 3 seconds in our sandbox, but 1 of 30 tests failed when update-root preparation rejected a generated Python cache in the overlay.",
+   "skip_if": "Intel Mac, Windows, or Linux users: the distributed app requires Apple Silicon and macOS 15.0 or newer.",
+   "review_url": "https://mrkeyoor.com/repos/try-omarchy/",
+   "reviewed_at": "2026-09-10T16:18:56.553Z"
   },
   {
    "repo": "Yeachan-Heo/oh-my-codex",
@@ -18635,6 +19481,42 @@
    "reviewed_at": "2026-08-25T20:27:58.627Z"
   },
   {
+   "repo": "theagentrouter/agent-router",
+   "name": "agent-router",
+   "category": "llm-tools",
+   "stars": 2032,
+   "language": "Go",
+   "scores": {
+    "setupEase": 2,
+    "docs": 5,
+    "community": 5,
+    "maturity": 3
+   },
+   "overall": 3.8,
+   "verdict": "Our Agent Router build completed in 317 seconds, but its 653-second test run failed 16 of 28 reported tests, so source adopters need Kubernetes upgrade coverage of their own.",
+   "skip_if": "Teams on Kubernetes older than 1.32 or Envoy Gateway older than 1.8.1: the current compatibility page does not support those combinations.",
+   "review_url": "https://mrkeyoor.com/repos/agent-router/",
+   "reviewed_at": "2026-09-10T16:27:20.630Z"
+  },
+  {
+   "repo": "yilewang/llm-for-zotero",
+   "name": "llm-for-zotero",
+   "category": "llm-tools",
+   "stars": 2947,
+   "language": "TypeScript",
+   "scores": {
+    "setupEase": 3,
+    "docs": 5,
+    "community": 4,
+    "maturity": 3
+   },
+   "overall": 3.8,
+   "verdict": "Our llm-for-zotero run installed 432 packages and built successfully, but 1 of 5,358 tests failed and npm audit found 19 known vulnerabilities.",
+   "skip_if": "Teams that require a clean dependency audit before adoption: our npm audit found 19 known vulnerabilities, including 10 high-severity findings.",
+   "review_url": "https://mrkeyoor.com/repos/llm-for-zotero/",
+   "reviewed_at": "2026-09-10T16:17:51.376Z"
+  },
+  {
    "repo": "microsoft/semantic-kernel",
    "name": "semantic-kernel",
    "category": "llm-tools",
@@ -19227,6 +20109,42 @@
    "skip_if": "Companies that require standard permissive licensing for every current file: the README says newer code carries an Open WebUI license with a branding-preservation requirement.",
    "review_url": "https://mrkeyoor.com/repos/open-webui/",
    "reviewed_at": "2026-08-27T02:36:34.268Z"
+  },
+  {
+   "repo": "dgtlmoon/changedetection.io",
+   "name": "changedetection.io",
+   "category": "self-hosted",
+   "stars": 33791,
+   "language": "Python",
+   "scores": {
+    "setupEase": 3,
+    "docs": 4,
+    "community": 5,
+    "maturity": 3
+   },
+   "overall": 3.8,
+   "verdict": "Our changedetection.io install consumed 479 MB and pip-audit found 9 known vulnerabilities, while the lab found no test target to run, so an internet-facing deployment needs dependency review before it earns trust.",
+   "skip_if": "Anyone expecting guaranteed access to bot-protected sites: issue 4343 reproduces a Cloudflare 403 across plain HTTP, Playwright, residential proxy, VPN, and curl routes.",
+   "review_url": "https://mrkeyoor.com/repos/changedetection-io/",
+   "reviewed_at": "2026-09-10T12:34:08.403Z"
+  },
+  {
+   "repo": "appsmithorg/appsmith",
+   "name": "appsmith",
+   "category": "self-hosted",
+   "stars": 40851,
+   "language": "TypeScript",
+   "scores": {
+    "setupEase": 2,
+    "docs": 4,
+    "community": 5,
+    "maturity": 4
+   },
+   "overall": 3.8,
+   "verdict": "Our Appsmith client install pulled 3,992 packages and used 2,054 MB, then the test command stopped in 7 seconds because Xvfb was missing, so adoption deserves a proper platform trial instead of a quick package check.",
+   "skip_if": "Small teams seeking a lightweight UI library: our checkout had 13,683 files, and the client install occupied 2,054 MB.",
+   "review_url": "https://mrkeyoor.com/repos/appsmith/",
+   "reviewed_at": "2026-09-10T05:28:48.520Z"
   },
   {
    "repo": "GopeedLab/gopeed",
@@ -20271,6 +21189,42 @@
    "skip_if": "Users who need a database-free local app: Kaneo requires PostgreSQL, and open issue 1637 requests local-storage support.",
    "review_url": "https://mrkeyoor.com/repos/kaneo/",
    "reviewed_at": "2026-08-26T14:07:52.149Z"
+  },
+  {
+   "repo": "microsoft/fluentui",
+   "name": "fluentui",
+   "category": "web",
+   "stars": 20262,
+   "language": "TypeScript",
+   "scores": {
+    "setupEase": 2,
+    "docs": 4,
+    "community": 5,
+    "maturity": 4
+   },
+   "overall": 3.8,
+   "verdict": "Our Fluent UI checkout installed 3,232 packages in 271 seconds and occupied 2,026 MB, then offered no root build or test target to our harness, so contributing to the monorepo is a serious commitment.",
+   "skip_if": "Contributors seeking a small repository with one root verification command: our checkout installed 3,232 packages, occupied 2,026 MB, and exposed no root build or test target to our harness.",
+   "review_url": "https://mrkeyoor.com/repos/fluentui/",
+   "reviewed_at": "2026-09-10T16:23:31.291Z"
+  },
+  {
+   "repo": "rrweb-io/rrweb",
+   "name": "rrweb",
+   "category": "web",
+   "stars": 20145,
+   "language": "TypeScript",
+   "scores": {
+    "setupEase": 2,
+    "docs": 4,
+    "community": 5,
+    "maturity": 4
+   },
+   "overall": 3.8,
+   "verdict": "Our rrweb install took 847 seconds and 2,000 MB, then its test command timed out at 900 seconds after Vitest reported 5 passes and no failures.",
+   "skip_if": "Teams expecting a finished analytics backend: the guide hands emitted events to your callback and says you store them in whatever way you choose.",
+   "review_url": "https://mrkeyoor.com/repos/rrweb/",
+   "reviewed_at": "2026-09-10T12:19:51.333Z"
   },
   {
    "repo": "microsoft/Web-Dev-For-Beginners",
@@ -22451,6 +23405,24 @@
    "reviewed_at": "2026-08-25T20:32:28.089Z"
   },
   {
+   "repo": "tradecatlabs/shulihuazixuecongshu",
+   "name": "shulihuazixuecongshu",
+   "category": "data",
+   "stars": 872,
+   "language": "Python",
+   "scores": {
+    "setupEase": 4,
+    "docs": 4,
+    "community": 3,
+    "maturity": 3
+   },
+   "overall": 3.5,
+   "verdict": "Our run installed 35 packages in 14 seconds and completed the build in 7 seconds, but the repository supplied no test target.",
+   "skip_if": "Readers who need English books or English setup documentation: the catalog language is `zh-CN`, and the repository has no English README.",
+   "review_url": "https://mrkeyoor.com/repos/shulihuazixuecongshu/",
+   "reviewed_at": "2026-09-11T05:18:56.707Z"
+  },
+  {
    "repo": "QSCTech/zju-icicles",
    "name": "zju-icicles",
    "category": "data",
@@ -22701,6 +23673,42 @@
    "skip_if": "Pipelines that must accept encrypted PDFs without a separate password and fallback path: our fixture test raised `ValueError: PDF is encrypted`.",
    "review_url": "https://mrkeyoor.com/repos/pdf-inspector/",
    "reviewed_at": "2026-08-26T14:09:53.294Z"
+  },
+  {
+   "repo": "carbon-language/carbon-lang",
+   "name": "carbon-lang",
+   "category": "dev-tools",
+   "stars": 33887,
+   "language": "C++",
+   "scores": {
+    "setupEase": 3,
+    "docs": 4,
+    "community": 5,
+    "maturity": 2
+   },
+   "overall": 3.5,
+   "verdict": "Our Carbon checkout installed 35 packages in 16 seconds and passed its 4-second build step, but it exposed no test target for our sandbox to run.",
+   "skip_if": "Production teams choosing a language now: Carbon calls itself experimental, and its milestones reserve production use for 1.0 after the 0.2 evaluation stage.",
+   "review_url": "https://mrkeyoor.com/repos/carbon-lang/",
+   "reviewed_at": "2026-09-11T05:08:09.657Z"
+  },
+  {
+   "repo": "deskflow/deskflow",
+   "name": "deskflow",
+   "category": "dev-tools",
+   "stars": 28747,
+   "language": "C++",
+   "scores": {
+    "setupEase": 2,
+    "docs": 4,
+    "community": 4,
+    "maturity": 4
+   },
+   "overall": 3.5,
+   "verdict": "Our install attempt failed after 6 seconds because CMake could not find Qt 6.7.0.",
+   "skip_if": "Anyone who also needs display switching, because Deskflow carries input and clipboard data, not video Users who want a zero-friction macOS download, because direct builds are unsigned and may require quarantine and permission fixes Older Linux desktops that cannot provide…",
+   "review_url": "https://mrkeyoor.com/repos/deskflow/",
+   "reviewed_at": "2026-09-11T04:36:22.542Z"
   },
   {
    "repo": "jasontaylordev/CleanArchitecture",
@@ -23043,24 +24051,6 @@
    "skip_if": "Beginners who want a small, conventional C++ utility library Teams that require ABI stability across upgrades Projects wanting a dependency-light, package-manager-first setup Python users expecting the repository's Python subtree to work as a standalone package without extra integration",
    "review_url": "https://mrkeyoor.com/repos/folly/",
    "reviewed_at": "2026-08-27T00:31:36.543Z"
-  },
-  {
-   "repo": "themartiano/try-omarchy",
-   "name": "try-omarchy",
-   "category": "dev-tools",
-   "stars": 1764,
-   "language": "Shell",
-   "scores": {
-    "setupEase": 4,
-    "docs": 5,
-    "community": 3,
-    "maturity": 2
-   },
-   "overall": 3.5,
-   "verdict": "Our Try Omarchy run installed 35 packages and built in 3 seconds, but 1 of 30 tests failed when a generated Python cache entered an overlay.",
-   "skip_if": "Intel Mac, Windows, or Linux users: the README requires an Apple Silicon Mac running macOS 15 or newer.",
-   "review_url": "https://mrkeyoor.com/repos/try-omarchy/",
-   "reviewed_at": "2026-08-26T23:04:52.714Z"
   },
   {
    "repo": "RizRiyz/luvus",
@@ -23480,7 +24470,7 @@
    "repo": "colbymchenry/codegraph",
    "name": "codegraph",
    "category": "llm-tools",
-   "stars": 70299,
+   "stars": 70326,
    "language": "C",
    "scores": {
     "setupEase": 3,
@@ -23709,6 +24699,24 @@
    "skip_if": "Small scripts that only make one model call: ADK 2.0 brings agents, workflows, events, sessions, and a large dependency tree to a problem a model SDK may already solve.",
    "review_url": "https://mrkeyoor.com/repos/adk-python/",
    "reviewed_at": "2026-08-26T05:25:34.038Z"
+  },
+  {
+   "repo": "dragthelake/ambient-context",
+   "name": "ambient-context",
+   "category": "llm-tools",
+   "stars": 167,
+   "language": "Rust",
+   "scores": {
+    "setupEase": 4,
+    "docs": 5,
+    "community": 2,
+    "maturity": 3
+   },
+   "overall": 3.5,
+   "verdict": "Our Ambient Context run installed 79 packages in 5 seconds and built in 6, but commit 6a353ab gave us no test target to run.",
+   "skip_if": "Windows, Linux, Intel Mac, or older macOS users: the published app requires macOS 14 or later on Apple Silicon.",
+   "review_url": "https://mrkeyoor.com/repos/ambient-context/",
+   "reviewed_at": "2026-09-10T12:18:12.154Z"
   },
   {
    "repo": "BigPizzaV3/CodexPlusPlus",
@@ -23979,6 +24987,60 @@
    "skip_if": "Deterministic scraping or testing jobs with stable selectors: Playwright code is easier to assert, replay, and audit than model-selected clicks.",
    "review_url": "https://mrkeyoor.com/repos/browser-use/",
    "reviewed_at": "2026-08-25T20:29:13.992Z"
+  },
+  {
+   "repo": "halo-dev/halo",
+   "name": "halo",
+   "category": "self-hosted",
+   "stars": 39710,
+   "language": "Java",
+   "scores": {
+    "setupEase": 3,
+    "docs": 3,
+    "community": 4,
+    "maturity": 4
+   },
+   "overall": 3.5,
+   "verdict": "Our build failed after 11 seconds with exit code 1 on a missing @halo-dev/components artifact.",
+   "skip_if": "Buyers who need an English-first evaluation path, because English documentation coverage is not established here Teams expecting the source checkout to build immediately, because our measured UI build failed on a missing packaged file Anyone wanting a maintenance-free hosted service…",
+   "review_url": "https://mrkeyoor.com/repos/halo/",
+   "reviewed_at": "2026-09-10T16:39:23.912Z"
+  },
+  {
+   "repo": "gpustack/gpustack",
+   "name": "gpustack",
+   "category": "self-hosted",
+   "stars": 5656,
+   "language": "Python",
+   "scores": {
+    "setupEase": 2,
+    "docs": 5,
+    "community": 4,
+    "maturity": 3
+   },
+   "overall": 3.5,
+   "verdict": "Our GPUStack run installed 157 packages and used 525 MB, then 3,738 of 3,757 tests passed while 19 Kubernetes manifest tests failed, so this is a serious platform with a source-checkout caveat.",
+   "skip_if": "Teams with one model on one server: a direct vLLM or SGLang deployment avoids GPUStack's server, scheduler, gateway, database, and worker layer.",
+   "review_url": "https://mrkeyoor.com/repos/gpustack/",
+   "reviewed_at": "2026-09-10T14:29:28.285Z"
+  },
+  {
+   "repo": "mihomo-party-org/clash-party",
+   "name": "clash-party",
+   "category": "self-hosted",
+   "stars": 26358,
+   "language": "TypeScript",
+   "scores": {
+    "setupEase": 3,
+    "docs": 2,
+    "community": 5,
+    "maturity": 4
+   },
+   "overall": 3.5,
+   "verdict": "Our Clash Party run installed 1,145 packages and used 1,046 MB, then all 510 tests passed in 34 seconds.",
+   "skip_if": "English-only users: the README, official site, and release notes are Chinese, with no official English guide linked.",
+   "review_url": "https://mrkeyoor.com/repos/clash-party/",
+   "reviewed_at": "2026-09-10T12:33:45.010Z"
   },
   {
    "repo": "chrisgreg/boop",
@@ -25205,6 +26267,24 @@
    "reviewed_at": "2026-08-25T12:34:23.452Z"
   },
   {
+   "repo": "elizaOS/eliza",
+   "name": "eliza",
+   "category": "ai-tools",
+   "stars": 19313,
+   "language": "TypeScript",
+   "scores": {
+    "setupEase": 1,
+    "docs": 4,
+    "community": 5,
+    "maturity": 3
+   },
+   "overall": 3.3,
+   "verdict": "Our elizaOS install stopped after 5 seconds with an `EOVERRIDE` conflict, so this 31,514-file stack is a poor first choice for a team that wants a quick npm-based agent prototype.",
+   "skip_if": "Developers who need an npm-only setup: the README pins Bun, and our npm install stopped with an override conflict involving `@playwright/test`.",
+   "review_url": "https://mrkeyoor.com/repos/eliza/",
+   "reviewed_at": "2026-09-10T12:15:27.924Z"
+  },
+  {
    "repo": "moeru-ai/airi",
    "name": "airi",
    "category": "ai-tools",
@@ -25871,24 +26951,6 @@
    "reviewed_at": "2026-08-27T04:48:54.214Z"
   },
   {
-   "repo": "nwiizo/nippo",
-   "name": "nippo",
-   "category": "automation",
-   "stars": 174,
-   "language": "Rust",
-   "scores": {
-    "setupEase": 4,
-    "docs": 3,
-    "community": 3,
-    "maturity": 3
-   },
-   "overall": 3.3,
-   "verdict": "Our Nippo run installed 55 packages and passed 106 of 106 tests, so commit b23b807 earns a low-risk trial for Japanese-speaking Claude Code or Codex users.",
-   "skip_if": "English-only teams: the README, templates, theory notes, and skill instructions we inspected are in Japanese, and the skill explicitly writes reports in Japanese.",
-   "review_url": "https://mrkeyoor.com/repos/nippo/",
-   "reviewed_at": "2026-09-06T05:02:47.436Z"
-  },
-  {
    "repo": "NaiboWang/EasySpider",
    "name": "EasySpider",
    "category": "automation",
@@ -26285,6 +27347,60 @@
    "reviewed_at": "2026-08-26T22:26:12.267Z"
   },
   {
+   "repo": "Eigenwise/eigenwise-toolshed",
+   "name": "eigenwise-toolshed",
+   "category": "dev-tools",
+   "stars": 126,
+   "language": "JavaScript",
+   "scores": {
+    "setupEase": 3,
+    "docs": 5,
+    "community": 2,
+    "maturity": 3
+   },
+   "overall": 3.3,
+   "verdict": "Our Node 22 run installed Model Gateway's 6 packages in 26 seconds and used 3 MB, but 5 of 281 tests failed, so Toolshed deserves a plugin-by-plugin trial instead of blanket adoption.",
+   "skip_if": "Users of coding agents other than Claude Code: the README says these plugins depend on Claude Code's marketplace, scopes, hooks, and reload commands.",
+   "review_url": "https://mrkeyoor.com/repos/eigenwise-toolshed/",
+   "reviewed_at": "2026-09-10T14:23:35.125Z"
+  },
+  {
+   "repo": "armory3d/armorpaint",
+   "name": "armorpaint",
+   "category": "dev-tools",
+   "stars": 4307,
+   "language": "C",
+   "scores": {
+    "setupEase": 2,
+    "docs": 4,
+    "community": 4,
+    "maturity": 3
+   },
+   "overall": 3.3,
+   "verdict": "We could not run ArmorPaint commit 0a125e5 because our harness does not support C projects and the repository has no Dockerfile, so buyers should treat a source build as a hands-on evaluation.",
+   "skip_if": "Users who expect a free official binary: the README says distributed builds are paid, while the Git repository is the build-it-yourself route.",
+   "review_url": "https://mrkeyoor.com/repos/armorpaint/",
+   "reviewed_at": "2026-09-10T14:16:45.302Z"
+  },
+  {
+   "repo": "feigeCode/navop",
+   "name": "navop",
+   "category": "dev-tools",
+   "stars": 1268,
+   "language": "Rust",
+   "scores": {
+    "setupEase": 2,
+    "docs": 4,
+    "community": 4,
+    "maturity": 3
+   },
+   "overall": 3.3,
+   "verdict": "Our Navop run installed 1,524 packages in 96 seconds, but its build hit the 900-second cap and its tests stopped on a missing `xkbcommon-x11` linker library.",
+   "skip_if": "Vendors building a competing product or charging to redistribute Navop: its supplementary license forbids both, even though internal commercial use is allowed.",
+   "review_url": "https://mrkeyoor.com/repos/navop/",
+   "reviewed_at": "2026-09-10T12:18:15.137Z"
+  },
+  {
    "repo": "TheAlgorithms/Python",
    "name": "Python",
    "category": "dev-tools",
@@ -26573,6 +27689,24 @@
    "reviewed_at": "2026-08-27T12:27:29.455Z"
   },
   {
+   "repo": "nwiizo/nippo",
+   "name": "nippo",
+   "category": "dev-tools",
+   "stars": 175,
+   "language": "Rust",
+   "scores": {
+    "setupEase": 4,
+    "docs": 3,
+    "community": 3,
+    "maturity": 3
+   },
+   "overall": 3.3,
+   "verdict": "Our Nippo run installed 55 packages and passed all 106 tests, so the small Rust collector is an easy trial for Japanese-speaking Claude Code or Codex users.",
+   "skip_if": "English-only teams that require maintained English documentation: the README and bundled guides are Japanese, and the checked repository tree has no English guide.",
+   "review_url": "https://mrkeyoor.com/repos/nippo/",
+   "reviewed_at": "2026-09-10T14:15:17.713Z"
+  },
+  {
    "repo": "vlang/v",
    "name": "v",
    "category": "dev-tools",
@@ -26735,6 +27869,24 @@
    "reviewed_at": "2026-08-22T09:42:12.893Z"
   },
   {
+   "repo": "yyjeqhc/webcodex",
+   "name": "webcodex",
+   "category": "llm-tools",
+   "stars": 624,
+   "language": "Rust",
+   "scores": {
+    "setupEase": 3,
+    "docs": 4,
+    "community": 3,
+    "maturity": 3
+   },
+   "overall": 3.3,
+   "verdict": "WebCodex v0.4.0 built cleanly in 246 seconds and passed 4,958 of 4,962 tests in our sandbox, but the four failing Git tests and a 623-star footprint make it a cautious try for local AI agent work, not a safe default…",
+   "skip_if": "People who just want an in-editor autocomplete or chat overlay; WebCodex is a separate MCP/HTTPS layer, not a VS Code plugin.",
+   "review_url": "https://mrkeyoor.com/repos/webcodex/",
+   "reviewed_at": "2026-09-10T08:41:12.642Z"
+  },
+  {
    "repo": "chenhg5/cc-connect",
    "name": "cc-connect",
    "category": "llm-tools",
@@ -26882,7 +28034,7 @@
    "repo": "karpathy/nanoGPT",
    "name": "nanoGPT",
    "category": "llm-tools",
-   "stars": 62946,
+   "stars": 62951,
    "language": "Python",
    "scores": {
     "setupEase": 4,
@@ -26894,7 +28046,7 @@
    "verdict": "Our nanoGPT install took 32 seconds and its 21-second build passed, but the repository supplied no test target to run.",
    "skip_if": "New projects choosing a maintained Karpathy training stack: the README says nanoGPT is deprecated and points readers to nanochat.",
    "review_url": "https://mrkeyoor.com/repos/nanogpt/",
-   "reviewed_at": "2026-08-26T17:43:38.026Z"
+   "reviewed_at": "2026-09-10T12:16:33.560Z"
   },
   {
    "repo": "yvgude/lean-ctx",
@@ -27021,6 +28173,24 @@
    "skip_if": "Anyone looking for a standalone coding agent: the README says Gentle AI adapts detected runtimes and refuses to install a missing agent for you.",
    "review_url": "https://mrkeyoor.com/repos/gentle-ai/",
    "reviewed_at": "2026-08-26T21:34:05.400Z"
+  },
+  {
+   "repo": "sgoudelis/ground-station",
+   "name": "ground-station",
+   "category": "self-hosted",
+   "stars": 4771,
+   "language": "JavaScript",
+   "scores": {
+    "setupEase": 2,
+    "docs": 4,
+    "community": 4,
+    "maturity": 3
+   },
+   "overall": 3.3,
+   "verdict": "Our Ground Station backend installed 139 packages and built in 7 seconds, but the test run exited 2 before producing results and pip-audit found 3 known vulnerabilities.",
+   "skip_if": "Windows users expecting a supported native installer: development issue 74 still asks for an `.exe`, while the documented release path is Docker on AMD64 or ARM64.",
+   "review_url": "https://mrkeyoor.com/repos/ground-station/",
+   "reviewed_at": "2026-09-10T14:19:29.962Z"
   },
   {
    "repo": "NdoleStudio/httpsms",
@@ -27350,7 +28520,7 @@
    "repo": "jewbetcha/openflight",
    "name": "openflight",
    "category": "self-hosted",
-   "stars": 1044,
+   "stars": 1045,
    "language": "Python",
    "scores": {
     "setupEase": 2,
@@ -27362,7 +28532,7 @@
    "verdict": "Our OpenFlight run installed 58 packages in 27 seconds and passed 1,341 pytest cases with no failures, so its software earns a serious trial despite the $400 hardware build.",
    "skip_if": "Buyers who require verified spin and club-path accuracy: the README labels both measurements experimental, while issue 230 disputes the current lift model used for carry.",
    "review_url": "https://mrkeyoor.com/repos/openflight/",
-   "reviewed_at": "2026-09-09T16:21:37.796Z"
+   "reviewed_at": "2026-09-10T08:18:04.027Z"
   },
   {
    "repo": "mickael-kerjean/filestash",
@@ -27527,6 +28697,24 @@
    "reviewed_at": "2026-08-25T20:40:37.295Z"
   },
   {
+   "repo": "remix-run/remix",
+   "name": "remix",
+   "category": "web",
+   "stars": 33353,
+   "language": "TypeScript",
+   "scores": {
+    "setupEase": 3,
+    "docs": 3,
+    "community": 5,
+    "maturity": 2
+   },
+   "overall": 3.3,
+   "verdict": "Our Remix 3 run installed 575 packages in 30 seconds and built in 31 seconds, but tests failed after 17 seconds because Playwright browser executables were absent.",
+   "skip_if": "Existing Remix v1 or v2 teams seeking the supported continuation of that React framework: the maintainers moved that path into React Router 7.",
+   "review_url": "https://mrkeyoor.com/repos/remix/",
+   "reviewed_at": "2026-09-10T12:32:27.131Z"
+  },
+  {
    "repo": "google/material-design-icons",
    "name": "material-design-icons",
    "category": "web",
@@ -27687,6 +28875,42 @@
    "skip_if": "Teams with a strict dependency-advisory gate: our install reported 7 known vulnerabilities, including 4 high-severity findings.",
    "review_url": "https://mrkeyoor.com/repos/infographic/",
    "reviewed_at": "2026-08-26T14:15:32.822Z"
+  },
+  {
+   "repo": "Anil-matcha/awesome-generative-ai-apps",
+   "name": "awesome-generative-ai-apps",
+   "category": "ai-tools",
+   "stars": 3201,
+   "language": "JavaScript",
+   "scores": {
+    "setupEase": 3,
+    "docs": 3,
+    "community": 4,
+    "maturity": 2
+   },
+   "overall": 3,
+   "verdict": "Our AI Voice Agent install added 35 packages in 56 seconds and built in 12 seconds, but it had no test target, so this repository is a useful catalog rather than a verified product bundle.",
+   "skip_if": "Teams expecting one command to install all 50 advertised apps: the README tells you to clone a chosen template, and the catalog mixes copied folders with links to separate repositories.",
+   "review_url": "https://mrkeyoor.com/repos/awesome-generative-ai-apps/",
+   "reviewed_at": "2026-09-10T14:21:18.216Z"
+  },
+  {
+   "repo": "alsk1992/CloddsBot",
+   "name": "CloddsBot",
+   "category": "ai-tools",
+   "stars": 1337,
+   "language": "TypeScript",
+   "scores": {
+    "setupEase": 3,
+    "docs": 4,
+    "community": 3,
+    "maturity": 2
+   },
+   "overall": 3,
+   "verdict": "Our build took 48 seconds, and all 169 tests passed.",
+   "skip_if": "Beginners expecting a safe, fully managed brokerage experience, because setup includes credentials and financial risk Teams that require a clean dependency-security report before evaluation, because our audit found 69 known vulnerabilities Operators unwilling to supervise automated orders across many venues…",
+   "review_url": "https://mrkeyoor.com/repos/cloddsbot/",
+   "reviewed_at": "2026-09-10T12:39:45.203Z"
   },
   {
    "repo": "jamiepine/voicebox",
@@ -27977,24 +29201,6 @@
    "reviewed_at": "2026-08-27T05:41:02.681Z"
   },
   {
-   "repo": "elizaOS/eliza",
-   "name": "eliza",
-   "category": "ai-tools",
-   "stars": 19300,
-   "language": "TypeScript",
-   "scores": {
-    "setupEase": 1,
-    "docs": 4,
-    "community": 4,
-    "maturity": 3
-   },
-   "overall": 3,
-   "verdict": "Our elizaOS install stopped after 5 seconds with an npm override conflict, before the lab could record any build or test result.",
-   "skip_if": "Developers looking for a small agent library to understand in one sitting: our checkout had 31,514 files and about 6,921,967 source lines.",
-   "review_url": "https://mrkeyoor.com/repos/eliza/",
-   "reviewed_at": "2026-08-27T05:44:55.788Z"
-  },
-  {
    "repo": "Anil-matcha/Open-Generative-AI",
    "name": "Open-Generative-AI",
    "category": "ai-tools",
@@ -28016,7 +29222,7 @@
    "repo": "Ed1s0nZ/CyberStrikeAI",
    "name": "CyberStrikeAI",
    "category": "ai-tools",
-   "stars": 6487,
+   "stars": 6508,
    "language": "Go",
    "scores": {
     "setupEase": 2,
@@ -28025,10 +29231,10 @@
     "maturity": 2
    },
    "overall": 3,
-   "verdict": "Our CyberStrikeAI run installed 86 packages in 34 seconds and built in 6 seconds with 0 audit findings, but it exposed no test target for a 221,305-line system that can execute commands, manage WebShells, and run C2.",
-   "skip_if": "Casual users looking for a chatbot: the project's security model calls this a high-privilege system with command execution, WebShell, and optional C2.",
+   "verdict": "Our CyberStrikeAI run installed 86 packages in 34 seconds and built in 6 seconds, but the 221,305-line checkout exposed no test target.",
+   "skip_if": "Casual users seeking a security chatbot: the project security model treats every signed-in user as an operator of a high-privilege system with command execution, WebShell, and optional C2 access.",
    "review_url": "https://mrkeyoor.com/repos/cyberstrikeai/",
-   "reviewed_at": "2026-08-26T20:44:35.119Z"
+   "reviewed_at": "2026-09-10T10:21:03.745Z"
   },
   {
    "repo": "ahmadrosid/nakama",
@@ -28052,7 +29258,7 @@
    "repo": "ATH-MaaS/Pixelle-Video",
    "name": "Pixelle-Video",
    "category": "ai-tools",
-   "stars": 27952,
+   "stars": 27967,
    "language": "Python",
    "scores": {
     "setupEase": 3,
@@ -28064,7 +29270,7 @@
    "verdict": "Our Pixelle-Video run installed 160 packages and built successfully, but pytest collected 0 tests and pip-audit reported 25 known vulnerabilities, so we would restrict it to hands-on evaluation rather than unattended publishing.",
    "skip_if": "Teams that require a tested application before adoption: pytest collected 0 tests at commit 848b054, and the repository had no tests directory.",
    "review_url": "https://mrkeyoor.com/repos/pixelle-video/",
-   "reviewed_at": "2026-09-09T20:21:35.348Z"
+   "reviewed_at": "2026-09-10T08:19:16.988Z"
   },
   {
    "repo": "WhatDreamsCost/WhatDreamsCost-ComfyUI",
@@ -28533,6 +29739,24 @@
    "skip_if": "Developers not using AI or LLM-based agents for coding; the project's value is entirely in guiding these agents.",
    "review_url": "https://mrkeyoor.com/repos/skills/",
    "reviewed_at": "2026-08-01T20:33:38.835Z"
+  },
+  {
+   "repo": "enescingoz/awesome-n8n-templates",
+   "name": "awesome-n8n-templates",
+   "category": "automation",
+   "stars": 25273,
+   "language": "",
+   "scores": {
+    "setupEase": 2,
+    "docs": 4,
+    "community": 4,
+    "maturity": 2
+   },
+   "overall": 3,
+   "verdict": "Our lab found no runnable ecosystem or Dockerfile; issue 201 lists 7 files rejected by n8n.",
+   "skip_if": "Teams that require every download to import cleanly: open issue 201 identifies 7 workflow files rejected as invalid JSON.",
+   "review_url": "https://mrkeyoor.com/repos/awesome-n8n-templates/",
+   "reviewed_at": "2026-09-11T05:10:19.523Z"
   },
   {
    "repo": "Zie619/n8n-workflows",
@@ -29399,6 +30623,24 @@
    "reviewed_at": "2026-08-27T05:31:13.254Z"
   },
   {
+   "repo": "chubin/wttr.in",
+   "name": "wttr.in",
+   "category": "self-hosted",
+   "stars": 30508,
+   "language": "Go",
+   "scores": {
+    "setupEase": 2,
+    "docs": 3,
+    "community": 4,
+    "maturity": 3
+   },
+   "overall": 3,
+   "verdict": "Our wttr.in run built in 7 seconds, but 21 of 25 test packages failed during setup, so the public curl service is much easier to recommend than today's self-hosting path.",
+   "skip_if": "Safety-critical alerts or decisions that cannot tolerate bad source data: open issue 1280 reports the same incorrect temperature across several Chilean cities.",
+   "review_url": "https://mrkeyoor.com/repos/wttr-in/",
+   "reviewed_at": "2026-09-10T05:21:45.246Z"
+  },
+  {
    "repo": "UseInterstellar/Interstellar",
    "name": "Interstellar",
    "category": "self-hosted",
@@ -29865,6 +31107,24 @@
    "skip_if": "Anyone choosing a daily browser today: the README labels Ladybird pre-alpha and suitable only for developers.",
    "review_url": "https://mrkeyoor.com/repos/ladybird/",
    "reviewed_at": "2026-08-27T05:07:10.955Z"
+  },
+  {
+   "repo": "sgyno09-source/reference-video-director",
+   "name": "reference-video-director",
+   "category": "ai-tools",
+   "stars": 133,
+   "language": "",
+   "scores": {
+    "setupEase": 3,
+    "docs": 4,
+    "community": 2,
+    "maturity": 2
+   },
+   "overall": 2.8,
+   "verdict": "The repository contains 6 Markdown files and no runnable ecosystem or Dockerfile, so Reference Video Director only supplies prompt instructions; it does not generate video.",
+   "skip_if": "Anyone expecting a finished video: the repository contains six Markdown files and no model API, renderer, browser automation, or media output.",
+   "review_url": "https://mrkeyoor.com/repos/reference-video-director/",
+   "reviewed_at": "2026-09-11T05:16:36.981Z"
   },
   {
    "repo": "GamePhanesStudio/GamePhanes",
@@ -31307,6 +32567,24 @@
    "reviewed_at": "2026-08-26T17:39:16.262Z"
   },
   {
+   "repo": "R-s0n/ars0n-framework-v2",
+   "name": "ars0n-framework-v2",
+   "category": "automation",
+   "stars": 797,
+   "language": "Go",
+   "scores": {
+    "setupEase": 2,
+    "docs": 3,
+    "community": 3,
+    "maturity": 2
+   },
+   "overall": 2.5,
+   "verdict": "Our Ars0n server build took 39 seconds and both Go tests passed, but 2 tests cannot validate a 50-plus-container security platform with an unauthenticated 142-tool MCP endpoint.",
+   "skip_if": "Anyone testing systems without explicit permission: the README limits use to owned targets or authorized programs, and the framework can run active scanners.",
+   "review_url": "https://mrkeyoor.com/repos/ars0n-framework-v2/",
+   "reviewed_at": "2026-09-10T16:24:14.953Z"
+  },
+  {
    "repo": "zarazhangrui/follow-builders",
    "name": "follow-builders",
    "category": "automation",
@@ -31467,24 +32745,6 @@
    "skip_if": "Teams that require executable tests before adopting generated design rules: the repository has no supported build ecosystem or Dockerfile, so our lab could not run it.",
    "review_url": "https://mrkeyoor.com/repos/refactoring-ui-skill/",
    "reviewed_at": "2026-08-29T18:15:02.338Z"
-  },
-  {
-   "repo": "dragthelake/ambient-context",
-   "name": "ambient-context",
-   "category": "dev-tools",
-   "stars": 164,
-   "language": "Rust",
-   "scores": {
-    "setupEase": 2,
-    "docs": 4,
-    "community": 2,
-    "maturity": 2
-   },
-   "overall": 2.5,
-   "verdict": "Our run installed 79 packages in 5 seconds, built in 6 seconds, and found 0 known vulnerabilities, but no automated test target ran.",
-   "skip_if": "Intel Mac, Windows, Linux, or older macOS users: the README requires macOS 14 or newer on Apple Silicon.",
-   "review_url": "https://mrkeyoor.com/repos/ambient-context/",
-   "reviewed_at": "2026-08-25T21:55:38.687Z"
   },
   {
    "repo": "team-codebug/babua-dsa-patterns-course",
@@ -32207,6 +33467,24 @@
    "reviewed_at": "2026-08-25T21:54:46.064Z"
   },
   {
+   "repo": "IRNova/Nova-Proxy",
+   "name": "Nova-Proxy",
+   "category": "self-hosted",
+   "stars": 3221,
+   "language": "JavaScript",
+   "scores": {
+    "setupEase": 2,
+    "docs": 2,
+    "community": 3,
+    "maturity": 2
+   },
+   "overall": 2.3,
+   "verdict": "Our Nova Proxy checkout installed 68 packages in 15 seconds, then its build and test commands both ended at a missing `scripts/build.mjs` error.",
+   "skip_if": "Commercial proxy sellers or paid hosting services: changes from version 4.3.0 use PolyForm Noncommercial, and paid use requires written permission.",
+   "review_url": "https://mrkeyoor.com/repos/nova-proxy/",
+   "reviewed_at": "2026-09-11T05:04:24.616Z"
+  },
+  {
    "repo": "lencx/ChatGPT",
    "name": "ChatGPT",
    "category": "ai-tools",
@@ -32349,24 +33627,6 @@
    "skip_if": "Production teams needing a clean license chain: GitHub reports no license, NOTICE describes retained upstream boundaries, and issue 7 asks for licensing and derivative-work permission to be clarified.",
    "review_url": "https://mrkeyoor.com/repos/grok-bot-0-18-reconstructed/",
    "reviewed_at": "2026-08-25T20:08:01.343Z"
-  },
-  {
-   "repo": "IRNova/Nova-Proxy",
-   "name": "Nova-Proxy",
-   "category": "self-hosted",
-   "stars": 3217,
-   "language": "JavaScript",
-   "scores": {
-    "setupEase": 1,
-    "docs": 2,
-    "community": 3,
-    "maturity": 2
-   },
-   "overall": 2,
-   "verdict": "Our Nova Proxy run installed 68 packages in 15 seconds, but its build and test commands both stopped at a missing `scripts/build.mjs`.",
-   "skip_if": "Commercial proxy sellers or paid hosting services: changes from version 4.3.0 use PolyForm Noncommercial, and paid use requires written permission.",
-   "review_url": "https://mrkeyoor.com/repos/nova-proxy/",
-   "reviewed_at": "2026-09-09T16:22:34.628Z"
   },
   {
    "repo": "sohaibdevv/youtube-music",
@@ -32673,6 +33933,24 @@
    "skip_if": "Students seeking legitimate help with i-Ready work: the tool is designed to falsify lesson completion, minutes, quizzes, and diagnostics, which can violate school rules and corrupt learning records.",
    "review_url": "https://mrkeyoor.com/repos/iready-tool/",
    "reviewed_at": "2026-08-26T05:08:20.145Z"
+  },
+  {
+   "repo": "MSNightmare/HardBreacher",
+   "name": "HardBreacher",
+   "category": "dev-tools",
+   "stars": 272,
+   "language": "C",
+   "scores": {
+    "setupEase": 1,
+    "docs": 1,
+    "community": 2,
+    "maturity": 1
+   },
+   "overall": 1.3,
+   "verdict": "Our lab result for HardBreacher is `NOT RUN`: the harness does not support its C ecosystem, and the repository has no Dockerfile.",
+   "skip_if": "Production endpoint administrators: the README says a successful attempt can leave the operating system in a badly disrupted state.",
+   "review_url": "https://mrkeyoor.com/repos/hardbreacher/",
+   "reviewed_at": "2026-09-11T05:17:16.759Z"
   },
   {
    "repo": "damejan80/tokentab",
